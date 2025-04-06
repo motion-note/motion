@@ -1,0 +1,1 @@
+import{_ as s,O as a,n,G as r,q as c,o as _,v as p}from"./logType-DSjuTotS.js";const u={__name:"root",setup(i){const o=a(),e=n("初始化中,请稍候...");return r(async()=>{const t=await motionAPI.hasSettingFile();o.push(t?"/home":"/work-spaces")}),(t,l)=>(_(),c("h1",null,p(e.value),1))}},f=s(u,[["__scopeId","data-v-2ed4afbb"]]);export{f as default};

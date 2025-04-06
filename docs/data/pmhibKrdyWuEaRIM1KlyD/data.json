@@ -34,8 +34,16 @@
     },
     {
       "id": "1-5CqNak4uU8jUe1IZl7c",
-      "component": "EditNode",
-      "data": "【TODO】添加演示视频",
+      "component": "Block",
+      "data": {
+        "id": "6dPzSp_HrCdAw7iUEaAI1",
+        "component": "ImageBlock",
+        "data": {
+          "url": "pmhibKrdyWuEaRIM1KlyD/1743904547207.png",
+          "width": 378.74609375
+        },
+        "focus": false
+      },
       "props": {}
     },
     {
@@ -58,9 +66,17 @@
       "props": {}
     },
     {
-      "id": "Z88bcOgHSxRQeCGjKLaxB",
-      "component": "EditNode",
-      "data": "【TODO】添加部分导出的演示视频",
+      "id": "ai83HO0nqaFPWeHeqaWg-",
+      "component": "Block",
+      "data": {
+        "id": "5SjeZ5vrrdS7fa6dpOQrz",
+        "component": "ImageBlock",
+        "data": {
+          "url": "pmhibKrdyWuEaRIM1KlyD/1743904491932.png",
+          "width": 316.11328125
+        },
+        "focus": false
+      },
       "props": {}
     },
     {
@@ -184,7 +200,7 @@
     {
       "id": "t-HnNJ6clvfzUW5QWcK81",
       "component": "EditNode",
-      "data": "[todo]添加演示视频",
+      "data": "",
       "props": {}
     },
     {
