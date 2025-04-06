@@ -1,0 +1,201 @@
+{
+  "title": "导出",
+  "blocks": [
+    {
+      "id": "l0W__QXObkL6Al6kTLerJ",
+      "component": "Block",
+      "data": {
+        "id": "7ceI-HGyoueOuZwakYTFi",
+        "component": "HeaderBlock",
+        "data": {
+          "type": "h1",
+          "doc": "静态网页导出"
+        }
+      }
+    },
+    {
+      "id": "lCFy__YkRlfbZNk8dCOsv",
+      "component": "Block",
+      "data": {
+        "id": "2ESdD9zH_nzR0IP7HxTKx",
+        "component": "HeaderBlock",
+        "data": {
+          "type": "h2",
+          "doc": "1、导出整个笔记库"
+        }
+      },
+      "props": {}
+    },
+    {
+      "id": "pI7wxu3LkxjBN_xpAObS-",
+      "component": "EditNode",
+      "data": "通达`【菜单】》【文件】》【导出】》【静态网页】`可以将整个笔记全部导出为静态网页内容。",
+      "props": {}
+    },
+    {
+      "id": "1-5CqNak4uU8jUe1IZl7c",
+      "component": "EditNode",
+      "data": "【TODO】添加演示视频",
+      "props": {}
+    },
+    {
+      "id": "5BlXWe3fOG-ePzj4FsXwz",
+      "component": "Block",
+      "data": {
+        "id": "c2WHENaLh3m70P-QAonvW",
+        "component": "HeaderBlock",
+        "data": {
+          "type": "h2",
+          "doc": "2、导出部分内容"
+        }
+      },
+      "props": {}
+    },
+    {
+      "id": "eYro9Hl197LOISJbIOdBa",
+      "component": "EditNode",
+      "data": "如果不想将我们整个笔记全部导出，我们也可以选择部分导出。",
+      "props": {}
+    },
+    {
+      "id": "Z88bcOgHSxRQeCGjKLaxB",
+      "component": "EditNode",
+      "data": "【TODO】添加部分导出的演示视频",
+      "props": {}
+    },
+    {
+      "id": "0lijWzVyWKqQjEEGYlwFS",
+      "component": "Block",
+      "data": {
+        "id": "k3NCX7v_YQEXhGoXagW8e",
+        "component": "HeaderBlock",
+        "data": {
+          "type": "h2",
+          "doc": "3、部署"
+        }
+      },
+      "props": {}
+    },
+    {
+      "id": "1nJJzIfiP26sredX8r8QZ",
+      "component": "Block",
+      "data": {
+        "id": "COhG5wjoyhgxQCHp4COkI",
+        "component": "HeaderBlock",
+        "data": {
+          "type": "h4",
+          "doc": "3.1、Nginx部署"
+        }
+      },
+      "props": {}
+    },
+    {
+      "id": "9KGOKc3iuDFCARXB1Av2L",
+      "component": "EditNode",
+      "data": "此时，将导出的内容存放到类似 NGINX 服务器的 web 文件夹下，配置好就可以通过网页访问我们的笔记内容。",
+      "props": {}
+    },
+    {
+      "id": "ub96vuUZUySghzdNqZqBe",
+      "component": "EditNode",
+      "data": "【todo】添加演示视频",
+      "props": {}
+    },
+    {
+      "id": "Lbfr3PqpbWK0t_9-NjaF6",
+      "component": "Block",
+      "data": {
+        "id": "WRrSQ6NWDBMli4xb2k3rZ",
+        "component": "HeaderBlock",
+        "props": {},
+        "data": {
+          "type": "h4",
+          "doc": "3.2、Github Pages"
+        }
+      },
+      "props": {}
+    },
+    {
+      "id": "CHZAxfBAeL7EG8drqSJ4r",
+      "component": "EditNode",
+      "data": "我们也可以使用 github pages 功能来创建一个我们的网站。",
+      "props": {}
+    },
+    {
+      "id": "kX19vfFUrxe-yhDst395P",
+      "component": "EditNode",
+      "data": "首先，我们点击【settings】来到设置的页面。",
+      "props": {}
+    },
+    {
+      "id": "L98yQrowjpxykqeA2WeA2",
+      "component": "Block",
+      "data": {
+        "id": "2loxZqKaeC9XAPr6BTpMa",
+        "component": "ImageBlock",
+        "data": {
+          "url": "pmhibKrdyWuEaRIM1KlyD\\1743388209008.png"
+        },
+        "focus": false
+      },
+      "props": {}
+    },
+    {
+      "id": "zlljBK1CahMCsHP5Dku0H",
+      "component": "EditNode",
+      "data": "然后，在侧边我们选择【pages】栏，在侧边的【Branch】项中，我们选择好分支与文件夹，最后是保存，就样就完成了基础设置。"
+    },
+    {
+      "id": "r0Lk2o_-fEBwCRYZD8JA6",
+      "component": "Block",
+      "data": {
+        "id": "I8exi66WIDdNdp80YyLmm",
+        "component": "ImageBlock",
+        "data": {
+          "url": "pmhibKrdyWuEaRIM1KlyD\\1743388830469.png"
+        },
+        "focus": false
+      },
+      "props": {}
+    },
+    {
+      "id": "wenyLouHQVeXUv9YpXeBW",
+      "component": "EditNode",
+      "data": "在选择文件夹时，默认是分支的根目录，如果你不想使用根目录，可以下拉选择【docs】目录。"
+    },
+    {
+      "id": "fGYOyooqI0o3Gu6fjPhke",
+      "component": "Block",
+      "data": {
+        "id": "5_QRscdJfo1N2LhGtR8wZ",
+        "component": "ImageBlock",
+        "data": {
+          "url": "pmhibKrdyWuEaRIM1KlyD\\1743388888672.png"
+        },
+        "focus": false
+      },
+      "props": {}
+    },
+    {
+      "id": "PKvFmVfdtsNoyj_t3xSWL",
+      "component": "EditNode",
+      "data": "之后就是把导出的内容放到你的git项目的对应目录下就可以正常访问了。"
+    },
+    {
+      "id": "t-HnNJ6clvfzUW5QWcK81",
+      "component": "EditNode",
+      "data": "[todo]添加演示视频",
+      "props": {}
+    },
+    {
+      "id": "1HtyG7ZtVTMrh4ORFH541",
+      "component": "EditNode",
+      "data": ""
+    }
+  ],
+  "setting": {
+    "lock": false,
+    "debug": false,
+    "historyPanel": false
+  }
+}

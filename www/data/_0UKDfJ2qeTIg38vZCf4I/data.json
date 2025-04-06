@@ -1,0 +1,34 @@
+{
+  "title": "代码",
+  "blocks": [
+    {
+      "id": "3KMBSNG3K139vQ-tlWeU6",
+      "component": "EditNode",
+      "data": "代码节点可以使用 `=` 唤起快捷指令，然后选择代码来生成。"
+    },
+    {
+      "id": "LBgo83ty_SfG-9ByU-sfv",
+      "component": "Block",
+      "data": {
+        "id": "KWEqC1Iz0GFZvjbWtFr89",
+        "component": "CodeBlock",
+        "data": {
+          "doc": "let str = 'hello world'",
+          "lang": "js"
+        },
+        "focus": false
+      },
+      "props": {}
+    },
+    {
+      "id": "tlH_0-Xs5glAEQwxOLzBf",
+      "component": "EditNode",
+      "data": ""
+    }
+  ],
+  "setting": {
+    "lock": false,
+    "debug": false,
+    "historyPanel": false
+  }
+}

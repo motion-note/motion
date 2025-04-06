@@ -1,0 +1,412 @@
+{
+  "title": "图片",
+  "blocks": [
+    {
+      "id": "nOF9GEIf9Y25iLXf9KBNu",
+      "component": "EditNode",
+      "data": "用于展示图片的相关信息。"
+    },
+    {
+      "id": "jjvaedaFkBZXtckv-pEVv",
+      "component": "Block",
+      "data": {
+        "id": "w99HI42ushG1vCpEogMU8",
+        "component": "ImageBlock",
+        "data": {
+          "url": "/ALiPsjATGs4DNV5Ik8b6z/1726995478063.jpg",
+          "width": 248.66665649414062
+        },
+        "focus": false
+      }
+    },
+    {
+      "id": "S_d9Lh_KqapPfIy43gpEj",
+      "component": "Block",
+      "data": {
+        "id": "iK8-aV19SeBEWy3WoTr4B",
+        "component": "HeaderBlock",
+        "props": {},
+        "data": {
+          "type": "h1",
+          "doc": "使用"
+        }
+      }
+    },
+    {
+      "id": "icUM1_UTRsrtIenESHrX7",
+      "component": "EditNode",
+      "data": "图片的使用主要通过复制粘贴的形式。"
+    },
+    {
+      "id": "AI5oIQbeucRFKJg6dKTFX",
+      "component": "EditNode",
+      "data": "在操作系统中或是网页上，选择一个图片后，复制图片，然后就可以在编辑器中粘贴，让图片保存在笔记中了。"
+    },
+    {
+      "id": "LgRpcfFz3en-pjtJlMHGE",
+      "component": "Block",
+      "data": {
+        "id": "ykW9W-9D5fnie4QwZOr5y",
+        "component": "HeaderBlock",
+        "props": {},
+        "data": {
+          "type": "h1",
+          "doc": "操作"
+        },
+        "focus": false
+      }
+    },
+    {
+      "id": "qLhPFCvbz2JOSF-fmjjVK",
+      "component": "Block",
+      "data": {
+        "id": "Zaa-N-0_O--PBQOANHDsP",
+        "component": "HeaderBlock",
+        "props": {},
+        "data": {
+          "type": "h2",
+          "doc": "大小控制"
+        },
+        "focus": false
+      }
+    },
+    {
+      "id": "7bD3egauKYXVQJ2Ah51vD",
+      "component": "EditNode",
+      "data": "图片默认展示原始大小，你可以自己通过图片左右滑块操作设置它的大小。"
+    },
+    {
+      "id": "RF81YtnwiQK_IpVboG3qH",
+      "component": "Block",
+      "data": {
+        "id": "Ga2jTu3WB2xD7EBJuRJbm",
+        "component": "HeaderBlock",
+        "props": {},
+        "data": {
+          "type": "h2",
+          "doc": "图片菜单"
+        },
+        "focus": false
+      }
+    },
+    {
+      "id": "zsHkAhALPBxM2TFUrl5gb",
+      "component": "EditNode",
+      "data": "",
+      "props": {}
+    },
+    {
+      "id": "hNHiKbidQlt3aWnUEtD1X",
+      "component": "Block",
+      "data": {
+        "id": "7ju9wKUhBrCI4V9DvRHgW",
+        "component": "HeaderBlock",
+        "data": {
+          "type": "h1",
+          "doc": "详细功能清单"
+        }
+      }
+    },
+    {
+      "id": "t4_ZIsnFIiNEyTFp3GjQ1",
+      "component": "Block",
+      "data": {
+        "id": "Y3k-rc1zDtGIKYPTDlxc1",
+        "component": "ListItemBlock",
+        "data": {
+          "doc": "生成"
+        }
+      },
+      "props": {}
+    },
+    {
+      "id": "SprxMh9402xfOzgFdyqW4",
+      "component": "Block",
+      "data": {
+        "id": "_d9fqks0L7-GXT4Ij2fnr",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "支持从系统粘贴图片，在文本节点复制生成 ✔"
+        },
+        "focus": true
+      },
+      "props": {
+        "tab": 1
+      }
+    },
+    {
+      "id": "UbUkNzObR5Iht6Vf9lFiF",
+      "component": "Block",
+      "data": {
+        "id": "FNr_bmgzQlW32dltQHTUm",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "图片聚焦状态下，使用**enter** 生成文本节点 ✔"
+        },
+        "focus": true
+      },
+      "props": {
+        "tab": 1
+      }
+    },
+    {
+      "id": "VFzi5vZRQyyvAvdZnFoiy",
+      "component": "Block",
+      "data": {
+        "id": "4RKl16_qRBPPs_NNvN7DY",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "图片格式支持"
+        },
+        "focus": true
+      },
+      "props": {
+        "tab": 0
+      }
+    },
+    {
+      "id": "QaF9w5QSTMSHqdu511Sj3",
+      "component": "Block",
+      "data": {
+        "id": "IDXe1iwHcC2pSzDovIFiE",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "**jpg** ✔"
+        },
+        "focus": true
+      },
+      "props": {
+        "tab": 1
+      }
+    },
+    {
+      "id": "0-f8Sqclwwni0ikkDyjy1",
+      "component": "Block",
+      "data": {
+        "id": "_VhCpqgJPnlAzp0Y7jYIw",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "**png** ✔"
+        },
+        "focus": true
+      },
+      "props": {
+        "tab": 1
+      }
+    },
+    {
+      "id": "hyzVpddvl-F4XzDIveryr",
+      "component": "Block",
+      "data": {
+        "id": "M9rSghtmToNKLut598xVg",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "**gif** ✔"
+        },
+        "focus": true
+      },
+      "props": {
+        "tab": 1
+      }
+    },
+    {
+      "id": "gVuk_nAyrDO2KZjgJgLAB",
+      "component": "Block",
+      "data": {
+        "id": "ttuNKRm94jQ4_Yocu-TXv",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "**apng** ✔ 0.16.0+"
+        },
+        "focus": true
+      },
+      "props": {
+        "tab": 1
+      }
+    },
+    {
+      "id": "wgh-Fcvh-rQsoL1sybFEY",
+      "component": "Block",
+      "data": {
+        "id": "P4sv9nAsxHLVjjGzT1qr5",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "**webp** ✔"
+        },
+        "focus": true
+      },
+      "props": {
+        "tab": 1
+      }
+    },
+    {
+      "id": "gByNkNcE0iTTDAThNoCNj",
+      "component": "Block",
+      "data": {
+        "id": "DQDZia6hk1jbCjTlGDm0V",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "**svg** ✔"
+        },
+        "focus": true
+      },
+      "props": {
+        "tab": 1
+      }
+    },
+    {
+      "id": "zjdpiOvoIAlq_jY6Wgnhb",
+      "component": "Block",
+      "data": {
+        "id": "P3RYGItvAjkIOMLb6ML7J",
+        "component": "ListItemBlock",
+        "data": {
+          "doc": "操作"
+        }
+      },
+      "props": {
+        "tab": 0
+      }
+    },
+    {
+      "id": "i4MVhFynWdpY2lN_mXJNO",
+      "component": "Block",
+      "data": {
+        "id": "BDHkItn7CVDKLXSxRUoZT",
+        "component": "ListItemBlock",
+        "data": {
+          "doc": "使用 **tab** 控制图片节点缩进 ✔"
+        }
+      },
+      "props": {
+        "tab": 1
+      }
+    },
+    {
+      "id": "AupRsvzLL_5rH4n9wqO80",
+      "component": "Block",
+      "data": {
+        "id": "Mf5LcjPLqLZbH0axuwv1U",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "使用 **Shift + Tab** 控制节点退回缩进 ✔"
+        },
+        "focus": true
+      },
+      "props": {
+        "tab": 1
+      }
+    },
+    {
+      "id": "6JF7XWOXxao8krbZbPM2E",
+      "component": "Block",
+      "data": {
+        "id": "ho_4BHTcI_lIxcpz3XQWB",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "**双击**图片，可以预览图片 ✔"
+        },
+        "focus": true
+      },
+      "props": {
+        "tab": 1
+      }
+    },
+    {
+      "id": "EuBT0BybqEPGtfhj5ARy6",
+      "component": "Block",
+      "data": {
+        "id": "ygWegcbu5M6fQMf4eIGbJ",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "在预览图片时"
+        },
+        "focus": true
+      },
+      "props": {
+        "tab": 0
+      }
+    },
+    {
+      "id": "DNTOmOyKNw62eusMlXIdI",
+      "component": "Block",
+      "data": {
+        "id": "9YYuwgsv2JAsVicPrI0A7",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "可以使用滚轮缩放 ✔"
+        },
+        "focus": true
+      },
+      "props": {
+        "tab": 1
+      }
+    },
+    {
+      "id": "7tueTVIoy0MBWjVbE1LVG",
+      "component": "Block",
+      "data": {
+        "id": "UXJiM6X_MBoEkANgiOoNm",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "可以使用右键快速关闭预览 ✔"
+        },
+        "focus": true
+      },
+      "props": {
+        "tab": 1
+      }
+    },
+    {
+      "id": "pWChqIB92BcWDL7B0G4TO",
+      "component": "Block",
+      "data": {
+        "id": "T6nin0dx21zgV5WeR0yeQ",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "右键菜单"
+        },
+        "focus": true
+      },
+      "props": {
+        "tab": 0
+      }
+    },
+    {
+      "id": "C6ZLsAgdX_VO9AnIuIcBA",
+      "component": "Block",
+      "data": {
+        "id": "tnharOtmlNNSTamHdhD-e",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "右键支持复制图片 ✔ 0.17.0+"
+        },
+        "focus": true
+      },
+      "props": {
+        "tab": 1
+      }
+    }
+  ],
+  "setting": {
+    "lock": false,
+    "debug": false,
+    "historyPanel": false
+  }
+}

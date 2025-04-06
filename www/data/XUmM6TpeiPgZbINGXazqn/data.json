@@ -1,0 +1,367 @@
+{
+  "title": "文本",
+  "blocks": [
+    {
+      "id": "JyvfAQbv4ZRetfs1V4rAZ",
+      "component": "EditNode",
+      "data": ""
+    },
+    {
+      "id": "i8-nvmaYHSU8ZHHveKLLr",
+      "component": "Block",
+      "data": {
+        "id": "mmZZ3YpAAvhPYy4PERJdy",
+        "component": "HeaderBlock",
+        "data": {
+          "type": "h1",
+          "doc": "细节功能列表"
+        }
+      }
+    },
+    {
+      "id": "mChzBCNw9lxdl7wdPfM42",
+      "component": "Block",
+      "data": {
+        "id": "h8yZ-2McoBCCvIf2KAejG",
+        "component": "ListItemBlock",
+        "data": {
+          "doc": "与快捷键操作"
+        }
+      }
+    },
+    {
+      "id": "SBunFv9h2Wba8VgYsSCbE",
+      "component": "Block",
+      "data": {
+        "id": "dbZV9nOiBLZ1JRfnc3Qu6",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "使用 **Tab** 添加文本节点缩进 ✔"
+        },
+        "focus": true
+      },
+      "props": {
+        "tab": 1
+      }
+    },
+    {
+      "id": "cFHqBl6lToWfK6t0nnEPS",
+      "component": "Block",
+      "data": {
+        "id": "yIZXYZM9yzu4vJqNVQKor",
+        "component": "ImageBlock",
+        "data": {
+          "url": "/XUmM6TpeiPgZbINGXazqn/1725690549052.gif",
+          "width": 260.89361572265625
+        },
+        "focus": false
+      },
+      "props": {
+        "tab": 3
+      }
+    },
+    {
+      "id": "IOH7dXG-9VAT3vZ5-YjmA",
+      "component": "Block",
+      "data": {
+        "id": "cHLuG86SIHuyaLEl_bvRb",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "使用 **Shift + Tab** 删除文本节点缩进 ✔"
+        },
+        "focus": true
+      },
+      "props": {
+        "tab": 1
+      }
+    },
+    {
+      "id": "DiPoyv6AY1InTEsZpTacI",
+      "component": "Block",
+      "data": {
+        "id": "gQ1FpzkPZDpoxL2h3OTtQ",
+        "component": "ImageBlock",
+        "data": {
+          "url": "/XUmM6TpeiPgZbINGXazqn/1725690695092.gif",
+          "width": 272.35699462890625
+        },
+        "focus": false
+      },
+      "props": {
+        "tab": 3
+      }
+    },
+    {
+      "id": "LSsxnYcPVx7LEuOBIEDix",
+      "component": "Block",
+      "data": {
+        "id": "VNb0ua7_Kd80LYQoYxunu",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "在文本节点首位删除合并时，优先处理**tab**属性只有tab在0时，才合并节点。✔"
+        },
+        "focus": true
+      },
+      "props": {
+        "tab": 1
+      }
+    },
+    {
+      "id": "_wFHjMrfojfO5afEzESHZ",
+      "component": "Block",
+      "data": {
+        "id": "7qi789Oez0EKW-v5hfFjA",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "对有缩进的节点换行时，新文本节点保留缩进 ✔"
+        },
+        "focus": true
+      },
+      "props": {
+        "tab": 1
+      }
+    },
+    {
+      "id": "w3LERPH60Uau0k9Ayw0M8",
+      "component": "Block",
+      "data": {
+        "id": "VCwgw_i6auBVzVWYMU7n4",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "使用 **ctrl + Enter** 换行文本 ✔"
+        },
+        "focus": true
+      },
+      "props": {
+        "tab": 1
+      }
+    },
+    {
+      "id": "SAfgTVP3riLsmGoLcAKIp",
+      "component": "Block",
+      "data": {
+        "id": "oD1_NvHpuDT-r4-7bl1jI",
+        "component": "ListItemBlock",
+        "data": {
+          "doc": "文本选择操作"
+        }
+      }
+    },
+    {
+      "id": "pInXjqD2VyLvtGcjcuARQ",
+      "component": "Block",
+      "data": {
+        "id": "wXb7zDmVQ7U7ik7qSjkv3",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "使用 **shift** 加光标，可以选择文本区域 ✔"
+        },
+        "focus": true
+      },
+      "props": {
+        "tab": 1
+      }
+    },
+    {
+      "id": "eKIUxtqSPclXUpszGVH0_",
+      "component": "Block",
+      "data": {
+        "id": "geTwaWLsv36oRvSRKloT-",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "粘贴与复制"
+        },
+        "focus": true
+      }
+    },
+    {
+      "id": "3mzJC4KLyICFm6l37kdya",
+      "component": "Block",
+      "data": {
+        "id": "tj3zPf6UbsSbbfWg9Z1Qt",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "文本粘贴功能 ✔"
+        },
+        "focus": true
+      },
+      "props": {
+        "tab": 1
+      }
+    },
+    {
+      "id": "oyv8DfHidgr5-aoVw5ItB",
+      "component": "Block",
+      "data": {
+        "id": "6Qtte2h3fj9jsK3gQOzG8",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "单行文本复制时，支持首尾空格 ✔"
+        },
+        "focus": true
+      },
+      "props": {
+        "tab": 1
+      }
+    },
+    {
+      "id": "BvHbhtnMMorwFL0WTfp-4",
+      "component": "Block",
+      "data": {
+        "id": "PDh3hG1_93OdSBKxYVJE7",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "多行文本粘贴时，移除首尾空格 ✔"
+        },
+        "focus": true
+      },
+      "props": {
+        "tab": 1
+      }
+    },
+    {
+      "id": "O4sU49wTXsZcHg-k6OVD9",
+      "component": "Block",
+      "data": {
+        "id": "3AOeoGDxf-FKAXctg3OT1",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "复制粘贴时，移除换行符 ✔"
+        },
+        "focus": true
+      },
+      "props": {
+        "tab": 1
+      }
+    },
+    {
+      "id": "Pgv4RrdF5VAP0_1xXOVwm",
+      "component": "Block",
+      "data": {
+        "id": "_LTEAYrr17YuUM1fQbK-T",
+        "component": "ListItemBlock",
+        "data": {
+          "doc": "与其它节点交互"
+        }
+      },
+      "props": {
+        "tab": 0
+      }
+    },
+    {
+      "id": "lZ75ztyjrutyunR_G-FhS",
+      "component": "Block",
+      "data": {
+        "id": "qbEt0vjE3Cyd95UWkIK_L",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "禁止在标题中使用`- list` 生成列表 ✔"
+        },
+        "focus": true
+      },
+      "props": {
+        "tab": 1
+      }
+    },
+    {
+      "id": "jIv4AfU1HvXZVzyr_8xCG",
+      "component": "Block",
+      "data": {
+        "id": "Ia71ZfcdS60lcT7LAvFoD",
+        "component": "ListItemBlock",
+        "data": {
+          "doc": "历史记录功能 "
+        }
+      },
+      "props": {
+        "tab": 0
+      }
+    },
+    {
+      "id": "kyQxcOe7MfDWtMbdlLY4l",
+      "component": "Block",
+      "data": {
+        "id": "bMRGQHD0izPMYnS_-qdl8",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "文本变化，更新历史记录 ✔"
+        },
+        "focus": true
+      },
+      "props": {
+        "tab": 1
+      }
+    },
+    {
+      "id": "gGZeeAhlcoYEZA_5l23CR",
+      "component": "Block",
+      "data": {
+        "id": "kDosK1WW-QZTu2GMkDSrT",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "粘贴文本后，更新历史记录 ✔"
+        },
+        "focus": true
+      },
+      "props": {
+        "tab": 1
+      }
+    },
+    {
+      "id": "Dp4_tPNvwq-YFnNiSg9EH",
+      "component": "Block",
+      "data": {
+        "id": "_OJ8ZQkjydJ1Z9C-H55yr",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "粘贴图片后，更新历史记录 ✔"
+        },
+        "focus": true
+      },
+      "props": {
+        "tab": 1
+      }
+    },
+    {
+      "id": "J8WffqCzur-sAbph_X3J2",
+      "component": "Block",
+      "data": {
+        "id": "XUBPI3shYgglCIe1ZvJRB",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "快捷指令更新历史记录 ✔"
+        },
+        "focus": true
+      },
+      "props": {
+        "tab": 1
+      }
+    },
+    {
+      "id": "0XZSwOucfBlZ8Agw9LFor",
+      "component": "EditNode",
+      "data": ""
+    }
+  ],
+  "setting": {
+    "lock": true,
+    "debug": false,
+    "historyPanel": false
+  }
+}

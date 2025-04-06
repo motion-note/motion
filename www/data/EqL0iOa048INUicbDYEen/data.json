@@ -1,0 +1,199 @@
+{
+  "title": "书签",
+  "blocks": [
+    {
+      "id": "V1BCFd3tUlf_xE5md9sct",
+      "component": "Block",
+      "data": {
+        "id": "EOnvJUHcLLiRzI1veo4Fs",
+        "component": "BookmarkBlock",
+        "props": {},
+        "focus": false,
+        "data": {
+          "url": "https://space.bilibili.com/300245951/channel/seriesdetail?sid=3534189&ctype=0",
+          "title": "宅笼猫的个人空间-宅笼猫个人主页-哔哩哔哩视频",
+          "description": "哔哩哔哩宅笼猫的个人空间，提供宅笼猫分享的视频、音频、文章、动态、收藏等内容，关注宅笼猫账号，第一时间了解UP主动态。motion note 软件开发者",
+          "icon": ""
+        }
+      }
+    },
+    {
+      "id": "M0qB6IomKbYCOLtT1ThQl",
+      "component": "Block",
+      "data": {
+        "id": "MsKmf7TJAk-9GN8ABLTzO",
+        "component": "HeaderBlock",
+        "data": {
+          "type": "h1",
+          "doc": "详细功能清单"
+        }
+      }
+    },
+    {
+      "id": "IJdphpwmS2ufwW5_GJ443",
+      "component": "Block",
+      "data": {
+        "id": "fJ0jixN-v4H1trSCjCwkb",
+        "component": "ListItemBlock",
+        "data": {
+          "doc": "生成"
+        }
+      },
+      "props": {}
+    },
+    {
+      "id": "1BcuGF82qxX31YpwObXsT",
+      "component": "Block",
+      "data": {
+        "id": "Rbj8YQn-yOltAGHc3ktDN",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "快捷指令生成 ✔"
+        },
+        "focus": true
+      },
+      "props": {
+        "tab": 1
+      }
+    },
+    {
+      "id": "uLM-zJl0FqhJwPy_s9vdK",
+      "component": "Block",
+      "data": {
+        "id": "Sr9nOJuFKbp-5Orm9VCjk",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "编辑"
+        },
+        "focus": true
+      },
+      "props": {
+        "tab": 0
+      }
+    },
+    {
+      "id": "dvF6Z1Bpl3Tg_yjwPDrFB",
+      "component": "Block",
+      "data": {
+        "id": "B0BWUu4p_AA7JwViksjRk",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "支持自动解析链接地址 ✔"
+        },
+        "focus": true
+      },
+      "props": {
+        "tab": 1
+      }
+    },
+    {
+      "id": "5Kh8lxtlmNjFtOjhKrWE2",
+      "component": "Block",
+      "data": {
+        "id": "VICDvR7AklA4m-qt9G3gr",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "支持手动修改链接信息 ✔"
+        },
+        "focus": true
+      },
+      "props": {
+        "tab": 1
+      }
+    },
+    {
+      "id": "yYcoFX13sIR5HwcNTIV5V",
+      "component": "Block",
+      "data": {
+        "id": "IiQLR4xVK9smAfQZzwCkh",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "右键菜单"
+        },
+        "focus": true
+      },
+      "props": {
+        "tab": 0
+      }
+    },
+    {
+      "id": "2b503OtOgYlMmnNb6gV0X",
+      "component": "Block",
+      "data": {
+        "id": "yeNrtHI1J8agbzcJdrjHa",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "支持复制链接地址 ✔"
+        },
+        "focus": true
+      },
+      "props": {
+        "tab": 1
+      }
+    },
+    {
+      "id": "BaF5fVmAbZEYrJW9jSQo8",
+      "component": "Block",
+      "data": {
+        "id": "GaK-QDi5ZWnq8Avr-khHE",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "支持打开网址 ✔"
+        },
+        "focus": true
+      },
+      "props": {
+        "tab": 1
+      }
+    },
+    {
+      "id": "Cmlt5EHhcMJi359GmeSMV",
+      "component": "Block",
+      "data": {
+        "id": "Z3D9ilN43sKta44a2k1dC",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "支持设置书签 ✔"
+        },
+        "focus": true
+      },
+      "props": {
+        "tab": 1
+      }
+    },
+    {
+      "id": "yas-FWQheEsMqcZllp6hz",
+      "component": "Block",
+      "data": {
+        "id": "WREa5a23WS1OW-R37e67m",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "支持删除书签 ✔"
+        },
+        "focus": true
+      },
+      "props": {
+        "tab": 1
+      }
+    },
+    {
+      "id": "tHctA-y6uRxKycPZNOdbI",
+      "component": "EditNode",
+      "data": ""
+    }
+  ],
+  "setting": {
+    "lock": false,
+    "debug": false,
+    "historyPanel": false
+  }
+}

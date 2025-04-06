@@ -1,0 +1,165 @@
+{
+  "title": "0.9.0",
+  "blocks": [
+    {
+      "id": "uZC3Z25G8TrmCSKZ8IqZo",
+      "component": "Block",
+      "data": {
+        "id": "F9O1w-Ags_uvDhMsYh_3w",
+        "component": "HeaderBlock",
+        "props": {},
+        "data": {
+          "type": "h1",
+          "doc": "功能"
+        },
+        "focus": false
+      }
+    },
+    {
+      "id": "7ef4F6Caydu2xmGq33QPN",
+      "component": "Block",
+      "data": {
+        "id": "3I8voEbSkwrgk3G4udP_1",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "重构文档解析器，更好的支持文档的解析能力，支持的跨节点的文本渲染能力。"
+        },
+        "focus": false
+      }
+    },
+    {
+      "id": "Y3qOPL1r16TP9QZIwm5QN",
+      "component": "Block",
+      "data": {
+        "id": "6hPRIBYPkGX8baxOzDBGf",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "【新】添加表格功能，具体可以查看功能模块的说明"
+        },
+        "focus": false
+      }
+    },
+    {
+      "id": "E-fNvJ6wXgBFXaaBuDDdJ",
+      "component": "Block",
+      "data": {
+        "id": "WSxtEQqlcBLWbs2DC7EwH",
+        "component": "HeaderBlock",
+        "props": {},
+        "data": {
+          "type": "h2",
+          "doc": "【新】标题查询功能"
+        },
+        "focus": false,
+        "class": []
+      }
+    },
+    {
+      "id": "wPtG6UN5Vd4Iq39FbJL7s",
+      "component": "EditNode",
+      "data": "快速查询文档标题。"
+    },
+    {
+      "id": "6W-w5EyE8WJVodo-EHpR2",
+      "component": "Block",
+      "data": {
+        "id": "RacOI3DXR2HpkiS0ZPDJ1",
+        "component": "ImageBlock",
+        "props": {},
+        "class": [
+          "no-marker"
+        ],
+        "data": {
+          "url": "/UxqbYqfiSLJ-B-26Qxd9r/1688425214255.gif",
+          "align": "center"
+        },
+        "focus": false
+      }
+    },
+    {
+      "id": "nLZvB2n78mOMyvSCfaPCb",
+      "component": "Block",
+      "data": {
+        "id": "9fCnMq5TVneMQ4mPhbm0j",
+        "component": "HeaderBlock",
+        "props": {},
+        "data": {
+          "type": "h1",
+          "doc": "优化"
+        },
+        "focus": false
+      }
+    },
+    {
+      "id": "lZuTKsomx9zGH_ZlZjVSK",
+      "component": "Block",
+      "data": {
+        "id": "BcQXm-83dNLg6i5CGBoVo",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "列表功能优化 支持移除列表序号的操作"
+        },
+        "focus": false
+      }
+    },
+    {
+      "id": "8YLZbpU03bSu4tgo-Ujxq",
+      "component": "Block",
+      "data": {
+        "id": "f4JB4RXDTBlptLAOxOiRM",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "链接功能优化 优化了http相关链接的生成方式，不在默认生成`[label](link)`的方案"
+        },
+        "focus": false
+      }
+    },
+    {
+      "id": "XDyxqWm8xu1asJ9lndFp5",
+      "component": "Block",
+      "data": {
+        "id": "DHSUo9ixxL1-Bv-05ASpL",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "优化了复制粘贴功能，列表也支持粘贴数据，修复html标签在粘贴时，数据丢失的问题"
+        },
+        "focus": false
+      }
+    },
+    {
+      "id": "e8go6GLoX8xmA1CKTLfls",
+      "component": "Block",
+      "data": {
+        "id": "EwJOuj5ZIX9aligP95Uoe",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "优化代码块过多性能问题 0%"
+        },
+        "focus": false
+      }
+    },
+    {
+      "id": "sepJApyT7VT1cKN4i5aa9",
+      "component": "Block",
+      "data": {
+        "id": "4-2T_RRpIqdjqT2NfVTnW",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "优化链接自动生成快速访问提示能力"
+        },
+        "focus": false
+      }
+    }
+  ],
+  "setting": {
+    "lock": false,
+    "debug": false
+  }
+}

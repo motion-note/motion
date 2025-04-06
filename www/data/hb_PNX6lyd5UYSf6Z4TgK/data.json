@@ -1,0 +1,128 @@
+{
+  "title": "0.6.0",
+  "blocks": [
+    {
+      "id": "7QWKPhy59a5JJj1HyMbvu",
+      "component": "Block",
+      "data": {
+        "id": "hQLkJBwIYQYnlKyjE54Mo",
+        "component": "HeaderBlock",
+        "props": {},
+        "data": {
+          "type": "h1",
+          "doc": "<span class=\"pudding-text\" data-type=\"text\">新功能</span>"
+        },
+        "focus": false
+      }
+    },
+    {
+      "id": "m1G2uANLK49SjqLoXx0ND",
+      "component": "Block",
+      "data": {
+        "id": "GHiw3aOyHqU9mc43BtRkt",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "<span class=\"pudding-text is-active\" data-type=\"text\">导入导出功能 100%&nbsp;</span>"
+        },
+        "focus": false
+      }
+    },
+    {
+      "id": "bgfJzSiS8jHbrgpeyF91l",
+      "component": "Block",
+      "data": {
+        "id": "GP3ZRjKdLdnWSmGU4Ypv4",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "<span class=\"pudding-text is-active\" data-type=\"text\">【开发】添加快捷打开配制目录 100%&nbsp;</span>"
+        },
+        "focus": false
+      }
+    },
+    {
+      "id": "Ies8mJ2YrxmqQblFRdemy",
+      "component": "Block",
+      "data": {
+        "id": "uQVAw5-hyktCfPfqW64Nw",
+        "component": "HeaderBlock",
+        "props": {},
+        "data": {
+          "type": "h1",
+          "doc": "<span class=\"pudding-text\" data-type=\"text\">优化</span>"
+        },
+        "focus": false
+      }
+    },
+    {
+      "id": "EeBqIo3f1iuXkVnWTY2Av",
+      "component": "Block",
+      "data": {
+        "id": "Hlb9MYfbWysmFD2cunZxK",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "<span class=\"pudding-text\" data-type=\"text\">优化输入中文时按 </span><strong class=\"pudding-strong\" data-type=\"strong\"><span data-markup=\"**\">**</span><label>enter</label><span data-markup=\"**\">**</span></strong><span class=\"pudding-text is-active\" data-type=\"text\"> 出错，调整为有中文输入时，按enter不再强行换行，将自动转换成中文或字母处理。</span>"
+        },
+        "focus": false
+      }
+    },
+    {
+      "id": "Qn4b-eK-XloEJqR_3R-b2",
+      "component": "Block",
+      "data": {
+        "id": "hsPBdFrBojWwqmMh2SJ7U",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "<span class=\"pudding-text\" data-type=\"text\">输入基础输入体验，修复输入 </span><code class=\"pudding-inline-code\" data-type=\"code\"><span data-markup=\"`\">`</span><label>#</label><span data-markup=\"`\">`</span></code><span class=\"pudding-text\" data-type=\"text\"> 与 </span><code class=\"pudding-inline-code\" data-type=\"code\"><span data-markup=\"`\">`</span><label>-</label><span data-markup=\"`\">`</span></code><span class=\"pudding-text is-active\" data-type=\"text\"> 加内容时，符号丢失问题。</span>"
+        },
+        "focus": false
+      }
+    },
+    {
+      "id": "HhjcSUnuDIo3hsYRBVaMW",
+      "component": "Block",
+      "data": {
+        "id": "Htc52HaD0Tsdp6M3MMMzE",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "<span class=\"pudding-text\" data-type=\"text\">优化菜单定位，防止菜单因超出无法使用</span>"
+        },
+        "focus": false
+      }
+    },
+    {
+      "id": "rPE1_KXKbVnIhJ5MdQR3C",
+      "component": "Block",
+      "data": {
+        "id": "r4VmZOgoBZjWkcUtm5Pvo",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "<span class=\"pudding-text\" data-type=\"text\">修复 </span><code class=\"pudding-inline-code\" data-type=\"code\"><span data-markup=\"`\">`</span><label>html</label><span data-markup=\"`\">`</span></code><span class=\"pudding-text is-active\" data-type=\"text\"> 内容展示成元素问题</span>"
+        },
+        "focus": false
+      }
+    },
+    {
+      "id": "ttbEYjHwelRTzxs5epg1g",
+      "component": "Block",
+      "data": {
+        "id": "H77yP7Isz9-TC0U-IGH-A",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "<span class=\"pudding-text is-active\" data-type=\"text\">添加页面默认预留滚动条位置，减少页面抖动</span>"
+        },
+        "focus": false
+      }
+    }
+  ],
+  "setting": {
+    "lock": false,
+    "debug": true
+  }
+}

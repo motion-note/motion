@@ -1,0 +1,335 @@
+{
+  "title": "链接",
+  "blocks": [
+    {
+      "id": "GbXx1pFn9DrHay8QYP9ZZ",
+      "component": "Block",
+      "data": {
+        "id": "TMVhOoGQW8bPLqawuZsX7",
+        "component": "HeaderBlock",
+        "props": {},
+        "data": {
+          "type": "h1",
+          "doc": "简介"
+        },
+        "focus": false
+      }
+    },
+    {
+      "id": "wJ6f0fHs0DkrWQhuEuCn3",
+      "component": "EditNode",
+      "data": "在motion中，当用户输入以下格式时，将自动生成一个链接效果："
+    },
+    {
+      "id": "re1uWCWJITe0weRslv2Jl",
+      "component": "Block",
+      "data": {
+        "id": "DKK-SQf-YIVhE2i61Ucz5",
+        "component": "ImageBlock",
+        "props": {},
+        "data": {
+          "url": "/Dqt89v8SU8XiFarhCoLOg/1688564440861.gif"
+        },
+        "focus": false
+      }
+    },
+    {
+      "id": "pSi_1mclh-41-7Oifx43v",
+      "component": "Block",
+      "data": {
+        "id": "xWOMXTvvSs2fwzCZovIbK",
+        "component": "CodeBlock",
+        "props": {},
+        "data": {
+          "doc": "[label](link)",
+          "lang": "js"
+        },
+        "focus": false
+      }
+    },
+    {
+      "id": "hmrmuERtWv8hXYd-PIqxp",
+      "component": "Block",
+      "data": {
+        "id": "83OnIEvt2wImprKA9gZ2d",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "label 是要显示的内容"
+        },
+        "focus": false
+      }
+    },
+    {
+      "id": "WJMIKUvRuBAjOgmnzJ_ss",
+      "component": "Block",
+      "data": {
+        "id": "_54dDh0yzrbdeoWpQnj8j",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "link 是一个链接地址，注意这时不判断路径的合法性，原则上支持所有的内容，不同的内容格式会跳转不同的目标，下面是具体情况的示例。"
+        },
+        "focus": false
+      }
+    },
+    {
+      "id": "14TGHah4p6XkgKs9KslNL",
+      "component": "EditNode",
+      "data": "在 0.9.0 以上版本时，输入具有 `http`或`https` 开头的内容时，也会自动生成一个链接。"
+    },
+    {
+      "id": "QYJqjHFw1sef9I0bbg1e-",
+      "component": "EditNode",
+      "data": "==注意==有空格或括号(`(`)时则会断开。"
+    },
+    {
+      "id": "bIBByqMFk3IjzKCmZcg7j",
+      "component": "Block",
+      "data": {
+        "id": "mwK_w_ugJHghG6P-oHiQr",
+        "component": "HeaderBlock",
+        "props": {},
+        "data": {
+          "type": "h1",
+          "doc": "跳转设置"
+        },
+        "focus": false
+      }
+    },
+    {
+      "id": "K33hKghYcHj3Ii3w4SJiu",
+      "component": "Block",
+      "data": {
+        "id": "A9BHu5oMI4avWxZuQdagl",
+        "component": "HeaderBlock",
+        "props": {},
+        "data": {
+          "type": "h2",
+          "doc": "通过浏览器打开网页"
+        },
+        "focus": false
+      }
+    },
+    {
+      "id": "jOfoIrL-gxxjekxRwBTp7",
+      "component": "EditNode",
+      "data": "**link** 内容以 ==http/https== 会被**默认浏览器**自动打开。"
+    },
+    {
+      "id": "WlylUwNFEUN0vpafyIL9b",
+      "component": "Block",
+      "data": {
+        "id": "gJABW-qlkbwPg5MmFBZM0",
+        "component": "CodeBlock",
+        "props": {},
+        "data": {
+          "doc": "// 输入以下内容\n[motion - github](https://github.com/motion-note)",
+          "lang": "js"
+        },
+        "focus": false
+      }
+    },
+    {
+      "id": "bmtjApOjvihfYh9hmrGGg",
+      "component": "EditNode",
+      "data": "[motion - github](https://github.com/motion-note)"
+    },
+    {
+      "id": "XEPR8ztn_If5uhjNI4kQn",
+      "component": "Block",
+      "data": {
+        "id": "NdVrMocjh7DKar8K7TbLY",
+        "component": "HeaderBlock",
+        "data": {
+          "type": "h2",
+          "doc": "跳转"
+        }
+      },
+      "props": {}
+    },
+    {
+      "id": "7M_zvh415FmWUD9L7miZK",
+      "component": "Block",
+      "data": {
+        "id": "--VeYoDsKxD7VE0o1RMCn",
+        "component": "ListItemBlock",
+        "data": {
+          "doc": "在编辑状态下，按住 `ctrl`(MacOS 下`Command`） 同时，点击链接，便可跳转。"
+        }
+      },
+      "props": {}
+    },
+    {
+      "id": "15V_l9NlKg9wuac9qX8b7",
+      "component": "Block",
+      "data": {
+        "id": "lOvmo0IkqQ72n2VtDIgPO",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "锁定状态下，点击便可以跳转。"
+        },
+        "focus": true
+      },
+      "props": {}
+    },
+    {
+      "id": "QNbPWlJTyU5SSRNKr8iiY",
+      "component": "Block",
+      "data": {
+        "id": "_MiJOPg1cKqMPV2DIyw8h",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "导出的静态页面中，点击便可跳转。"
+        },
+        "focus": true
+      },
+      "props": {}
+    },
+    {
+      "id": "3PVWscxqAWL_9Z56UNs6x",
+      "component": "Block",
+      "data": {
+        "id": "cVwqsdc9LtMj9CRgGqYQz",
+        "component": "HeaderBlock",
+        "props": {},
+        "data": {
+          "type": "h1",
+          "doc": "内部跳转"
+        },
+        "focus": false
+      }
+    },
+    {
+      "id": "Z2pcNqvuyxbVBSbrjPCQY",
+      "component": "EditNode",
+      "data": "如果想法在笔记中跳转，你可以先找到你想到跳转到的文档，复制其地址就可以："
+    },
+    {
+      "id": "sOaFZovzIgt4MKUE_Boi0",
+      "component": "Block",
+      "data": {
+        "id": "T8soDS2sJ-ExdurLiyhGv",
+        "component": "ImageBlock",
+        "props": {},
+        "data": {
+          "url": "/Dqt89v8SU8XiFarhCoLOg/1688564958181.gif"
+        },
+        "focus": false
+      }
+    },
+    {
+      "id": "ljugpfl_7liS9NnVVPdoV",
+      "component": "EditNode",
+      "data": "然后在新文档中输入，例如：[欢迎](local:/5i4ImbYXL1q3ezjV4ZfWl) ，你还可以修复名称，只要地址不变就可以有效，例如：[这时跳转到【欢迎】页面](local:/5i4ImbYXL1q3ezjV4ZfWl)"
+    },
+    {
+      "id": "kMl6pRL-LIuQS9YYLWWTT",
+      "component": "EditNode",
+      "data": ""
+    },
+    {
+      "id": "BWWi_6MkZ0n8qIhnERBVf",
+      "component": "Block",
+      "data": {
+        "id": "As-uB74jawobjER59oDXh",
+        "component": "HeaderBlock",
+        "data": {
+          "type": "h1",
+          "doc": "详细功能清单"
+        }
+      },
+      "props": {}
+    },
+    {
+      "id": "AEIDVsdIlgHizpe7iaavR",
+      "component": "Block",
+      "data": {
+        "id": "ZLEbeEB7KAUT0iuoHMRcC",
+        "component": "ListItemBlock",
+        "data": {
+          "doc": "生成"
+        }
+      },
+      "props": {}
+    },
+    {
+      "id": "5QCQhTFkPOxTQlOET_FQT",
+      "component": "Block",
+      "data": {
+        "id": "NpREqZ9PE8cHDHNc0wbVd",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "支持 markdown 方式生成链接地址 ✔"
+        },
+        "focus": true
+      },
+      "props": {
+        "tab": 1
+      }
+    },
+    {
+      "id": "vSPN9llTJwUNtsmH1DUGu",
+      "component": "Block",
+      "data": {
+        "id": "zYhT2_Te9ahjoOPCI7Ezh",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "支持网址自动转换成网址 ✔"
+        },
+        "focus": true
+      },
+      "props": {
+        "tab": 1
+      }
+    },
+    {
+      "id": "lhSWNdPTPNxLD1aqV8ei2",
+      "component": "Block",
+      "data": {
+        "id": "tfpykdhS697F5Dyu4tNpr",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "交互"
+        },
+        "focus": true
+      },
+      "props": {
+        "tab": 0
+      }
+    },
+    {
+      "id": "bNQ4WhYoHFjHM24GWqG8d",
+      "component": "Block",
+      "data": {
+        "id": "Z9a-xccdAEe1bwJzKvLra",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "支持笔记内，文档间跳转 ✔"
+        },
+        "focus": true
+      },
+      "props": {
+        "tab": 1
+      }
+    },
+    {
+      "id": "oG2OGcL0bai7CcNV1Y62U",
+      "component": "EditNode",
+      "data": "",
+      "props": {
+        "tab": 0
+      }
+    }
+  ],
+  "setting": {
+    "lock": false,
+    "debug": false
+  }
+}

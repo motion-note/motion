@@ -1,0 +1,306 @@
+{
+  "title": "0.18.0",
+  "blocks": [
+    {
+      "id": "K-kjgLdWlUzpr3ZuMYngZ",
+      "component": "Block",
+      "data": {
+        "id": "MmORyVXQ_cHyncyvdL40L",
+        "component": "HeaderBlock",
+        "data": {
+          "type": "h1",
+          "doc": "菜单功能优化"
+        }
+      }
+    },
+    {
+      "id": "O8h5NzEnMT3uRd4TxEbVj",
+      "component": "Block",
+      "data": {
+        "id": "6GySQADABC5gfoKSSE5Yl",
+        "component": "ListItemBlock",
+        "data": {
+          "doc": "使用数据库方案"
+        }
+      },
+      "props": {}
+    },
+    {
+      "id": "zz2ReKnjHi5dlyD1oent7",
+      "component": "Block",
+      "data": {
+        "id": "_pzVp5etYIpZft1Mgbf4R",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "根文档创建功能 ✔️"
+        },
+        "focus": true
+      },
+      "props": {
+        "tab": 1
+      }
+    },
+    {
+      "id": "rECUBNr0_sI9d75sJUs0m",
+      "component": "Block",
+      "data": {
+        "id": "Dy8rnSv-3Nm1m0cIfJAm3",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "文档子文档创建 ✔️"
+        },
+        "focus": true
+      },
+      "props": {
+        "tab": 1
+      }
+    },
+    {
+      "id": "SlgCaJXNOhPxYX320KOnh",
+      "component": "Block",
+      "data": {
+        "id": "b08JUyo-3a3aeQPJEoSU6",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "文档删除功能 ✔️"
+        },
+        "focus": true
+      },
+      "props": {
+        "tab": 1
+      }
+    },
+    {
+      "id": "_wYRjMWwQ6cNoPZMDRpVp",
+      "component": "Block",
+      "data": {
+        "id": "ioF9-kaOaxdYmZzztXknX",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "子文档同步删除功能 ✔️"
+        },
+        "focus": true
+      },
+      "props": {
+        "tab": 2
+      }
+    },
+    {
+      "id": "a4G515gNQwRI1L1foXuJS",
+      "component": "Block",
+      "data": {
+        "id": "U53GRKMD1g9AXbiWsxSmn",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "文档移动排序 ✔️"
+        },
+        "focus": true
+      },
+      "props": {
+        "tab": 1
+      }
+    },
+    {
+      "id": "qvhJS3iYgia3wl1ek0pP_",
+      "component": "Block",
+      "data": {
+        "id": "xm59liAgAjKl6zpRmvRCp",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "笔记本切换，JSON文件数据Sqlite入库功能 ✔️"
+        },
+        "focus": true
+      },
+      "props": {
+        "tab": 1
+      }
+    },
+    {
+      "id": "02kEtsgm8aureqiaYfwjE",
+      "component": "Block",
+      "data": {
+        "id": "rU1GU5QX3mBdJ930IDbqe",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "创建新笔记本，数据库自动创建 ✔️"
+        },
+        "focus": true
+      },
+      "props": {
+        "tab": 1
+      }
+    },
+    {
+      "id": "q5q0Xdtqa3rScjKI2ZLp2",
+      "component": "Block",
+      "data": {
+        "id": "zJVbCej-qm-lSD-Iy0bmc",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "标题保存，数据库更新功能 ✔️"
+        },
+        "focus": true
+      },
+      "props": {
+        "tab": 1
+      }
+    },
+    {
+      "id": "JthxIS3B39pd8fDavWA21",
+      "component": "Block",
+      "data": {
+        "id": "SwKhaGLfjwzAuZjIMr3CT",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "文档保存，数据库同步更新时间 ✔️"
+        },
+        "focus": true
+      },
+      "props": {
+        "tab": 1
+      }
+    },
+    {
+      "id": "pVkXx5z-KMg8dbhu-lJld",
+      "component": "Block",
+      "data": {
+        "id": "8wyT_kaV32yxSX-lPRWe-",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "文档导入，菜单数据同步 ✔️"
+        },
+        "focus": true
+      },
+      "props": {
+        "tab": 1
+      }
+    },
+    {
+      "id": "Wtk57y1Jyl4aLOVo7y_Ed",
+      "component": "Block",
+      "data": {
+        "id": "8SFP9AzY9iYzOqtDicoCU",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "文档导出，菜单数据更新 ✔️"
+        },
+        "focus": true
+      },
+      "props": {
+        "tab": 1
+      }
+    },
+    {
+      "id": "678NuYeHmuSsn8XLN1v67",
+      "component": "Block",
+      "data": {
+        "id": "KSgx6VXNowIDNiPuy01HN",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "最近文档使用数据库内容"
+        },
+        "focus": true
+      },
+      "props": {
+        "tab": 1
+      }
+    },
+    {
+      "id": "E487ka0mUGmKr0NzciJm1",
+      "component": "Block",
+      "data": {
+        "id": "Mb9wIZC63wQomA_eWesNL",
+        "component": "ListItemBlock",
+        "data": {
+          "doc": "修复定位动画丢失问题 ✔️"
+        }
+      }
+    },
+    {
+      "id": "2j335hmmsbPGHwSD4fu9v",
+      "component": "Block",
+      "data": {
+        "id": "2P01lRxJOlWnNWS7l4w8v",
+        "component": "HeaderBlock",
+        "data": {
+          "type": "h1",
+          "doc": "文档优化"
+        }
+      }
+    },
+    {
+      "id": "P4ITI259Ec0LqNxiKSvLQ",
+      "component": "Block",
+      "data": {
+        "id": "IK6CUBoyFUDJ4pmRyVQVG",
+        "component": "ListItemBlock",
+        "data": {
+          "doc": "修改在链接中，无法使用 shift 选择选区问题。"
+        }
+      },
+      "props": {}
+    },
+    {
+      "id": "Rb71-k4ag01l5YadPrutU",
+      "component": "EditNode",
+      "data": "[github](https://github.com/motion-note)",
+      "props": {
+        "tab": 2
+      }
+    },
+    {
+      "id": "ZEx-jeFffy3zTmnj4G1cP",
+      "component": "Block",
+      "data": {
+        "id": "YHoTLDJzDZ-Uzmw5LNdbB",
+        "component": "ListItemBlock",
+        "data": {
+          "doc": "点击标题快速定位侧边菜单功能"
+        }
+      },
+      "props": {}
+    },
+    {
+      "id": "1Azd_hS9S_YtqpFd7O4ot",
+      "component": "Block",
+      "data": {
+        "id": "x0usuGjqZMbxIS0y8aKwD",
+        "component": "HeaderBlock",
+        "data": {
+          "type": "h1",
+          "doc": "工作空间"
+        }
+      },
+      "props": {}
+    },
+    {
+      "id": "ZnDWUGQnqthxxi4MIkE6z",
+      "component": "Block",
+      "data": {
+        "id": "qpSdicz4nduoDSAU8HWqx",
+        "component": "ListItemBlock",
+        "data": {
+          "doc": "优化当工作空间目录被删除后，打开应用时，添加提醒。"
+        }
+      },
+      "props": {}
+    }
+  ],
+  "setting": {
+    "lock": false,
+    "debug": false,
+    "historyPanel": false
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "title": "0.8.0",
+  "blocks": [
+    {
+      "id": "rXNbkp2oQtVL6es-Vz5-b",
+      "component": "Block",
+      "data": {
+        "id": "8kRwI9rdNm584WjZ2QpCm",
+        "component": "HeaderBlock",
+        "props": {},
+        "data": {
+          "type": "h1",
+          "doc": "功能"
+        },
+        "focus": false
+      }
+    },
+    {
+      "id": "dEyouORA0nC26Zv9qTGy8",
+      "component": "Block",
+      "data": {
+        "id": "yO7jqF4lrnfUsGynggeWy",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "添加对 `Less` 和 `SCSS` 的代码支持。 "
+        },
+        "focus": false
+      }
+    },
+    {
+      "id": "LXACdZjwYN7awhYfmBTQx",
+      "component": "Block",
+      "data": {
+        "id": "dhfPQZcsLo_lsESRs0IkJ",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "添加图片删除时，提示确认操作，减少误删可能。"
+        },
+        "focus": false
+      }
+    },
+    {
+      "id": "8gaeKvms-kZmFRqzx_5dJ",
+      "component": "Block",
+      "data": {
+        "id": "C8In9ZUX0Urf7cPHONL9L",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "优化图片大小设置，现在设置了图片大小值为最大值，当窗口小于图片大小时，图片可以自动适应窗口，避免出现滚动条。"
+        },
+        "focus": false
+      }
+    },
+    {
+      "id": "Ngq5QLLtScxS8vwJlajzO",
+      "component": "Block",
+      "data": {
+        "id": "cFMi99_DhMLtygEhce75B",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "添加对查寻的内容进行菜单定位功能。"
+        },
+        "focus": false
+      }
+    },
+    {
+      "id": "ZfMkHpx1_gU2sJteLvki-",
+      "component": "Block",
+      "data": {
+        "id": "BCYLkQi2-J6jYSbQzhMuO",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "修复大纲无法定位问题。"
+        },
+        "focus": false
+      }
+    },
+    {
+      "id": "wtJLzpy0828G_C9Ti_jqO",
+      "component": "Block",
+      "data": {
+        "id": "5e0F5eEIUNXGeYBuqRmn1",
+        "component": "HeaderBlock",
+        "props": {},
+        "data": {
+          "type": "h1",
+          "doc": "优化"
+        },
+        "focus": false
+      }
+    },
+    {
+      "id": "8BHmAWaLJ902QEqC7yUOp",
+      "component": "Block",
+      "data": {
+        "id": "Ca_LdJ-SpoVHtnuDnjwYY",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "优化查寻功能，调整显示格式。"
+        },
+        "focus": false
+      }
+    },
+    {
+      "id": "-LHKbcpov8ETJ7Yx5tmYB",
+      "component": "Block",
+      "data": {
+        "id": "3-vjhvCleMhSCvuS2PQyF",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "优化了文件菜单选择与拖拽功能。"
+        },
+        "focus": false
+      }
+    }
+  ],
+  "setting": {
+    "lock": false,
+    "debug": false
+  }
+}

@@ -1,0 +1,533 @@
+{
+  "title": "0.11.0",
+  "blocks": [
+    {
+      "id": "kHtTIB9xJQpNAQmOgPCBL",
+      "component": "Block",
+      "data": {
+        "id": "8czWwFduE6tiL0YtxRzxH",
+        "component": "HeaderBlock",
+        "props": {},
+        "data": {
+          "type": "h1",
+          "doc": "<span class=\"pudding-text is-active\" data-type=\"text\">功能</span>"
+        }
+      }
+    },
+    {
+      "id": "x1bOnsyNsTFlFbflmU0mQ",
+      "component": "Block",
+      "data": {
+        "id": "jfLYNRZ4xHePBL139pbeX",
+        "component": "HeaderBlock",
+        "props": {},
+        "data": {
+          "type": "h2",
+          "doc": "<span class=\"pudding-text is-active\" data-type=\"text\">「新」引用模块</span>"
+        },
+        "focus": false
+      }
+    },
+    {
+      "id": "sk72ZKz9BTuBh3PbZ5h-B",
+      "component": "QuoteBlock",
+      "data": [
+        {
+          "id": "98Rd96Ah1FZRVYezSZAX2",
+          "component": "Block",
+          "props": {},
+          "data": {
+            "id": "H28wAbYlgkYy0Ua1tgw0_",
+            "component": "EditBlock",
+            "props": {},
+            "data": "<span class=\"pudding-text\" data-type=\"text\">新加</span><mark class=\"pudding-mark\" data-type=\"mark\"><span data-markup=\"==\">==</span><label>引用模块</label><span data-markup=\"==\">==</span></mark><span class=\"pudding-text\" data-type=\"text\">，用于输入引用的内容信息，在空白节点，通过快捷指令，选择</span><mark class=\"pudding-mark\" data-type=\"mark\"><span data-markup=\"==\">==</span><label>引用</label><span data-markup=\"==\">==</span></mark><span class=\"pudding-text\" data-type=\"text\">就可以选择此模块。</span>",
+            "focus": false
+          }
+        },
+        {
+          "id": "E-elvZAlPU9yl819WKrO3",
+          "component": "Block",
+          "data": {
+            "id": "aB4ojFKuhfhub-qlrzyat",
+            "component": "CodeBlock",
+            "props": {},
+            "data": {
+              "doc": "",
+              "lang": "js"
+            },
+            "focus": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "oXcSQdcnzX_Jj6YBodt5M",
+      "component": "Block",
+      "data": {
+        "id": "KUgez5PZOqN8qgTXRyuAe",
+        "component": "EditBlock",
+        "props": {},
+        "data": ""
+      }
+    },
+    {
+      "id": "qDDEyxYiz-jdRYbBaXHvt",
+      "component": "Block",
+      "data": {
+        "id": "Tt9zR0qGzE81wVb2FcBFW",
+        "component": "ImageBlock",
+        "props": {},
+        "data": {
+          "url": "/c174MEYPxj8IHxEkkmpJZ/1692488712186.png",
+          "width": 259.0931396484375,
+          "align": "center"
+        },
+        "focus": false
+      }
+    },
+    {
+      "id": "iUU46OcSEyX8aRySS4ZyF",
+      "component": "Block",
+      "data": {
+        "id": "wSDtn_aJUWYaexSwg8hhB",
+        "component": "HeaderBlock",
+        "props": {},
+        "data": {
+          "type": "h2",
+          "doc": "<span class=\"pudding-text\" data-type=\"text\">分栏功能</span>"
+        }
+      }
+    },
+    {
+      "id": "VGKr8iObv4O9TQhu8LtLG",
+      "component": "Block",
+      "data": {
+        "id": "2O-nvnPLuu8U1H7wfrOxz",
+        "component": "EditBlock",
+        "props": {},
+        "data": "<span class=\"pudding-text\" data-type=\"text\">添加分栏功能，方便文档对内容的布局，使用时通过拖拽2个节点，将一个节点放到别一个节点上，用以生成分栏。</span>"
+      }
+    },
+    {
+      "id": "YTgEfiAjV1tmlUdipWlwd",
+      "component": "Block",
+      "data": {
+        "id": "rWAEy_IjJk_jx4Lpok-it",
+        "component": "ImageBlock",
+        "props": {},
+        "data": {
+          "url": "/c174MEYPxj8IHxEkkmpJZ/1692624435868.gif",
+          "width": 452.946533203125,
+          "align": "center"
+        },
+        "focus": false
+      }
+    },
+    {
+      "id": "zN59nziAW7hPu4a9BIOXS",
+      "component": "Block",
+      "data": {
+        "id": "mNyTvoyNrBqSqD3KOIZaI",
+        "component": "EditBlock",
+        "props": {},
+        "data": "<span class=\"pudding-text\" data-type=\"text\">以下是分栏效果：</span>"
+      }
+    },
+    {
+      "id": "az7jUT62kqQi5xG4UYSdv",
+      "component": "ColumnListBlock",
+      "data": [
+        {
+          "id": "UkY1fT2J3iW13Kbbo2CLI",
+          "component": "ColumnBlock",
+          "props": {
+            "width": 0.431324129472222
+          },
+          "data": [
+            {
+              "id": "WySdLQ81pVUk8B5GCfBQh",
+              "component": "Block",
+              "data": {
+                "id": "bWw1tNhOASU_Q5zgN7Uy6",
+                "component": "EditBlock",
+                "props": {},
+                "data": "<span class=\"pudding-text\" data-type=\"text\">hello motion note</span>"
+              }
+            }
+          ]
+        },
+        {
+          "id": "F0mhGwkvw4WAM3YQ6bZ75",
+          "component": "ColumnBlock",
+          "props": {
+            "width": 0.5686758705277781
+          },
+          "data": [
+            {
+              "id": "UAQ2qUWqQbwRGqM-7U3dL",
+              "component": "Block",
+              "data": {
+                "id": "tnQJX6DnfiD3TgTJwdIAi",
+                "component": "CodeBlock",
+                "props": {},
+                "data": {
+                  "doc": "let a = 100",
+                  "lang": "js"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CT6pSUuLr8KaxAygvrs-_",
+      "component": "Block",
+      "data": {
+        "id": "oeuuJ3FXwoaq8tK4zWpWx",
+        "component": "HeaderBlock",
+        "props": {},
+        "data": {
+          "type": "h2",
+          "doc": "<span class=\"pudding-text\" data-type=\"text\">表格模块</span>"
+        }
+      }
+    },
+    {
+      "id": "jKkecfAyWavFaCVYMqacM",
+      "component": "Block",
+      "data": {
+        "id": "qNqSbFk4Si9dlIln4g2fu",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "<span class=\"pudding-text\" data-type=\"text\">优化表格的</span><mark class=\"pudding-mark\" data-type=\"mark\"><span data-markup=\"==\">==</span><label>Enter</label><span data-markup=\"==\">==</span></mark><span class=\"pudding-text\" data-type=\"text\">输入功能，在单元格内，按</span><mark class=\"pudding-mark\" data-type=\"mark\"><span data-markup=\"==\">==</span><label>Enter</label><span data-markup=\"==\">==</span></mark><span class=\"pudding-text\" data-type=\"text\">时，切换到下一个单元格中，如果没有时，则保持位置不变；按</span><mark class=\"pudding-mark\" data-type=\"mark\"><span data-markup=\"==\">==</span><label>enter+ctrl</label><span data-markup=\"==\">==</span></mark><span class=\"pudding-text\" data-type=\"text\">（Mac 上也可</span><mark class=\"pudding-mark\" data-type=\"mark\"><span data-markup=\"==\">==</span><label>enter+command</label><span data-markup=\"==\">==</span></mark><span class=\"pudding-text\" data-type=\"text\">）时，则在表格下方生成一个空文本节点。</span>"
+        }
+      }
+    },
+    {
+      "id": "lxDzX7TWCDuSc7kpnwqtj",
+      "component": "Block",
+      "data": {
+        "id": "Wp95RfrAK54VKTzPcvmOg",
+        "component": "ListItemBlock",
+        "props": {},
+        "class": [],
+        "data": {
+          "doc": "<span class=\"pudding-text\" data-type=\"text\">修复单元格上下键无法移动</span>"
+        },
+        "focus": false
+      }
+    },
+    {
+      "id": "onCHWOVDZOleJ5HTpfomr",
+      "component": "Block",
+      "data": {
+        "id": "yi905KkTWAlX2XXsau-_U",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "<span class=\"pudding-text\" data-type=\"text\">修复表格的</span><strong class=\"pudding-strong\" data-type=\"strong\"><span data-markup=\"**\">**</span><label>合并</label><span data-markup=\"**\">**</span></strong><span class=\"pudding-text\" data-type=\"text\">与</span><strong class=\"pudding-strong\" data-type=\"strong\"><span data-markup=\"**\">**</span><label>拆分</label><span data-markup=\"**<pudding-caret></pudding-caret>\">**</span></strong><span class=\"pudding-text\" data-type=\"text\">不保存数据问题</span>"
+        }
+      }
+    },
+    {
+      "id": "qV-x-9GVu7KPkZDDpGB_R",
+      "component": "Block",
+      "data": {
+        "id": "Ru13_jz3djKmtvaiL04Bw",
+        "component": "TableBlock",
+        "props": {},
+        "class": [],
+        "data": {
+          "list": [
+            [
+              [
+                {
+                  "id": "uo7iDEQAa-VlnM3fM8SxQ",
+                  "component": "EditBlock",
+                  "doc": "",
+                  "focus": false
+                },
+                {
+                  "id": "m9lR6iIblSqp6mPwraZ-6",
+                  "doc": "",
+                  "focus": false
+                }
+              ],
+              [
+                {
+                  "id": "J9GrdeLJyAcQZNWkCs9XE",
+                  "component": "EditBlock",
+                  "doc": "",
+                  "focus": false
+                }
+              ],
+              [
+                {
+                  "id": "AgBfmacJmRohZST9J4goD",
+                  "component": "EditBlock",
+                  "doc": ""
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "id": "osUP__RNhwSqWHxTggVZG",
+                  "component": "EditBlock",
+                  "doc": ""
+                }
+              ],
+              [
+                {
+                  "id": "QMtRB20RIt9EvmKC-Wxnu",
+                  "component": "EditBlock",
+                  "doc": ""
+                }
+              ],
+              [
+                {
+                  "id": "O2Y6tPiUgcSBwVwRJcBtW",
+                  "component": "EditBlock",
+                  "doc": "",
+                  "focus": false
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "id": "CzWl_PMMRU2pmPAfKPBu7",
+                  "component": "EditBlock",
+                  "doc": "",
+                  "focus": false
+                },
+                {
+                  "id": "U44Vkz_9_VD5UdN2Go7xi",
+                  "doc": "",
+                  "focus": false
+                }
+              ],
+              [
+                {
+                  "id": "0tgrcjnFx3rr31nhvxc0l",
+                  "component": "EditBlock",
+                  "doc": ""
+                }
+              ],
+              [
+                {
+                  "id": "kg8ZJnQuqft9ZP_-xiq7Y",
+                  "component": "EditBlock",
+                  "doc": ""
+                }
+              ]
+            ]
+          ],
+          "style": {
+            "width": [
+              100,
+              100,
+              100
+            ],
+            "align": [],
+            "merge": [
+              {
+                "x": 0,
+                "y": 0,
+                "row": 2,
+                "col": 1
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "PKBFfuDpNLzQN0aK9ssot",
+      "component": "Block",
+      "data": {
+        "id": "nDjdCJ41a2XXOyK6gH-uF",
+        "component": "EditBlock",
+        "props": {},
+        "focus": false,
+        "data": ""
+      }
+    },
+    {
+      "id": "lzjYoyipbOEoQwvuI8QPr",
+      "component": "Block",
+      "data": {
+        "id": "IFiIo-5BBfK2TKngtSZph",
+        "component": "HeaderBlock",
+        "props": {},
+        "data": {
+          "type": "h1",
+          "doc": "<span class=\"pudding-text\" data-type=\"text\">菜单调整</span>"
+        }
+      }
+    },
+    {
+      "id": "2RXi4YouUSobsBL1KQPc7",
+      "component": "Block",
+      "data": {
+        "id": "Im237M8MAuYOak8wAJHTf",
+        "component": "EditBlock",
+        "props": {},
+        "data": "<span class=\"pudding-text\" data-type=\"text\">菜单视图中，切换</span><mark class=\"pudding-mark\" data-type=\"mark\"><span data-markup=\"==\">==</span><label>文件</label><span data-markup=\"==\">==</span></mark><mark class=\"pudding-mark\" data-type=\"mark\"><span data-markup=\"==\">==</span><label>大纲</label><span data-markup=\"==\">==</span></mark><mark class=\"pudding-mark\" data-type=\"mark\"><span data-markup=\"==\">==</span><label>搜索</label><span data-markup=\"==\">==</span></mark><span class=\"pudding-text\" data-type=\"text\">功能快捷键调整。</span>"
+      }
+    },
+    {
+      "id": "nWUEid-0IQBsBYpFkuWSt",
+      "component": "Block",
+      "data": {
+        "id": "6gjWmUX-cFkNqpFGUEPpK",
+        "component": "ImageBlock",
+        "props": {},
+        "data": {
+          "url": "/c174MEYPxj8IHxEkkmpJZ/1692623852031.png",
+          "align": "center",
+          "width": 426.24884033203125
+        },
+        "focus": false
+      }
+    },
+    {
+      "id": "KHT-zMvQvFbrwoUbgmLct",
+      "component": "Block",
+      "data": {
+        "id": "2_rlR8bdglK1OwlrrEquv",
+        "component": "HeaderBlock",
+        "props": {},
+        "class": [],
+        "data": {
+          "type": "h2",
+          "doc": "<span class=\"pudding-text\" data-type=\"text\">快捷指令</span>"
+        }
+      }
+    },
+    {
+      "id": "3XuBs9t3_Y97ZLiM9kp0y",
+      "component": "Block",
+      "data": {
+        "id": "YB2iO40bmCDVHqnQhb0Tz",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "<span class=\"pudding-text is-active\" data-type=\"text\">空文本节点添加提示文本</span>"
+        }
+      }
+    },
+    {
+      "id": "BHESjcHEFSVZFHBGi09LW",
+      "component": "Block",
+      "data": {
+        "id": "OURqQpAjHXtXPfTfQg9tZ",
+        "component": "EditBlock",
+        "props": {},
+        "class": [],
+        "data": "",
+        "focus": false
+      }
+    },
+    {
+      "id": "FoH-SAIJ4lhWnzBh0H9pc",
+      "component": "Block",
+      "data": {
+        "id": "pxU5Rw_9ofJ63iFuawgl4",
+        "component": "HeaderBlock",
+        "props": {},
+        "data": {
+          "type": "h1",
+          "doc": "<span class=\"pudding-text\" data-type=\"text\">优化</span>"
+        }
+      }
+    },
+    {
+      "id": "J1eCIn1JtQKsQCqCLMocq",
+      "component": "Block",
+      "data": {
+        "id": "8KTxlRLW9tzTmQFBEuFPm",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "<span class=\"pudding-text\" data-type=\"text\">优化在输入文字之后，使用向右按键时，出现光标位置不正确的问题</span>"
+        },
+        "focus": false
+      }
+    },
+    {
+      "id": "ptyEQtW81Gzx6wcLxdep7",
+      "component": "Block",
+      "data": {
+        "id": "4lx_kOHA-IyE7BJyVvvVW",
+        "component": "HeaderBlock",
+        "props": {},
+        "data": {
+          "type": "h1",
+          "doc": "<span class=\"pudding-text\" data-type=\"text\">修复</span>"
+        }
+      }
+    },
+    {
+      "id": "FlmIkNqtPJCbg8Udah2f1",
+      "component": "Block",
+      "data": {
+        "id": "d2vrd6KazO-E68kgZLuKD",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "<strong class=\"pudding-strong\" data-type=\"strong\"><span data-markup=\"**\">**</span><label>文件目录</label><span data-markup=\"**\">**</span></strong><span class=\"pudding-text\" data-type=\"text\"> 修复查询标题后，选择文档无效</span>"
+        },
+        "focus": false
+      }
+    },
+    {
+      "id": "2Jo3r4mr5jZwjr2QDpqP2",
+      "component": "Block",
+      "data": {
+        "id": "i2J5R5gdPdfZiEtn2hTq1",
+        "component": "ListItemBlock",
+        "props": {},
+        "class": [],
+        "data": {
+          "doc": "<strong class=\"pudding-strong\" data-type=\"strong\"\n  ><span data-markup=\"**\">**</span\n  ><label>链接</label\n  ><span data-markup=\"**\">**</span\n  ></strong><span class=\"pudding-text is-active\" data-type=\"text\"> 修复链接生成不成功问题</span>"
+        },
+        "focus": false
+      }
+    },
+    {
+      "id": "fut1sQYafegM3plg44jHF",
+      "component": "Block",
+      "data": {
+        "id": "4vBh6Mb76DuWQlkrEzubK",
+        "component": "ListItemBlock",
+        "props": {},
+        "class": [],
+        "data": {
+          "doc": "<strong class=\"pudding-strong\" data-type=\"strong\"><span data-markup=\"**\">**</span><label>行内代码块</label><span data-markup=\"**\">**</span></strong><span class=\"pudding-text\" data-type=\"text\"> 在输入前置符号时，光标丢失</span>"
+        },
+        "focus": false
+      }
+    },
+    {
+      "id": "0jdCT362UR4XY9_fwfbC3",
+      "component": "Block",
+      "data": {
+        "id": "GHghzD--sldPrlEi2p1rB",
+        "component": "ListItemBlock",
+        "props": {},
+        "class": [],
+        "data": {
+          "doc": "<strong class=\"pudding-strong\" data-type=\"strong\"><span data-markup=\"**\">**</span><label>无序列表</label><span data-markup=\"**\">**</span></strong><span class=\"pudding-text\" data-type=\"text\">&nbsp;修复删除节点转换时，内容丢失</span>"
+        },
+        "focus": false
+      }
+    }
+  ],
+  "setting": {
+    "lock": false,
+    "debug": false
+  }
+}

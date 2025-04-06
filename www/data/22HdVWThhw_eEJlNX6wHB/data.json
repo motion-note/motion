@@ -1,0 +1,89 @@
+{
+  "title": "功能介绍",
+  "blocks": [
+    {
+      "id": "m8wrxQsJeuAlyYKcAcRmr",
+      "component": "EditNode",
+      "data": "这里主要介绍 motion 目前已经具有的功能与使用方法。"
+    },
+    {
+      "id": "SVjhLE5Vi6E0Ji26ElNYP",
+      "component": "Block",
+      "data": {
+        "id": "AX2jipXOmXydaVW46dQa8",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "[快捷指令](local:/0SDQSmG1N35tOZ11JLxUx)"
+        },
+        "focus": false
+      }
+    },
+    {
+      "id": "Cx1k8sL5eE5CihUh_u25e",
+      "component": "Block",
+      "data": {
+        "id": "Wa1ipBY8vZuisFEyGwwe1",
+        "component": "ListItemBlock",
+        "props": {},
+        "class": [],
+        "data": {
+          "doc": "[链接](local:/Dqt89v8SU8XiFarhCoLOg)"
+        },
+        "focus": false
+      }
+    },
+    {
+      "id": "A-6MaoChvOosLFrc6mSEf",
+      "component": "Block",
+      "data": {
+        "id": "XlQHwa5DxzS1poZn7wjy6",
+        "component": "ListItemBlock",
+        "props": {},
+        "class": [],
+        "data": {
+          "doc": "[链接](local:/Dqt89v8SU8XiFarhCoLOg)"
+        },
+        "focus": false
+      }
+    },
+    {
+      "id": "7zPcBTe-5odmbDJxcRs0o",
+      "component": "Block",
+      "data": {
+        "id": "aaTIzvARZ-WI5czdudMOe",
+        "component": "ListItemBlock",
+        "props": {},
+        "class": [],
+        "data": {
+          "doc": "[表格](local:/YnDlP6yeUnjL4U_eYNGvP)"
+        },
+        "focus": false
+      }
+    },
+    {
+      "id": "knof5odSmjr_LRd5CzXnc",
+      "component": "Block",
+      "data": {
+        "id": "j5YWnGmWcINEbOgdUz_Sb",
+        "component": "ListItemBlock",
+        "props": {},
+        "class": [],
+        "data": {
+          "doc": "[引用](local:/2SHh-NC8kVocpK2UJlT-X)"
+        },
+        "focus": false
+      }
+    },
+    {
+      "id": "GIMfpPKetjlnkT8N0gtCu",
+      "component": "EditNode",
+      "data": "",
+      "props": {}
+    }
+  ],
+  "setting": {
+    "lock": false,
+    "debug": true
+  }
+}

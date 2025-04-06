@@ -1,0 +1,20 @@
+{
+  "title": "演示文档",
+  "blocks": [
+    {
+      "id": "mNwP8QD5ER4eptOQrj6b5",
+      "component": "EditNode",
+      "data": ""
+    },
+    {
+      "id": "gBw0_BrXBpv28MjJvuE4p",
+      "component": "EditNode",
+      "data": ""
+    }
+  ],
+  "setting": {
+    "lock": false,
+    "debug": false,
+    "historyPanel": false
+  }
+}

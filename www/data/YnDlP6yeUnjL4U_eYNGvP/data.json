@@ -1,0 +1,480 @@
+{
+  "title": "表格",
+  "blocks": [
+    {
+      "id": "oyYNrbsrrGdBGboYJFFQx",
+      "component": "Block",
+      "data": {
+        "id": "5BsFQM31MVu14HK50ZLnv",
+        "component": "HeaderBlock",
+        "props": {},
+        "data": {
+          "type": "h1",
+          "doc": "创建表格"
+        }
+      }
+    },
+    {
+      "id": "lyXVKejvvkhJgATaFfojI",
+      "component": "EditNode",
+      "data": "表格的创建十分简单，在空的节点中，输入=====唤起快捷指令，通过鼠标或上下键，选择表格就可以了；也可以根据提示，生成指定行列的表格。"
+    },
+    {
+      "id": "LEjo5mHuEcOtX-QkmUcB2",
+      "component": "Block",
+      "data": {
+        "id": "VCk8pkfCL1wkHCbhb__dM",
+        "component": "ImageBlock",
+        "data": {
+          "url": "/YnDlP6yeUnjL4U_eYNGvP/1725459978166.gif",
+          "width": 245.599853515625
+        },
+        "focus": false
+      }
+    },
+    {
+      "id": "FNs-uY7lcMclI2aZhA7x1",
+      "component": "Block",
+      "data": {
+        "id": "ZdEBFzRWJYCVOhmOWLKM0",
+        "component": "HeaderBlock",
+        "props": {},
+        "data": {
+          "type": "h1",
+          "doc": "菜单功能说明",
+          "data": "菜单栏功能说明"
+        }
+      }
+    },
+    {
+      "id": "xx08_yuXQNr6kfsV1MSK4",
+      "component": "Block",
+      "data": {
+        "id": "QWCtRjBn4G62MWY9FrQt-",
+        "component": "HeaderBlock",
+        "props": {},
+        "data": {
+          "type": "h2",
+          "doc": "单元格文本位置"
+        }
+      }
+    },
+    {
+      "id": "qJNoboJClc6613pHSOYMP",
+      "component": "EditNode",
+      "data": "添加图片演示"
+    },
+    {
+      "id": "n-cFgIjF8ES9dWlQXCWU7",
+      "component": "Block",
+      "data": {
+        "id": "B4YQYHUi4353fBVtP7gdU",
+        "component": "HeaderBlock",
+        "props": {},
+        "data": {
+          "doc": "单元格功能",
+          "type": "h1"
+        }
+      }
+    },
+    {
+      "id": "EgalrB9maSQzNNB8qVG7n",
+      "component": "Block",
+      "data": {
+        "id": "uNO3XhBohb-AxxRsaRJ1s",
+        "component": "HeaderBlock",
+        "props": {},
+        "data": {
+          "doc": "换行",
+          "type": "h2"
+        }
+      }
+    },
+    {
+      "id": "oEf_5_K_u8UJnFGpGEDqr",
+      "component": "EditNode",
+      "data": "在单元格内按住`Alt`+`Enter`则会在单元格内换行"
+    },
+    {
+      "id": "8HSdO6s3n8g0dYZe3bz9J",
+      "component": "Block",
+      "data": {
+        "id": "eBjtp7z-ZrcmqgrDKsVUB",
+        "component": "HeaderBlock",
+        "props": {},
+        "data": {
+          "type": "h2",
+          "doc": "跳出表格"
+        }
+      }
+    },
+    {
+      "id": "kFaJwPSrTa2ZQ0De5wXXK",
+      "component": "EditNode",
+      "data": "使用 ==ctrl+ enter== 可以快速跳出表格，并在表格下方生成一个文本节点。"
+    },
+    {
+      "id": "prqjAB9oV9fgcLxjvF38d",
+      "component": "Block",
+      "data": {
+        "id": "OLA_qi8bD0UVIsBmbyMH8",
+        "component": "ImageBlock",
+        "data": {
+          "url": "/YnDlP6yeUnjL4U_eYNGvP/1725459997258.gif",
+          "width": 266.11541748046875
+        },
+        "focus": false
+      }
+    },
+    {
+      "id": "FVzAN5JESGkQ4suH6BmK2",
+      "component": "Block",
+      "data": {
+        "id": "uzoDOGCRS9byVeNuvfJy1",
+        "component": "HeaderBlock",
+        "props": {},
+        "data": {
+          "type": "h2",
+          "doc": "合并"
+        }
+      }
+    },
+    {
+      "id": "sIpRyl0zw57mIiztc1xTo",
+      "component": "EditNode",
+      "data": "使用鼠标选中需要合并的单元格，选择菜单上==合并单元格==图标就可以合并单元格了。"
+    },
+    {
+      "id": "gnHB6tbCxvvVWRe2CdUn9",
+      "component": "Block",
+      "data": {
+        "id": "L1ODb__0hVQdwhfNM0xq_",
+        "component": "ImageBlock",
+        "props": {},
+        "data": {
+          "url": "/YnDlP6yeUnjL4U_eYNGvP/1690326316868.gif"
+        },
+        "focus": false
+      }
+    },
+    {
+      "id": "iQLf62KBRA1i-XFjK6efq",
+      "component": "Block",
+      "data": {
+        "id": "4-txcETUGoowTOyCdMDDF",
+        "component": "HeaderBlock",
+        "props": {},
+        "data": {
+          "type": "h1",
+          "doc": "按键说明"
+        }
+      }
+    },
+    {
+      "id": "zlB1SGp58X24ddvLcfQnM",
+      "component": "Block",
+      "data": {
+        "id": "GNd6Xo3PxkiCMHVyHsZGE",
+        "component": "TableBlock",
+        "props": {},
+        "data": {
+          "list": [
+            [
+              [
+                {
+                  "id": "n2KueSvry56um_lLjGScD",
+                  "component": "EditNode",
+                  "data": "**按键**"
+                }
+              ],
+              [
+                {
+                  "id": "jfSRCGAejIBA-VADfneSu",
+                  "component": "EditNode",
+                  "data": "**功能**"
+                }
+              ],
+              [
+                {
+                  "id": "MiQ7-of58G4bkKjkep4ao",
+                  "component": "EditNode",
+                  "data": "**备注**"
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "id": "Rz3i7EmycqOu4Rvvhi0Kh",
+                  "component": "EditNode",
+                  "data": "==enter=="
+                }
+              ],
+              [
+                {
+                  "id": "wWCdk2SIV29jSKRqWC1fu",
+                  "component": "EditNode",
+                  "data": "切换到下一行的单元格，当在表格最后一行时，则生成一个文本节点"
+                }
+              ],
+              [
+                {
+                  "id": "kxG8pnh3Rbbzuc2PcKCCb",
+                  "component": "EditNode",
+                  "data": ""
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "component": "EditNode",
+                  "id": "tNSxpHA5ardrxY7UrGz5O",
+                  "doc": "",
+                  "data": "==shift+enter=="
+                }
+              ],
+              [
+                {
+                  "component": "EditNode",
+                  "id": "OncmikHiCVzqqONIK7d8B",
+                  "doc": "",
+                  "data": "切换到上一行的单元格"
+                }
+              ],
+              [
+                {
+                  "component": "EditNode",
+                  "id": "p__axi5CpnU8wkmBcPQjD",
+                  "doc": ""
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "component": "EditNode",
+                  "id": "nC_eJI2W4zpFHLRk8TKc5",
+                  "doc": "",
+                  "data": "==tab=="
+                }
+              ],
+              [
+                {
+                  "component": "EditNode",
+                  "id": "-NfA9kXkCbRGc--UmTslO",
+                  "doc": "",
+                  "data": "切换到同行下一个单元格"
+                }
+              ],
+              [
+                {
+                  "component": "EditNode",
+                  "id": "j03VC-rErEnNRIOLCrrWu",
+                  "doc": ""
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "component": "EditNode",
+                  "id": "VXI76Xrfs3d2AcfJjwWir",
+                  "doc": "",
+                  "data": "==shift+tab=="
+                }
+              ],
+              [
+                {
+                  "component": "EditNode",
+                  "id": "fZ6c1uWx72IIGZsLp6NkA",
+                  "doc": "",
+                  "data": "切换到同行前一个单元格"
+                }
+              ],
+              [
+                {
+                  "component": "EditNode",
+                  "id": "5n50Ryy-cwx-wDq3ae5vt",
+                  "doc": ""
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "id": "XlTCu9PVPUwlokKucs_5T",
+                  "component": "EditNode",
+                  "data": "==ctrl==+==enter=="
+                }
+              ],
+              [
+                {
+                  "id": "VDOxmtsdqama3MRixKOT_",
+                  "component": "EditNode",
+                  "data": "快速在表格下方生成一个文本节点"
+                }
+              ],
+              [
+                {
+                  "id": "IiQ8kT_T-x9eyh0AgsHTM",
+                  "component": "EditNode",
+                  "data": "在macOS 中是==command== + ==enter=="
+                }
+              ]
+            ]
+          ],
+          "style": {
+            "width": [
+              133.13214111328125,
+              202.042724609375,
+              158.89013671875
+            ],
+            "align": [
+              "center",
+              "left",
+              "left"
+            ],
+            "merge": []
+          }
+        }
+      }
+    },
+    {
+      "id": "OBy7CweaWiro9vB-rWw6G",
+      "component": "Block",
+      "data": {
+        "id": "q3ROM8VNooQYDfRiBSXGd",
+        "component": "HeaderBlock",
+        "data": {
+          "type": "h1",
+          "doc": "详细功能清单"
+        }
+      }
+    },
+    {
+      "id": "RHYau2S9mK2ysBtAGSTc8",
+      "component": "Block",
+      "data": {
+        "id": "W8aD7HlUpl3NCy9Fe0sMq",
+        "component": "ListItemBlock",
+        "data": {
+          "doc": "生成"
+        }
+      },
+      "props": {}
+    },
+    {
+      "id": "qtJJ55NXbKFYcI4om3xWz",
+      "component": "Block",
+      "data": {
+        "id": "I_8aSQ3lI2AIMD9SNM-Tx",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "支持使用快捷指令生成表格 ✔"
+        },
+        "focus": true
+      },
+      "props": {
+        "tab": 1
+      }
+    },
+    {
+      "id": "Qog2-tM0_2DTC4wDvprGR",
+      "component": "Block",
+      "data": {
+        "id": "AWLEg11i9R9cJSXgV6OT0",
+        "component": "ListItemBlock",
+        "data": {
+          "doc": "复制粘贴"
+        }
+      },
+      "props": {}
+    },
+    {
+      "id": "-wMCbcAtGfAz4qvIjAzW5",
+      "component": "Block",
+      "data": {
+        "id": "E82j4nsGU-mBVV3unyDp6",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "单元格内不支持粘贴图片 ✔"
+        },
+        "focus": true
+      },
+      "props": {
+        "tab": 1
+      }
+    },
+    {
+      "id": "grV7w-BUb7cxiekSqbryP",
+      "component": "Block",
+      "data": {
+        "id": "d68wwJg7E-9NvpqIIiflY",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "快捷操作"
+        },
+        "focus": true
+      },
+      "props": {
+        "tab": 0
+      }
+    },
+    {
+      "id": "3fWttCFiB-5M3BDxBg-Qo",
+      "component": "Block",
+      "data": {
+        "id": "PLDX3nQT9L74qqbbCNZLY",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "win 中使用 `ctrl + enter` 快速在表格下方生成文本节点 ✔"
+        },
+        "focus": true
+      },
+      "props": {
+        "tab": 1
+      }
+    },
+    {
+      "id": "ghIJN3u4TaDc2beuWyrU1",
+      "component": "Block",
+      "data": {
+        "id": "CursuAQVy42wo7h3DpyM0",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "mac 中使用 `command + enter` 快速在表格下方生成文本节点 ✔"
+        },
+        "focus": true
+      },
+      "props": {
+        "tab": 1
+      }
+    },
+    {
+      "id": "k6uhVWUU5M2yIF_3HudLE",
+      "component": "Block",
+      "data": {
+        "id": "eHKpTt8yx_bFjK8tnwukZ",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": ""
+        },
+        "focus": true
+      },
+      "props": {
+        "tab": 1
+      }
+    }
+  ],
+  "setting": {
+    "lock": false,
+    "debug": false
+  }
+}

@@ -1,0 +1,287 @@
+{
+  "title": "0.17.0",
+  "blocks": [
+    {
+      "id": "dfDr2Mrrn5j2PRy2BGA7r",
+      "component": "Block",
+      "data": {
+        "id": "YhBEbUaKFNOvWqOcxuobA",
+        "component": "HeaderBlock",
+        "data": {
+          "type": "h1",
+          "doc": "图标优化"
+        }
+      }
+    },
+    {
+      "id": "Bb5wEkXo2un2_A1Zfys82",
+      "component": "EditNode",
+      "data": "使用新的 logo",
+      "props": {}
+    },
+    {
+      "id": "RbR8VzXQjczJJ_SaRc6yY",
+      "component": "Block",
+      "data": {
+        "id": "fvMzXaqdTL8tpp6ysaVLR",
+        "component": "ImageBlock",
+        "data": {
+          "url": "\\-AqxOtKesGtQqcDU44dFj\\1727234937367.png",
+          "width": 150.66664123535156
+        },
+        "focus": false
+      },
+      "props": {}
+    },
+    {
+      "id": "T5vkEb5CufK_cAN53MDeX",
+      "component": "Block",
+      "data": {
+        "id": "lGUs_cB2iuvaVVZCaa_Ic",
+        "component": "HeaderBlock",
+        "data": {
+          "type": "h1",
+          "doc": "文档列表功能"
+        }
+      }
+    },
+    {
+      "id": "ZYAH7SsqhuovgeHQ4Ee33",
+      "component": "Block",
+      "data": {
+        "id": "YTxVYwmnKPNyvquiakzi1",
+        "component": "ListItemBlock",
+        "data": {
+          "doc": "优化文档列表添加时，新文档名自动聚焦在可视区 ✔"
+        }
+      },
+      "props": {}
+    },
+    {
+      "id": "byRAZ05Q-OPmCIx0D4k7H",
+      "component": "Block",
+      "data": {
+        "id": "MTMQCGjsokdFkSizj0wVT",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "修复添加子级文档时，父级目录默认不展开 ✔"
+        },
+        "focus": true
+      },
+      "props": {}
+    },
+    {
+      "id": "Cp-Wpkp50pODI0jvpQw1x",
+      "component": "Block",
+      "data": {
+        "id": "TeLarajIlPg9d0t-Go__q",
+        "component": "HeaderBlock",
+        "data": {
+          "type": "h1",
+          "doc": "文本节点"
+        }
+      },
+      "props": {}
+    },
+    {
+      "id": "c2LyLOhpFE7WRFk50qX0E",
+      "component": "Block",
+      "data": {
+        "id": "GhUwzWvBrQhoy5VfinMPG",
+        "component": "ListItemBlock",
+        "data": {
+          "doc": "优化快捷指令对中文的支持"
+        }
+      },
+      "props": {}
+    },
+    {
+      "id": "tIVK60eUox9qIfbzGgWZ_",
+      "component": "Block",
+      "data": {
+        "id": "pne1R9wW08FADNpqlqnhn",
+        "component": "HeaderBlock",
+        "data": {
+          "type": "h1",
+          "doc": "列表"
+        }
+      },
+      "props": {}
+    },
+    {
+      "id": "8bMDUR_WdjobpkjVwxUwS",
+      "component": "Block",
+      "data": {
+        "id": "1pq7TcoDgtXQX0DSRyVqX",
+        "component": "ListItemBlock",
+        "data": {
+          "doc": "优化在引用节点中跳出的能力"
+        }
+      },
+      "props": {}
+    },
+    {
+      "id": "3_Gmnfyx67jWvL2IdfSUq",
+      "component": "EditNode",
+      "data": ""
+    },
+    {
+      "id": "Gm68L_EKPdcdhCdsVHsKF",
+      "component": "Block",
+      "data": {
+        "id": "SIv3QOg1qZE4woQRoLo2V",
+        "component": "HeaderBlock",
+        "data": {
+          "type": "h1",
+          "doc": "代码"
+        }
+      },
+      "props": {}
+    },
+    {
+      "id": "XyhvggWIvTCV_EE7IuWzn",
+      "component": "Block",
+      "data": {
+        "id": "nTpdexR1TFQb14-a9Ps3C",
+        "component": "ListItemBlock",
+        "data": {
+          "doc": "优化代码格式切换，支持动态大小调整"
+        }
+      },
+      "props": {}
+    },
+    {
+      "id": "D23Z6T016eGiZdyTza4CE",
+      "component": "Block",
+      "data": {
+        "id": "csOnlZdGlC5_E9kjiQN-e",
+        "component": "ImageBlock",
+        "data": {
+          "url": "\\-AqxOtKesGtQqcDU44dFj\\1731287369827.gif",
+          "width": 567.6666870117188
+        },
+        "focus": false
+      },
+      "props": {
+        "tab": 1
+      }
+    },
+    {
+      "id": "mVjxU01r8l9ytKfHLgW_I",
+      "component": "EditNode",
+      "data": "",
+      "props": {}
+    },
+    {
+      "id": "m25vJrBp99Ik2eR1Q3Lt4",
+      "component": "Block",
+      "data": {
+        "id": "AxjwIQOo0IKkcLBPA7Xx9",
+        "component": "HeaderBlock",
+        "data": {
+          "type": "h1",
+          "doc": "文档"
+        }
+      }
+    },
+    {
+      "id": "-k3SF7Qo6h7LYC1MBOSy-",
+      "component": "Block",
+      "data": {
+        "id": "O6pKo9SV8pwGxJusF3C0u",
+        "component": "ListItemBlock",
+        "data": {
+          "doc": "添加导出 PDF"
+        }
+      },
+      "props": {}
+    },
+    {
+      "id": "pdBhBcxcShtxu8Ie2IAeH",
+      "component": "Block",
+      "data": {
+        "id": "3enBaiycujCaZKZp0_Lz7",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "添加导出 markdown"
+        },
+        "focus": true
+      },
+      "props": {}
+    },
+    {
+      "id": "kYP7DeTCtqz5y_4iFkYkI",
+      "component": "Block",
+      "data": {
+        "id": "WRn_xztniTNhebDaLoJYb",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "优化文档菜单弹出效果"
+        },
+        "focus": true
+      },
+      "props": {}
+    },
+    {
+      "id": "5MhK8hBQfUUbNenP207Un",
+      "component": "Block",
+      "data": {
+        "id": "mJokXyMtM8s0S7e9za1FH",
+        "component": "ImageBlock",
+        "data": {
+          "url": "/-AqxOtKesGtQqcDU44dFj/1730033602611.gif",
+          "width": 314.10723876953125
+        },
+        "focus": false
+      },
+      "props": {
+        "tab": 1
+      }
+    },
+    {
+      "id": "zOhUngEFLmv70qv-UOdGx",
+      "component": "Block",
+      "data": {
+        "id": "rhYSMyqBQKTg1MfF0eSyo",
+        "component": "HeaderBlock",
+        "data": {
+          "type": "h1",
+          "doc": "侧边栏"
+        }
+      }
+    },
+    {
+      "id": "y9DO3o4gDzjoM3Di05y_Q",
+      "component": "EditNode",
+      "data": "优化侧边栏菜单弹出效果",
+      "props": {}
+    },
+    {
+      "id": "I94PiRyprEUk7oCy-t1oP",
+      "component": "Block",
+      "data": {
+        "id": "EiqwEgjOUFAd0ilKut1pv",
+        "component": "HeaderBlock",
+        "data": {
+          "type": "h1",
+          "doc": "创建工作目录"
+        }
+      },
+      "props": {}
+    },
+    {
+      "id": "q1w_JdpShlYztok1EGgsc",
+      "component": "EditNode",
+      "data": "优化创建工作目录时，窗口在失焦时无法正常选择旧笔记问题。",
+      "props": {}
+    }
+  ],
+  "setting": {
+    "lock": false,
+    "debug": false,
+    "historyPanel": false
+  }
+}

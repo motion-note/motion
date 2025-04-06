@@ -1,0 +1,282 @@
+{
+  "title": "express api",
+  "blocks": [
+    {
+      "id": "wWODmKKQJYPcxLWjQpX5u",
+      "component": "QuoteBlock",
+      "data": [
+        {
+          "id": "zp4EL6BiVCpY9AedLy51p",
+          "component": "EditNode",
+          "data": "==注意== 这里演示 [express](https://expressjs.com/en/5x/api.html) 的 api 文档。"
+        }
+      ]
+    },
+    {
+      "id": "R1CC3oXlmi3ZMAjU5V07r",
+      "component": "Block",
+      "data": {
+        "id": "s0sFBmeTbkh-Aldr5DM2s",
+        "component": "HeaderBlock",
+        "data": {
+          "type": "h1",
+          "doc": "5.x API"
+        }
+      }
+    },
+    {
+      "id": "Fo-s2-CY5DpykqWNnJ9X5",
+      "component": "QuoteBlock",
+      "data": [
+        {
+          "id": "HjP-Jpw-or8jR1TD05om9",
+          "component": "EditNode",
+          "data": "⚠️ Caution"
+        },
+        {
+          "id": "NthHFtGcvkn_OxDoGD4Cd",
+          "component": "EditNode",
+          "data": "this is early beta documentation that may be incomplete and is still under development.",
+          "props": {}
+        }
+      ],
+      "props": {}
+    },
+    {
+      "id": "xunTypLJU5cG-auGJpeKk",
+      "component": "QuoteBlock",
+      "data": [
+        {
+          "id": "KJbrZjyh5LkAFcDsdM-xG",
+          "component": "EditNode",
+          "data": "ℹ️ Note"
+        },
+        {
+          "id": "qGUt0Af-huZIGfoKMuPmv",
+          "component": "EditNode",
+          "data": "Express 5.0 requires Node.js 18 or higher.",
+          "props": {}
+        }
+      ]
+    },
+    {
+      "id": "pSuXxp3EOt2kCipTz-iFE",
+      "component": "Block",
+      "data": {
+        "id": "TImPgkZB4Jl4OXRjmexoE",
+        "component": "HeaderBlock",
+        "data": {
+          "type": "h1",
+          "doc": "express()"
+        }
+      }
+    },
+    {
+      "id": "irByn35Ty22XcJ8OV_OQu",
+      "component": "EditNode",
+      "data": "Creates an Express application. The `express()` function is a top-level function exported by the `express` module.",
+      "props": {}
+    },
+    {
+      "id": "eShW5XxRyxXSq9-iw1FYg",
+      "component": "Block",
+      "data": {
+        "id": "Kty_MoYFExg7bc3VrbMTP",
+        "component": "CodeBlock",
+        "data": {
+          "doc": "const express = require('express')\nconst app = express()",
+          "lang": "js"
+        },
+        "focus": false
+      },
+      "props": {}
+    },
+    {
+      "id": "gfTLFGU1MZ4sRh4A0-UP5",
+      "component": "Block",
+      "data": {
+        "id": "us-uQJaJZPmm5mSVo9qY4",
+        "component": "HeaderBlock",
+        "data": {
+          "type": "h2",
+          "doc": "Methods"
+        }
+      }
+    },
+    {
+      "id": "cLGoyjqK_Onxlzny8e-Cx",
+      "component": "Block",
+      "data": {
+        "id": "7fzo2VgXykIp-QVDmXqR2",
+        "component": "HeaderBlock",
+        "data": {
+          "type": "h3",
+          "doc": "express.json([options])"
+        }
+      },
+      "props": {}
+    },
+    {
+      "id": "59qT3-T5ciYCA154c2sj0",
+      "component": "EditNode",
+      "data": "This is a built-in middleware function in Express. It parses incoming requests with JSON payloads and is based on [body-parser](https://expressjs.com/resources/middleware/body-parser.html)."
+    },
+    {
+      "id": "aM8ThBwjGI9jigusebiEd",
+      "component": "EditNode",
+      "data": "Returns middleware that only parses JSON and only looks at requests where the Content-Type header matches the `type` option. This parser accepts any Unicode encoding of the body and supports automatic inflation of `gzip` and `deflate` encodings."
+    },
+    {
+      "id": "T6zwGMfO7UIPfmxYZJ3hj",
+      "component": "EditNode",
+      "data": "A new `body` object containing the parsed data is populated on the `request` object after the middleware (i.e. `req.body`), or an empty object (`{}`) if there was no body to parse, the `Content-Type` was not matched, or an error occurred."
+    },
+    {
+      "id": "IyyWOPqaHzcaVJtqFotvK",
+      "component": "QuoteBlock",
+      "data": [
+        {
+          "id": "sdsF2cjWB9IJWHFWxQ_c5",
+          "component": "EditNode",
+          "data": "As `req.body`’s shape is based on user-controlled input, all properties and values in this object are untrusted and should be validated before trusting. For example, `req.body.foo.toString()` may fail in multiple ways, for example `foo` may not be there or may not be a string, and `toString` may not be a function and instead a string or other user-input."
+        }
+      ],
+      "props": {}
+    },
+    {
+      "id": "MUSuWqAiSO_Z5az2pPN1W",
+      "component": "EditNode",
+      "data": "The following table describes the properties of the optional `options` object."
+    },
+    {
+      "id": "Qaw0oef5nIl23q7LINIx4",
+      "component": "EditNode",
+      "data": "...",
+      "props": {}
+    },
+    {
+      "id": "-FahgnIk2awE6bgMi48gp",
+      "component": "Block",
+      "data": {
+        "id": "idtxvUNWovxGXgyX0auMS",
+        "component": "HeaderBlock",
+        "data": {
+          "type": "h1",
+          "doc": "Events"
+        }
+      },
+      "props": {}
+    },
+    {
+      "id": "dEnWV3DMoEPKVCS3MvtEi",
+      "component": "Block",
+      "data": {
+        "id": "OhoH_UZPF2pJnBDetXO38",
+        "component": "TableBlock",
+        "data": {
+          "list": [
+            [
+              [
+                {
+                  "id": "t_SH1pj22pCTcC2GbzqO8",
+                  "component": "EditNode",
+                  "data": "undefined"
+                }
+              ],
+              [
+                {
+                  "id": "P5DuxA6NO_6TmGjzgiTpM",
+                  "component": "EditNode",
+                  "data": "undefined"
+                }
+              ],
+              [
+                {
+                  "id": "XH_de_jidSS1qA5EsBiU_",
+                  "component": "EditNode",
+                  "data": "undefined"
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "id": "YOqmEeHG4Tys1JAhWV8e2",
+                  "component": "EditNode",
+                  "data": "undefined"
+                }
+              ],
+              [
+                {
+                  "id": "Z3_ryiyfSZ7BTwJH1gqBW",
+                  "component": "EditNode",
+                  "data": "undefined"
+                },
+                {
+                  "id": "SHLavTlLfi3mK9V3qjEGX",
+                  "component": "EditNode",
+                  "data": "undefined"
+                }
+              ],
+              [
+                {
+                  "id": "EH4qFAN976tSQ8DV-XJjq",
+                  "component": "EditNode",
+                  "data": "undefined"
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "id": "KA_oyHs2hIZcHgO2Hmqhw",
+                  "component": "EditNode",
+                  "data": "undefined"
+                }
+              ],
+              [
+                {
+                  "id": "_kwGRh92Oo78E98QFQEMY",
+                  "component": "EditNode",
+                  "data": "undefined"
+                }
+              ],
+              [
+                {
+                  "id": "Tj3_A9QBfCuAStLbPkR6t",
+                  "component": "EditNode",
+                  "data": "undefined"
+                }
+              ]
+            ]
+          ],
+          "style": {
+            "width": [
+              149.17138671875,
+              308.52593994140625,
+              140.94598388671875
+            ],
+            "align": [],
+            "merge": []
+          }
+        }
+      },
+      "props": {}
+    },
+    {
+      "id": "KD-W7EExCu-dfTBkNiQst",
+      "component": "EditNode",
+      "data": ""
+    },
+    {
+      "id": "MeMddeX5u5E6Q58z_SEZQ",
+      "component": "EditNode",
+      "data": ""
+    }
+  ],
+  "setting": {
+    "lock": false,
+    "debug": true,
+    "historyPanel": false
+  }
+}

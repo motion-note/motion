@@ -1,0 +1,19 @@
+{
+  "title": "开发日志",
+  "blocks": [
+    {
+      "id": "v23wNIPQFFTmnR2EmzGBP",
+      "component": "EditNode",
+      "data": "这里主要记录每个版本的变化内容。"
+    },
+    {
+      "id": "vb4wtdyoFLuZVgRk-SFeo",
+      "component": "EditNode",
+      "data": ""
+    }
+  ],
+  "setting": {
+    "lock": false,
+    "debug": false
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "title": "0.7.0",
+  "blocks": [
+    {
+      "id": "iRbR-6iOXPXYiJIGjQlLU",
+      "component": "Block",
+      "data": {
+        "id": "zIOqqbSe2tVRJkc137CNp",
+        "component": "HeaderBlock",
+        "props": {},
+        "data": {
+          "type": "h1",
+          "doc": "功能"
+        },
+        "focus": false
+      }
+    },
+    {
+      "id": "nqGNk1pR0uHZE8wFbEGah",
+      "component": "Block",
+      "data": {
+        "id": "yAYB1POgNyWuy23phkW7Y",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "输入网址时自动转化为链接。"
+        },
+        "focus": false
+      }
+    },
+    {
+      "id": "RoJCpwSd-bmKcEkqxMYK6",
+      "component": "Block",
+      "data": {
+        "id": "mc024rFCEmb0CRVBT6apb",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "图片插入支持 **webp** **jpeg** 与 **gif** 图片的引用。"
+        },
+        "focus": false
+      }
+    },
+    {
+      "id": "4eSEn8fxWKTsvSYtpQ5-3",
+      "component": "Block",
+      "data": {
+        "id": "zTJKCj9NI0T08qLCk5Kca",
+        "component": "HeaderBlock",
+        "props": {},
+        "data": {
+          "type": "h1",
+          "doc": "优化"
+        },
+        "focus": false
+      }
+    },
+    {
+      "id": "U2_ybm7Aoax2K-GR5TAyL",
+      "component": "Block",
+      "data": {
+        "id": "HeVx18VtiZ6lOu1PAE1fu",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "修复因定时器无法获取，导致输入中文时出现乱码。"
+        },
+        "focus": false
+      }
+    },
+    {
+      "id": "ggfTfcuP7_ftzfLeplW4f",
+      "component": "Block",
+      "data": {
+        "id": "TYqC9GOxaS6d_W2PKNGP4",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "优化焦点内容失焦状态下保存状态错误。"
+        },
+        "focus": false
+      }
+    },
+    {
+      "id": "ExUhaeaWX05reu7DLFzmR",
+      "component": "Block",
+      "data": {
+        "id": "-8ja7Qo3ElncHGPlHQt3v",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "优化链接鼠标交互状态。"
+        },
+        "focus": false
+      }
+    },
+    {
+      "id": "PlfS0m8Ckx8qRlcuQfvNI",
+      "component": "EditNode",
+      "data": ""
+    }
+  ],
+  "setting": {
+    "lock": true,
+    "debug": false
+  }
+}

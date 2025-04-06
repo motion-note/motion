@@ -1,0 +1,266 @@
+{
+  "title": "引用",
+  "blocks": [
+    {
+      "id": "kVSMc4-VjBJHa5NL3LZLe",
+      "component": "Block",
+      "data": {
+        "id": "x6Y8RoEWgiHVPk7V0xRq9",
+        "component": "HeaderBlock",
+        "data": {
+          "type": "h1",
+          "doc": "创建引用模块"
+        }
+      }
+    },
+    {
+      "id": "eF6jbdgF095zFqNOthN89",
+      "component": "EditNode",
+      "data": "通过快捷指令，选择引用就可以使用引用模块。"
+    },
+    {
+      "id": "ur670yM--1xSrGw3ctmmc",
+      "component": "Block",
+      "data": {
+        "id": "P91CyOFNTeRCODNGDdhlW",
+        "component": "ImageBlock",
+        "data": {
+          "url": "\\2SHh-NC8kVocpK2UJlT-X\\1725955541893.apng",
+          "width": 477.3333435058594
+        },
+        "focus": false
+      },
+      "props": {}
+    },
+    {
+      "id": "p9dr42jYpP9p_rZkfzeiN",
+      "component": "Block",
+      "data": {
+        "id": "PiyN4eEJygbeen3nKkW4l",
+        "component": "HeaderBlock",
+        "props": {},
+        "data": {
+          "type": "h1",
+          "doc": "删除模块"
+        },
+        "focus": false
+      }
+    },
+    {
+      "id": "wEEDV8d2f6XpDkXwo1sVh",
+      "component": "Block",
+      "data": {
+        "id": "xiji0WsYW2deLA2fdXHuo",
+        "component": "ListItemBlock",
+        "data": {
+          "doc": "移动引用模块中最后一个节点内容后，自动清除自身节点。"
+        }
+      }
+    },
+    {
+      "id": "LmYf8IZBETMmVEtQo_rp5",
+      "component": "QuoteBlock",
+      "data": [
+        {
+          "id": "AQ-KLuy6GIlhNUEc14ghU",
+          "component": "EditNode",
+          "data": ""
+        }
+      ]
+    },
+    {
+      "id": "tuEnRMXnsboZG9H9x7EVK",
+      "component": "Block",
+      "data": {
+        "id": "BlhTRh86rmKPEWKEXTgbj",
+        "component": "HeaderBlock",
+        "data": {
+          "type": "h1",
+          "doc": "细节功能列表"
+        }
+      }
+    },
+    {
+      "id": "7cPoFJDJs9Hdty964HRK8",
+      "component": "Block",
+      "data": {
+        "id": "4dv-Jics7lWBdH8iKvvNT",
+        "component": "ListItemBlock",
+        "data": {
+          "doc": "生成"
+        }
+      },
+      "props": {}
+    },
+    {
+      "id": "c04yI9vImOsWzjyx9vaty",
+      "component": "Block",
+      "data": {
+        "id": "aD-08IgoUEDtIUjDGBUCy",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "使用快捷指令生成 ✔"
+        },
+        "focus": true
+      },
+      "props": {
+        "tab": 1
+      }
+    },
+    {
+      "id": "rSNIoAKXrAqHwX2ZNATir",
+      "component": "Block",
+      "data": {
+        "id": "CoWouDMnaDxGkFBtF0YZK",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "支持内嵌引用组件 ✔"
+        },
+        "focus": true
+      },
+      "props": {
+        "tab": 1
+      }
+    },
+    {
+      "id": "-MHqyBCZ6TaMkjPRgfe86",
+      "component": "Block",
+      "data": {
+        "id": "D6cespKhocIWe7G1z3q9S",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "交互"
+        },
+        "focus": true
+      },
+      "props": {
+        "tab": 0
+      }
+    },
+    {
+      "id": "hTeSDKqAiw9LfCkSEP75R",
+      "component": "Block",
+      "data": {
+        "id": "qt_sQa5eW-gmZnMuOAVgd",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "移出最后一个节点后，模块自动删除 ✔"
+        },
+        "focus": true
+      },
+      "props": {
+        "tab": 1
+      }
+    },
+    {
+      "id": "LvOdv8rmNqUPC8ohRO_gF",
+      "component": "Block",
+      "data": {
+        "id": "KVWJxms5TsV17Nv3_tsMH",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "跳出节点区域"
+        },
+        "focus": true
+      },
+      "props": {
+        "tab": 1
+      }
+    },
+    {
+      "id": "dS02alWN3S7AvTmDgyGIk",
+      "component": "EditNode",
+      "data": "`跳出当前引用的节点，在下方生成一个空文本`",
+      "props": {
+        "tab": 3
+      }
+    },
+    {
+      "id": "2atxRGOQWKZob5E2qZLOz",
+      "component": "Block",
+      "data": {
+        "id": "Wrng1_Td-eQsrehPaPFTE",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "win 上使用 `ctrl + enter` 跳出节点，生成文本节点 ✔"
+        },
+        "focus": true
+      },
+      "props": {
+        "tab": 2
+      }
+    },
+    {
+      "id": "RgW8ya8NEScuLH4I87Aer",
+      "component": "Block",
+      "data": {
+        "id": "yUkTFlOGBV3Mcp2xl53Ii",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "mac 上使用 `commend + enter` 跳出节点，生成文本节点 ✔"
+        },
+        "focus": true
+      },
+      "props": {
+        "tab": 2
+      }
+    },
+    {
+      "id": "NjTJGBZUEtvKA9o3KAS9_",
+      "component": "Block",
+      "data": {
+        "id": "KUXs1cKIR_J4JLoQT5JLT",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "文本节点支持 ✔"
+        },
+        "focus": true
+      },
+      "props": {
+        "tab": 2
+      }
+    },
+    {
+      "id": "QEujVVpQwW9aFrmv7QC8r",
+      "component": "Block",
+      "data": {
+        "id": "YJR6kix9jwiOO4xkpwAqD",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "列表节点支持 ✔"
+        },
+        "focus": true
+      },
+      "props": {
+        "tab": 2
+      }
+    },
+    {
+      "id": "804yB8rbPGY_5YFjvNTBL",
+      "component": "Block",
+      "data": {
+        "id": "8n3kD0H71fXhOVwTVthJ3",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": ""
+        },
+        "focus": true
+      },
+      "props": {}
+    }
+  ],
+  "setting": {
+    "lock": false,
+    "debug": false
+  }
+}

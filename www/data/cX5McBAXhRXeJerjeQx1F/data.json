@@ -1,0 +1,635 @@
+{
+  "title": "vue 简介",
+  "blocks": [
+    {
+      "id": "ZKvM0GRN7ePm7yC7gvTPJ",
+      "component": "QuoteBlock",
+      "data": [
+        {
+          "id": "0OPwxGRXuiywAnXrmrWBi",
+          "component": "EditNode",
+          "data": "这里是演示vue官网简介页面，页面地址访问[这里](https://cn.vuejs.org/guide/introduction)。"
+        }
+      ]
+    },
+    {
+      "id": "AKAfSCZuE5eMRlQm5gv_f",
+      "component": "QuoteBlock",
+      "data": [
+        {
+          "id": "naMkm-uDRVF3VCkqaXtkM",
+          "component": "EditNode",
+          "data": "❤ 你正在阅读的是 Vue 3 的文档！"
+        },
+        {
+          "id": "M0TOYXxtu4S4Rg8_5Lmno",
+          "component": "Block",
+          "data": {
+            "id": "zN358hsOIEjd-f2aNhbk6",
+            "component": "ListItemBlock",
+            "data": {
+              "doc": "Vue 2 已于 2023 年 12 月 31 日停止维护。详见 [Vue 2 终止支持 (EOL)](https://v2.cn.vuejs.org/eol/)。"
+            }
+          }
+        },
+        {
+          "id": "ZUfswxQynt-viIe5Ufz6T",
+          "component": "Block",
+          "data": {
+            "id": "r1T6FtdP5men4eI4pmKTz",
+            "component": "ListItemBlock",
+            "data": {
+              "doc": "想从 Vue 2 升级？请参考[迁移指南](https://v3-migration.vuejs.org/)。"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "peX0OEK-9-_DgaXtmxo7E",
+      "component": "Block",
+      "data": {
+        "id": "eLesW-auWHNrTstmBIHWm",
+        "component": "BookmarkBlock",
+        "props": {},
+        "focus": false,
+        "data": {
+          "url": "https://www.vuemastery.com/courses/",
+          "title": "Vue Mastery",
+          "description": "Vue Mastery is the ultimate learning resource for Vue.js developers. We release weekly video tutorials and articles as well as the proud producers of the official Vue.js News. You can consume it in newsletter and podcast format at news.vuejs.org.",
+          "icon": "https://www.vuemastery.com/favicon.ico",
+          "image": "https://www.vuemastery.com/images/facebook_social_image.png"
+        }
+      }
+    },
+    {
+      "id": "RNgEZtPSPjrIxMmif3ql8",
+      "component": "Block",
+      "data": {
+        "id": "h9wE-R0meK5ZJWLxbZaqM",
+        "component": "HeaderBlock",
+        "data": {
+          "type": "h1",
+          "doc": "什么是 Vue ?"
+        }
+      }
+    },
+    {
+      "id": "m1zpx5sjygWJQkAkhgIHh",
+      "component": "EditNode",
+      "data": "Vue (发音为 /vjuː/，类似 view) 是一款用于构建用户界面的 JavaScript 框架。它基于标准 HTML、CSS 和 JavaScript 构建，并提供了一套声明式的、组件化的编程模型，帮助你高效地开发用户界面。无论是简单还是复杂的界面，Vue 都可以胜任。",
+      "props": {}
+    },
+    {
+      "id": "VnSCH3DN5mQwt6vhbM18B",
+      "component": "EditNode",
+      "data": "下面是一个最基本的示例："
+    },
+    {
+      "id": "U5ZfqAW2nWh2AGCDX3HQ9",
+      "component": "Block",
+      "data": {
+        "id": "G5vtJoz5qO_l1kfv4y8sG",
+        "component": "CodeBlock",
+        "data": {
+          "doc": "import { createApp, ref } from 'vue'\n\ncreateApp({\n  setup() {\n    return {\n      count: ref(0)\n    }\n  }\n}).mount('#app')",
+          "lang": "js"
+        },
+        "focus": false
+      },
+      "props": {}
+    },
+    {
+      "id": "xk7tZ4hMzArvDUwLtntgV",
+      "component": "Block",
+      "data": {
+        "id": "BRKkIU-S0VNIZHpLPuZTz",
+        "component": "CodeBlock",
+        "data": {
+          "doc": "<div id=\"app\">\n  <button @click=\"count++\">\n    Count is: {{ count }}\n  </button>\n</div>",
+          "lang": "html"
+        },
+        "focus": false
+      }
+    },
+    {
+      "id": "suKt43l0-bfaFKBOy4sH5",
+      "component": "Block",
+      "data": {
+        "id": "A6bYMxW0VpBLLSJIEzWC3",
+        "component": "ImageBlock",
+        "data": {
+          "url": "\\cX5McBAXhRXeJerjeQx1F\\1727231654806.png"
+        },
+        "focus": false
+      }
+    },
+    {
+      "id": "rX5FzvkHpEQ49Ijg60kiZ",
+      "component": "EditNode",
+      "data": "上面的示例展示了 Vue 的两个核心功能："
+    },
+    {
+      "id": "N6mSx5uwfBDub0xkML6Ap",
+      "component": "Block",
+      "data": {
+        "id": "_VpelYfAFvnVwKk78IYi0",
+        "component": "ListItemBlock",
+        "data": {
+          "doc": "**声明式渲染**：Vue 基于标准 HTML 拓展了一套模板语法，使得我们可以声明式地描述最终输出的 HTML 和 JavaScript 状态之间的关系。"
+        }
+      }
+    },
+    {
+      "id": "nUmF8nV0o36QstzjshB_l",
+      "component": "Block",
+      "data": {
+        "id": "riOTTyqSBAvnETnW_ZBHr",
+        "component": "ListItemBlock",
+        "data": {
+          "doc": "**响应性**：Vue 会自动跟踪 JavaScript 状态并在其发生变化时响应式地更新 DOM。"
+        }
+      }
+    },
+    {
+      "id": "AGPEaanYHSk6qXs71G-US",
+      "component": "EditNode",
+      "data": "你可能已经有了些疑问——先别急，在后续的文档中我们会详细介绍每一个细节。现在，请继续看下去，以确保你对 Vue 作为一个框架到底提供了什么有一个宏观的了解。"
+    },
+    {
+      "id": "fw1sQzzudMGJiKJ_TAZX5",
+      "component": "QuoteBlock",
+      "data": [
+        {
+          "id": "M7Ir69WTweo67SqpNd2uo",
+          "component": "EditNode",
+          "data": "❗ 预备知识"
+        },
+        {
+          "id": "-xTZLlyLyeaqD3vGsR61c",
+          "component": "EditNode",
+          "data": "文档接下来的内容会假设你对 HTML、CSS 和 JavaScript 已经基本熟悉。如果你对前端开发完全陌生，最好不要直接从一个框架开始进行入门学习——最好是掌握了基础知识再回到这里。如有需要，你可以通过这些 [JavaScript](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/A_re-introduction_to_JavaScript)、[HTML](https://developer.mozilla.org/zh-CN/docs/Learn/HTML/Introduction_to_HTML) 和 [CSS](https://developer.mozilla.org/zh-CN/docs/Learn/CSS/First_steps) 概述来检验你的知识水平。如果之前有其他框架的经验会很有帮助，但也不是必须的。",
+          "props": {
+            "tab": 1
+          }
+        }
+      ],
+      "props": {}
+    },
+    {
+      "id": "-fwXGYKPpWQlwkafiq57J",
+      "component": "Block",
+      "data": {
+        "id": "cpP0eZRyhcm1B-jd6kYHH",
+        "component": "HeaderBlock",
+        "data": {
+          "type": "h1",
+          "doc": "渐进式框架​"
+        }
+      }
+    },
+    {
+      "id": "LiSiczuIgK9TKUUNhaUAO",
+      "component": "EditNode",
+      "data": "Vue 是一个框架，也是一个生态。其功能覆盖了大部分前端开发常见的需求。但 Web 世界是十分多样化的，不同的开发者在 Web 上构建的东西可能在形式和规模上会有很大的不同。考虑到这一点，Vue 的设计非常注重灵活性和“可以被逐步集成”这个特点。根据你的需求场景，你可以用不同的方式使用 Vue："
+    },
+    {
+      "id": "wJ9i8rNaYHAK1HdDgydnF",
+      "component": "Block",
+      "data": {
+        "id": "RBTiDlmi2DfJU7MxdyT3_",
+        "component": "ListItemBlock",
+        "data": {
+          "doc": "无需构建步骤，渐进式增强静态的 HTML"
+        }
+      }
+    },
+    {
+      "id": "VYyMF4rS7p3O7CJjzVt4G",
+      "component": "Block",
+      "data": {
+        "id": "1wd4GGgmZkJ1jwPYv9UZE",
+        "component": "ListItemBlock",
+        "data": {
+          "doc": "在任何页面中作为 Web Components 嵌入"
+        }
+      }
+    },
+    {
+      "id": "1MKBvUgcYMihQx7FytenZ",
+      "component": "Block",
+      "data": {
+        "id": "runNz0uQS8ljv5t7-yR2O",
+        "component": "ListItemBlock",
+        "data": {
+          "doc": "单页应用 (SPA)"
+        }
+      }
+    },
+    {
+      "id": "g94K84FTGL9ea_SibYYmj",
+      "component": "Block",
+      "data": {
+        "id": "O8VbSPKaqPbfemc3vQJxM",
+        "component": "ListItemBlock",
+        "data": {
+          "doc": "全栈 / 服务端渲染 (SSR)"
+        }
+      }
+    },
+    {
+      "id": "zro7Jkn8qWA_oqZm7Tq2D",
+      "component": "Block",
+      "data": {
+        "id": "SveqfyTt0GH-h6bywR-2_",
+        "component": "ListItemBlock",
+        "data": {
+          "doc": "Jamstack / 静态站点生成 (SSG)"
+        }
+      }
+    },
+    {
+      "id": "Pawn3lTj_aKAlNxsCV2I2",
+      "component": "Block",
+      "data": {
+        "id": "tIPBXLdpzcIe3GLdU3PEe",
+        "component": "ListItemBlock",
+        "data": {
+          "doc": "开发桌面端、移动端、WebGL，甚至是命令行终端中的界面"
+        }
+      }
+    },
+    {
+      "id": "7welixIslTT_Ew1oMWm5H",
+      "component": "EditNode",
+      "data": "如果你是初学者，可能会觉得这些概念有些复杂。别担心！理解教程和指南的内容只需要具备基础的 HTML 和 JavaScript 知识。即使你不是这些方面的专家，也能够跟得上。"
+    },
+    {
+      "id": "kDIuPaXGO4AoFTMGmdI0K",
+      "component": "EditNode",
+      "data": "如果你是有经验的开发者，希望了解如何以最合适的方式在项目中引入 Vue，或者是对上述的这些概念感到好奇，我们在[使用 Vue 的多种方式](https://cn.vuejs.org/guide/extras/ways-of-using-vue.html)中讨论了有关它们的更多细节。"
+    },
+    {
+      "id": "P2jW_SX_yaG8jOBBdpGb6",
+      "component": "EditNode",
+      "data": "无论再怎么灵活，Vue 的核心知识在所有这些用例中都是通用的。即使你现在只是一个初学者，随着你的不断成长，到未来有能力实现更复杂的项目时，这一路上获得的知识依然会适用。如果你已经是一个老手，你可以根据实际场景来选择使用 Vue 的最佳方式，在各种场景下都可以保持同样的开发效率。这就是为什么我们将 Vue 称为“渐进式框架”：它是一个可以与你共同成长、适应你不同需求的框架。"
+    },
+    {
+      "id": "JbxD2KNctb1u0A2z4wPy1",
+      "component": "Block",
+      "data": {
+        "id": "h4PVqovQU4YI7nvVpVdHz",
+        "component": "HeaderBlock",
+        "data": {
+          "type": "h1",
+          "doc": "单文件组件​"
+        }
+      },
+      "props": {}
+    },
+    {
+      "id": "8yskV7I3V-ZG9fPj5YCWm",
+      "component": "EditNode",
+      "data": "在大多数启用了构建工具的 Vue 项目中，我们可以使用一种类似 HTML 格式的文件来书写 Vue 组件，它被称为**单文件组件** (也被称为 `*.vue` 文件，英文 Single-File Components，缩写为 **SFC**)。顾名思义，Vue 的单文件组件会将一个组件的逻辑 (JavaScript)，模板 (HTML) 和样式 (CSS) 封装在同一个文件里。下面我们将用单文件组件的格式重写上面的计数器示例："
+    },
+    {
+      "id": "osynhn6QrEpTAp_b8p6os",
+      "component": "Block",
+      "data": {
+        "id": "ewxIXFEQL3F75czapneB1",
+        "component": "CodeBlock",
+        "data": {
+          "doc": "<script setup>\nimport { ref } from 'vue'\nconst count = ref(0)\n</script>\n\n<template>\n  <button @click=\"count++\">Count is: {{ count }}</button>\n</template>\n\n<style scoped>\nbutton {\n  font-weight: bold;\n}\n</style>",
+          "lang": "vue"
+        },
+        "focus": false
+      },
+      "props": {}
+    },
+    {
+      "id": "pvqNU1UXpvTgmj_chx9Sw",
+      "component": "EditNode",
+      "data": "单文件组件是 Vue 的标志性功能。如果你的用例需要进行构建，我们推荐用它来编写 Vue 组件。你可以在后续相关章节里了解更多关于[单文件组件的用法及用途](https://cn.vuejs.org/guide/scaling-up/sfc.html)。但你暂时只需要知道 Vue 会帮忙处理所有这些构建工具的配置就好。"
+    },
+    {
+      "id": "C1figdStcpmwz0rUdHld9",
+      "component": "Block",
+      "data": {
+        "id": "BaRhX33DeDLsvvBU2eqox",
+        "component": "HeaderBlock",
+        "data": {
+          "type": "h1",
+          "doc": "API 风格​"
+        }
+      },
+      "props": {}
+    },
+    {
+      "id": "3lXoo47DQRuFugLdFwT6Q",
+      "component": "EditNode",
+      "data": "Vue 的组件可以按两种不同的风格书写：**选项式 API** 和**组合式 API**。"
+    },
+    {
+      "id": "paSN7Wbz-b9GYH00Cy3mw",
+      "component": "Block",
+      "data": {
+        "id": "isEV06D4RoEDN_CbFdi4D",
+        "component": "HeaderBlock",
+        "data": {
+          "type": "h2",
+          "doc": "选项式 API (Options API)​"
+        }
+      }
+    },
+    {
+      "id": "z1EP4cCOD_j7JsAUWC1aw",
+      "component": "EditNode",
+      "data": "使用选项式 API，我们可以用包含多个选项的对象来描述组件的逻辑，例如 `data`、`methods` 和 `mounted`。选项所定义的属性都会暴露在函数内部的 `this` 上，它会指向当前的组件实例。"
+    },
+    {
+      "id": "5INEZI7WL1MpBPvj7yXfw",
+      "component": "Block",
+      "data": {
+        "id": "9bp2lJnL5_jem96H6OqFD",
+        "component": "CodeBlock",
+        "data": {
+          "doc": "<script>\nexport default {\n  // data() 返回的属性将会成为响应式的状态\n  // 并且暴露在 `this` 上\n  data() {\n    return {\n      count: 0\n    }\n  },\n\n  // methods 是一些用来更改状态与触发更新的函数\n  // 它们可以在模板中作为事件处理器绑定\n  methods: {\n    increment() {\n      this.count++\n    }\n  },\n\n  // 生命周期钩子会在组件生命周期的各个不同阶段被调用\n  // 例如这个函数就会在组件挂载完成后被调用\n  mounted() {\n    console.log(`The initial count is ${this.count}.`)\n  }\n}\n</script>\n\n<template>\n  <button @click=\"increment\">Count is: {{ count }}</button>\n</template>",
+          "lang": "vue"
+        },
+        "focus": false
+      },
+      "props": {}
+    },
+    {
+      "id": "H1FDg-F8ZUv09Im8hayvD",
+      "component": "EditNode",
+      "data": "🎡[在演练场中尝试一下](https://play.vuejs.org/#eNptkMFqxCAQhl9lkB522ZL0HNKlpa/Qo4e1ZpLIGhUdl5bgu9es2eSyIMio833zO7NP56pbRNawNkivHJ25wV9nPUGHvYiaYOYGoK7Bo5CkbgiBBOFy2AkSh2N5APmeojePCkDaaKiBt1KnZUuv3Ky0PppMsyYAjYJgigu0oEGYDsirYUAP0WULhqVrQhptF5qHQhnpcUJD+wyQaSpUd/Xp9NysVY/yT2qE0dprIS/vsds5Mg9mNVbaDofL94jZpUgJXUKBCvAy76ZUXY53CTd5tfX2k7kgnJzOCXIF0P5EImvgQ2olr++cbRE4O3+t6JxvXj0ptXVpye1tvbFY+ge/NJZt)",
+      "props": {}
+    },
+    {
+      "id": "KTjNS5q2YJyBOYeT2ublY",
+      "component": "Block",
+      "data": {
+        "id": "vB_KGjEgUoTrGpvGtxdih",
+        "component": "HeaderBlock",
+        "data": {
+          "type": "h2",
+          "doc": "组合式 API (Composition API)​"
+        }
+      },
+      "props": {}
+    },
+    {
+      "id": "eafNY3Tqb72fzAopE40GT",
+      "component": "EditNode",
+      "data": "通过组合式 API，我们可以使用导入的 API 函数来描述组件逻辑。在单文件组件中，组合式 API 通常会与 `<script setup>` 搭配使用。这个 `setup` attribute 是一个标识，告诉 Vue 需要在编译时进行一些处理，让我们可以更简洁地使用组合式 API。比如，`<script setup>` 中的导入和顶层变量/函数都能够在模板中直接使用。"
+    },
+    {
+      "id": "6A8OQRh1Vyu2Bf6vJpA0s",
+      "component": "EditNode",
+      "data": "下面是使用了组合式 API 与 `<script setup>` 改造后和上面的模板完全一样的组件："
+    },
+    {
+      "id": "D2v6giFsqkjeXCRkRjA1W",
+      "component": "Block",
+      "data": {
+        "id": "9JqUizY0rgSoc66dkOHLp",
+        "component": "CodeBlock",
+        "data": {
+          "doc": "<script setup>\nimport { ref, onMounted } from 'vue'\n\n// 响应式状态\nconst count = ref(0)\n\n// 用来修改状态、触发更新的函数\nfunction increment() {\n  count.value++\n}\n\n// 生命周期钩子\nonMounted(() => {\n  console.log(`The initial count is ${count.value}.`)\n})\n</script>\n\n<template>\n  <button @click=\"increment\">Count is: {{ count }}</button>\n</template>",
+          "lang": "vue"
+        },
+        "focus": false
+      }
+    },
+    {
+      "id": "paXCXv_32mLkKpDPQTB9R",
+      "component": "EditNode",
+      "data": "🎡[在演练场中尝试一下](https://play.vuejs.org/#eNpNkMFqwzAQRH9lMYU4pNg9Bye09NxbjzrEVda2iLwS0spQjP69a+yYHnRYad7MaOfiw/tqSliciybqYDxDRE7+qsiM3gWGGQJ2r+DoyyVivEOGLrgRDkIdFCmqa1G0ms2EELllVKQdRQa9AHBZ+PLtuEm7RCKVd+ChZRjTQqwctHQHDqbvMUDyd7mKip4AGNIBRyQujzArgtW/mlqb8HRSlLcEazrUv9oiDM49xGGvXgp5uT5his5iZV1f3r4HFHvDprVbaxPhZf4XkKub/CDLaep1T7IhGRhHb6WoTADNT2KWpu/aGv24qGKvrIrr5+Z7hnneQnJu6hURvKl3ryL/ARrVkuI=)",
+      "props": {}
+    },
+    {
+      "id": "nkh77K8B-0akVlBueQ4Y9",
+      "component": "Block",
+      "data": {
+        "id": "g6lVwJzweqJ_9MUr2E0DD",
+        "component": "HeaderBlock",
+        "data": {
+          "type": "h2",
+          "doc": "该选哪一个？​"
+        }
+      },
+      "props": {}
+    },
+    {
+      "id": "QUdunmL0KBonEwg3AgS_7",
+      "component": "EditNode",
+      "data": "两种 API 风格都能够覆盖大部分的应用场景。它们只是同一个底层系统所提供的两套不同的接口。实际上，选项式 API 是在组合式 API 的基础上实现的！关于 Vue 的基础概念和知识在它们之间都是通用的。"
+    },
+    {
+      "id": "qr2JaT9KKN1Q-2A2HxZ2_",
+      "component": "EditNode",
+      "data": "选项式 API 以“组件实例”的概念为中心 (即上述例子中的 `this`)，对于有面向对象语言背景的用户来说，这通常与基于类的心智模型更为一致。同时，它将响应性相关的细节抽象出来，并强制按照选项来组织代码，从而对初学者而言更为友好。"
+    },
+    {
+      "id": "Dt2ybPo-Mb87fMdiJ0mTE",
+      "component": "EditNode",
+      "data": "组合式 API 的核心思想是直接在函数作用域内定义响应式状态变量，并将从多个函数中得到的状态组合起来处理复杂问题。这种形式更加自由，也需要你对 Vue 的响应式系统有更深的理解才能高效使用。相应的，它的灵活性也使得组织和重用逻辑的模式变得更加强大。"
+    },
+    {
+      "id": "Etn8KjplcDvH0ZccoHi6K",
+      "component": "EditNode",
+      "data": "在**组合式 API FAQ** 章节中，你可以了解更多关于这两种 API 风格的对比以及组合式 API 所带来的潜在收益。"
+    },
+    {
+      "id": "g4ZOsdhgrmRArxeB5Jwb0",
+      "component": "EditNode",
+      "data": "如果你是使用 Vue 的新手，这里是我们的大致建议："
+    },
+    {
+      "id": "zfLZdPwo5jp9SOd6JGLCU",
+      "component": "Block",
+      "data": {
+        "id": "ApOeFO1nPWdgudmAMTzTW",
+        "component": "ListItemBlock",
+        "data": {
+          "doc": "在学习的过程中，推荐采用更易于自己理解的风格。再强调一下，大部分的核心概念在这两种风格之间都是通用的。熟悉了一种风格以后，你也能够很快地理解另一种风格。"
+        }
+      },
+      "props": {}
+    },
+    {
+      "id": "rC2SmUWUD3NXYNktau18J",
+      "component": "Block",
+      "data": {
+        "id": "9HZlHdaX_OpzqEcEoHdiZ",
+        "component": "ListItemBlock",
+        "data": {
+          "doc": "在生产项目中："
+        }
+      }
+    },
+    {
+      "id": "Ml7wE1dh_Sbg5h1jVSlyB",
+      "component": "Block",
+      "data": {
+        "id": "2IyygFOm3M_WmCW0o4n81",
+        "component": "ListItemBlock",
+        "data": {
+          "doc": "当你不需要使用构建工具，或者打算主要在低复杂度的场景中使用 Vue，例如渐进增强的应用场景，推荐采用选项式 API。"
+        }
+      },
+      "props": {
+        "tab": 1
+      }
+    },
+    {
+      "id": "GKTBjaDG1Gmt7LF8MjCsw",
+      "component": "Block",
+      "data": {
+        "id": "KJM1V911zoklXp2RhDqig",
+        "component": "ListItemBlock",
+        "data": {
+          "doc": "当你打算用 Vue 构建完整的单页应用，推荐采用组合式 API + 单文件组件。"
+        }
+      },
+      "props": {
+        "tab": 1
+      }
+    },
+    {
+      "id": "kdVPbQbJswCgiT1koBzKL",
+      "component": "EditNode",
+      "data": "在学习阶段，你不必只固守一种风格。在接下来的文档中我们会为你提供一系列两种风格的代码供你参考，你可以随时通过左上角的 **API 风格偏好**来做切换。"
+    },
+    {
+      "id": "GCSji4d1ZIOAM2ecYfvSP",
+      "component": "Block",
+      "data": {
+        "id": "5JpGpZOXOHhKL7Tptxe9t",
+        "component": "HeaderBlock",
+        "data": {
+          "type": "h1",
+          "doc": "还有其他问题？​"
+        }
+      },
+      "props": {}
+    },
+    {
+      "id": "GfR7aHyLns_MzM3G4iZLt",
+      "component": "EditNode",
+      "data": "请查看我们的 [FAQ](https://cn.vuejs.org/about/faq.html)。"
+    },
+    {
+      "id": "8Qy5A3TCMWssafaIniYTW",
+      "component": "Block",
+      "data": {
+        "id": "uE4pZcrale6si-dXjgKsZ",
+        "component": "HeaderBlock",
+        "data": {
+          "type": "h1",
+          "doc": "选择你的学习路径​​"
+        }
+      },
+      "props": {}
+    },
+    {
+      "id": "7iDfTbwPaPCzCL05NOJUd",
+      "component": "EditNode",
+      "data": "不同的开发者有不同的学习方式。尽管在可能的情况下，我们推荐你通读所有内容，但你还是可以自由地选择一种自己喜欢的学习路径！"
+    },
+    {
+      "id": "E19lLe7s0XJ9gX6DglD5U",
+      "component": "ColumnListBlock",
+      "data": [
+        {
+          "id": "9jEivwdsF6UhCHCuRagIQ",
+          "component": "ColumnBlock",
+          "props": {
+            "width": 0.33924194810919267
+          },
+          "data": [
+            {
+              "id": "JmNx7OVymU5L4BbgvGzSC",
+              "component": "Block",
+              "data": {
+                "id": "MdASuggLnaOnpUGbwnH8K",
+                "component": "BookmarkBlock",
+                "props": {},
+                "focus": false,
+                "data": {
+                  "url": "https://cn.vuejs.org/tutorial/",
+                  "title": "尝试互动教程",
+                  "description": "适合喜欢边动手边学的读者。",
+                  "icon": "https://cn.vuejs.org/logo.svg",
+                  "image": "https://vuejs.org/images/logo.png",
+                  "useCustom": true
+                }
+              },
+              "props": {}
+            }
+          ]
+        },
+        {
+          "component": "ColumnBlock",
+          "id": "4sXXfSKcOXZkQM5NYS9Rw",
+          "props": {
+            "width": 0.3333333333333333
+          },
+          "data": [
+            {
+              "id": "h7ALBGB8qX8dV8gz_AHHU",
+              "component": "Block",
+              "data": {
+                "id": "4p_mLBO8CoYZ4P9wKDQGZ",
+                "component": "BookmarkBlock",
+                "props": {},
+                "focus": false,
+                "data": {
+                  "url": "https://cn.vuejs.org/guide/quick-start.html",
+                  "title": "继续阅读该指南",
+                  "description": "该指南会带你深入了解框架所有方面的细节。",
+                  "icon": "https://cn.vuejs.org/logo.svg",
+                  "image": "https://vuejs.org/images/logo.png",
+                  "useCustom": true
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "tyV88oIRalEeVM0EEOxoa",
+          "component": "ColumnBlock",
+          "props": {
+            "width": 0.32828939646495353
+          },
+          "data": [
+            {
+              "id": "Xk-C_0NEsozFmX5dDSyq8",
+              "component": "Block",
+              "data": {
+                "id": "l8H0ssGv4SR0BCfSqxKMc",
+                "component": "BookmarkBlock",
+                "props": {},
+                "focus": false,
+                "data": {
+                  "url": "https://cn.vuejs.org/examples/",
+                  "title": "查看示例",
+                  "description": "浏览核心功能和常见用户界面的示例。",
+                  "icon": "https://cn.vuejs.org/logo.svg",
+                  "image": "https://vuejs.org/images/logo.png",
+                  "useCustom": true
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "setting": {
+    "lock": true,
+    "debug": false,
+    "historyPanel": false
+  }
+}

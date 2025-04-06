@@ -1,0 +1,461 @@
+{
+  "title": "0.16.0",
+  "blocks": [
+    {
+      "id": "kfDXlxikyK3if0ZUrlGR0",
+      "component": "Block",
+      "data": {
+        "id": "hhy9YGa0r901TbygsHHEE",
+        "component": "HeaderBlock",
+        "data": {
+          "type": "h1",
+          "doc": "文本节点"
+        }
+      }
+    },
+    {
+      "id": "xi3jtou3JizNm3LmFJx3o",
+      "component": "EditNode",
+      "data": "重新开发全新文本节点功能，更好的渲染与表现力，更好的光标控制能力，及更多与其它节点交互的方式。",
+      "props": {}
+    },
+    {
+      "id": "s60E6usD6Huc4W7RnAB3V",
+      "component": "Block",
+      "data": {
+        "id": "9lOi3m8O9lVFy7MXJcjTv",
+        "component": "ListItemBlock",
+        "data": {
+          "doc": "调整快捷指令调用方式"
+        }
+      },
+      "props": {}
+    },
+    {
+      "id": "Dq-Na3_ML3772oeAvQFH5",
+      "component": "Block",
+      "data": {
+        "id": "b_3lQtUf-4upDrxcyZII-",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "新的缩进与回退方案"
+        },
+        "focus": true
+      },
+      "props": {}
+    },
+    {
+      "id": "c-OjWQccOEdxwG2-PVvaO",
+      "component": "Block",
+      "data": {
+        "id": "GEXeORjEQ_GlL6oHEGoIo",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "优化粘贴复制"
+        },
+        "focus": true
+      },
+      "props": {}
+    },
+    {
+      "id": "FY1H3VK8XSSzCaCQHpJbr",
+      "component": "Block",
+      "data": {
+        "id": "53iVnvD5rDbM-rvjQ2Fqw",
+        "component": "HeaderBlock",
+        "data": {
+          "type": "h1",
+          "doc": "表格"
+        }
+      },
+      "props": {}
+    },
+    {
+      "id": "UiO3qhQQHECubyc_GV5Fj",
+      "component": "Block",
+      "data": {
+        "id": "zQNS0SiREppDesHMMaHoZ",
+        "component": "ListItemBlock",
+        "data": {
+          "doc": "表格节点全部更新采用最新的文本节点。"
+        }
+      },
+      "props": {}
+    },
+    {
+      "id": "h4zdt0pMKeQIa2_PT07_c",
+      "component": "Block",
+      "data": {
+        "id": "ewFtlQFTx2LXhZG2uLWPP",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "重新规范单元格的换行生成操作。"
+        },
+        "focus": true
+      },
+      "props": {}
+    },
+    {
+      "id": "fJvLmEeqS3q9op0AOxbh8",
+      "component": "Block",
+      "data": {
+        "id": "e4JwydWoMXHbLK1x3o4Ro",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "更加偏向**Excel**的节点移动方式。"
+        },
+        "focus": true
+      },
+      "props": {}
+    },
+    {
+      "id": "CHmTbUAwY4GDRsqzRmI1c",
+      "component": "Block",
+      "data": {
+        "id": "GyTxoPmVyGZ2TGtZny2wy",
+        "component": "TableBlock",
+        "data": {
+          "list": [
+            [
+              [
+                {
+                  "id": "wnttiHZRs2YXG2qLY2EcE",
+                  "component": "EditNode",
+                  "doc": ""
+                }
+              ],
+              [
+                {
+                  "id": "yegco8yX1GeKuYAYNloH1",
+                  "component": "EditNode",
+                  "doc": ""
+                }
+              ],
+              [
+                {
+                  "id": "1vle_cGXcgAIgffXHu4PM",
+                  "component": "EditNode",
+                  "doc": ""
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "id": "62tqlZ4OE86eMXwG9D9mY",
+                  "component": "EditNode",
+                  "doc": ""
+                }
+              ],
+              [
+                {
+                  "id": "8E0yvW8PX9ePq2Crp9CPn",
+                  "component": "EditNode",
+                  "doc": ""
+                }
+              ],
+              [
+                {
+                  "id": "V3zFs4P_CO8Nivb47WMxe",
+                  "component": "EditNode",
+                  "doc": ""
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "id": "GPwsc9_S7WAnBtdqp5t9j",
+                  "component": "EditNode",
+                  "doc": "",
+                  "props": {
+                    "tab": 1
+                  }
+                }
+              ],
+              [
+                {
+                  "id": "Ij__Z_9ZnwVrTbjiXQv4T",
+                  "component": "EditNode",
+                  "doc": "",
+                  "props": {
+                    "tab": 1
+                  }
+                }
+              ],
+              [
+                {
+                  "id": "yKqodVfU_2zQIlaFey_gY",
+                  "component": "EditNode",
+                  "doc": ""
+                }
+              ]
+            ]
+          ],
+          "style": {
+            "width": [
+              100,
+              100,
+              100
+            ],
+            "align": [],
+            "merge": []
+          }
+        }
+      },
+      "props": {}
+    },
+    {
+      "id": "NK_y4CeKKSYZWOUxLtIx8",
+      "component": "Block",
+      "data": {
+        "id": "sP1RAjOpQsMEy1j5BOOC1",
+        "component": "HeaderBlock",
+        "data": {
+          "type": "h1",
+          "doc": "图片"
+        }
+      },
+      "props": {}
+    },
+    {
+      "id": "WW_hp9jfpZ38_Qo1z4eQq",
+      "component": "Block",
+      "data": {
+        "id": "mKKaz16gWzpqIDF55F4fy",
+        "component": "ListItemBlock",
+        "data": {
+          "doc": "优化图片的聚焦。"
+        }
+      },
+      "props": {}
+    },
+    {
+      "id": "3QXKNnY_jbpzmI0lsFFYU",
+      "component": "Block",
+      "data": {
+        "id": "Zr3KgSfiLRTSTosLOdpx1",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "调整图片缩放查看方式。"
+        },
+        "focus": true
+      },
+      "props": {}
+    },
+    {
+      "id": "_98LninpU6qWn7RaDwFb3",
+      "component": "Block",
+      "data": {
+        "id": "PxaKZV52CiqCKB8XwLCks",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "图片支持缩进能力，提供更好的界面布局能力。"
+        },
+        "focus": true
+      },
+      "props": {}
+    },
+    {
+      "id": "7IQSTFG7kEp9D0-hfly-C",
+      "component": "Block",
+      "data": {
+        "id": "X-2VoP1mMeIChKs-k_QQM",
+        "component": "HeaderBlock",
+        "data": {
+          "type": "h1",
+          "doc": "列表"
+        }
+      },
+      "props": {}
+    },
+    {
+      "id": "V0QJxLtq1L6QitQPxY0gt",
+      "component": "Block",
+      "data": {
+        "id": "vH0psWR3oh3v1MbCO8UnZ",
+        "component": "ListItemBlock",
+        "data": {
+          "doc": "采用新文本节点方案。"
+        }
+      },
+      "props": {
+        "tab": 0
+      }
+    },
+    {
+      "id": "-EEijaBipbPYXPyXmfOcy",
+      "component": "Block",
+      "data": {
+        "id": "lG3_TOCpohAE7vtIwxB1W",
+        "component": "ListItemBlock",
+        "data": {
+          "doc": "优化缩进方案，支持换行生成新节点保留原节点属性;当在首位删除时，有缩进，优先处理缩进状态。"
+        }
+      },
+      "props": {
+        "tab": 0
+      }
+    },
+    {
+      "id": "ErNa-xH-4S4AvKnH1YT1X",
+      "component": "Block",
+      "data": {
+        "id": "NFKqzP6K8BpwUy0tHmDEO",
+        "component": "HeaderBlock",
+        "data": {
+          "type": "h1",
+          "doc": "书签"
+        }
+      },
+      "props": {
+        "tab": 0
+      }
+    },
+    {
+      "id": "lwfMDyftI6UNg1sSo0SA5",
+      "component": "Block",
+      "data": {
+        "id": "4ILCYcKpLj8BlQYQb6JRH",
+        "component": "ListItemBlock",
+        "data": {
+          "doc": "优化书签展示效果"
+        }
+      },
+      "props": {}
+    },
+    {
+      "id": "pn4S7AOMO9-83G36cdaEa",
+      "component": "Block",
+      "data": {
+        "id": "giotq5QCepAL9achyAITz",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "修复图片无法正常显示"
+        },
+        "focus": true
+      },
+      "props": {}
+    },
+    {
+      "id": "PIMEzK157HPTzhncD_5lE",
+      "component": "Block",
+      "data": {
+        "id": "F80wg5qBBzSU3OFBFJYFC",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "支持新文本节点的快捷指令"
+        },
+        "focus": true
+      },
+      "props": {}
+    },
+    {
+      "id": "pFlMX3EynjLHnYpPHdUz2",
+      "component": "Block",
+      "data": {
+        "id": "hKLLfLT6SnxD01r1Rha9G",
+        "component": "BookmarkBlock",
+        "props": {},
+        "focus": false,
+        "data": {
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/content",
+          "title": "content - CSS: Cascading Style Sheets | MDN",
+          "description": "The content CSS property replaces content with a generated value. It can be used to define what is rendered inside an element or pseudo-element. For elements, the content property specifies whether the element renders normally (normal or none) or is replaced with an image (and associated \"alt\" text). For pseudo-elements and margin boxes, content defines the content as images, text, both, or none, which determines whether the element renders at all.",
+          "icon": "https://developer.mozilla.org/favicon-48x48.bc390275e955dacb2e65.png",
+          "image": "https://developer.mozilla.org/mdn-social-share.d893525a4fb5fb1f67a2.png"
+        }
+      },
+      "props": {}
+    },
+    {
+      "id": "jC9ErmL-Y5oM5qRYl-ACk",
+      "component": "Block",
+      "data": {
+        "id": "RP4jROtCpXVRp9l56qsZu",
+        "component": "HeaderBlock",
+        "data": {
+          "type": "h1",
+          "doc": "引用"
+        }
+      },
+      "props": {}
+    },
+    {
+      "id": "W3QyOvqOysMP8X68QYTzD",
+      "component": "Block",
+      "data": {
+        "id": "mvTIO9N5Rt59RUpkSBmlZ",
+        "component": "ListItemBlock",
+        "data": {
+          "doc": "支持新文本节点的调整"
+        }
+      },
+      "props": {}
+    },
+    {
+      "id": "CaiJ7uUx8h2vrRUlGS-Gj",
+      "component": "Block",
+      "data": {
+        "id": "V-EHWtt12VcWe2OIz4Wi3",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "优化空内容时，删除功能"
+        },
+        "focus": true
+      },
+      "props": {}
+    },
+    {
+      "id": "GjPsQAC8yuXU1GKFwzY-0",
+      "component": "QuoteBlock",
+      "data": [
+        {
+          "id": "inXajrnzfz1NNh_6gWwO-",
+          "component": "EditNode",
+          "data": ""
+        }
+      ],
+      "props": {}
+    },
+    {
+      "id": "msuytCxxiBPoPRLoZcuBc",
+      "component": "Block",
+      "data": {
+        "id": "1kFfsE72yxySelffmt9PM",
+        "component": "HeaderBlock",
+        "data": {
+          "type": "h1",
+          "doc": "其它"
+        }
+      },
+      "props": {}
+    },
+    {
+      "id": "vEceI-LOk4-MT89Q-cG4T",
+      "component": "Block",
+      "data": {
+        "id": "1lwikt6A5rS3U-t7nmld9",
+        "component": "ListItemBlock",
+        "data": {
+          "doc": "其它细节功能优化"
+        }
+      },
+      "props": {}
+    }
+  ],
+  "setting": {
+    "lock": false,
+    "debug": false,
+    "historyPanel": false
+  }
+}

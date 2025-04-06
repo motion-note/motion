@@ -1,0 +1,108 @@
+{
+  "title": "快速上手",
+  "blocks": [
+    {
+      "id": "rS3djNyi0pvq6eV1zVBKv",
+      "component": "Block",
+      "data": {
+        "id": "NyrmlDsQwYNhbo694O_HN",
+        "component": "HeaderBlock",
+        "data": {
+          "type": "h1",
+          "doc": "创建页面"
+        }
+      }
+    },
+    {
+      "id": "Y7gYp_1YkP6l-2bSXmjU5",
+      "component": "EditNode",
+      "data": "点击侧边菜单下方**+**就可以创建一个一级页面。",
+      "props": {}
+    },
+    {
+      "id": "D7nzrtUcCgeT07hEzEzLZ",
+      "component": "EditNode",
+      "data": "创建的页面，可以是文档，同时还可以做为一个父级目录。当鼠标移动到标题时，会出现更多菜单选项。",
+      "props": {}
+    },
+    {
+      "id": "8GUBewCggxa2EwxTEiLh6",
+      "component": "Block",
+      "data": {
+        "id": "7la4jK8bHy2R3uPyufg2S",
+        "component": "HeaderBlock",
+        "data": {
+          "type": "h1",
+          "doc": "创建子页面"
+        }
+      },
+      "props": {}
+    },
+    {
+      "id": "ePjGlW-oWIFSOyDBuc6eH",
+      "component": "EditNode",
+      "data": "当更新菜单出现后，选择 **+** 号就可以添加一个子页面了。以此类推，可以无限制的创建下去。",
+      "props": {}
+    },
+    {
+      "id": "wIzb_wvectHEcOfHk9GoS",
+      "component": "Block",
+      "data": {
+        "id": "7C6lGGfQsEbH0E3pvTGV5",
+        "component": "HeaderBlock",
+        "data": {
+          "type": "h1",
+          "doc": "删除页面"
+        }
+      },
+      "props": {}
+    },
+    {
+      "id": "_LqUx5yUpSCHG8D63v08T",
+      "component": "EditNode",
+      "data": "当需要对页面进行删除时，同样将鼠标移动到侧边菜单文档列表上，放在需要删除文档标题上，此时，选择更多按钮，下拉选择删除即可。",
+      "props": {}
+    },
+    {
+      "id": "GAcvifMBws58pvpso3YKb",
+      "component": "QuoteBlock",
+      "data": [
+        {
+          "id": "Sl8T78HyIL069A2CuQilB",
+          "component": "EditNode",
+          "data": "**注意** 当你们文档中包含子文档时，请谨慎操作，文档在删除后将无法恢复。"
+        }
+      ],
+      "props": {}
+    },
+    {
+      "id": "jdKoUVVIc0c3hquDFwrv-",
+      "component": "Block",
+      "data": {
+        "id": "qYiTVI2s8MxM_3qztmNJM",
+        "component": "HeaderBlock",
+        "data": {
+          "type": "h1",
+          "doc": "文档移动"
+        }
+      }
+    },
+    {
+      "id": "SQPxmowSGaE9jCCudipaD",
+      "component": "EditNode",
+      "data": "当需要对文档进行移动排序时，可以拖动文档标题，上下移动到你需要调整的位置。",
+      "props": {}
+    },
+    {
+      "id": "_-6MAnpp8Zl2YLvoW8DB_",
+      "component": "EditNode",
+      "data": "",
+      "props": {}
+    }
+  ],
+  "setting": {
+    "lock": false,
+    "debug": false,
+    "historyPanel": false
+  }
+}

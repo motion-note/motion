@@ -1,0 +1,113 @@
+{
+  "title": "快捷指令",
+  "blocks": [
+    {
+      "id": "bvQ5bKNJpIL_nWacc4Hqj",
+      "component": "EditNode",
+      "data": "快捷指令将常用的格式内容放在一起，当用户在空的节点中输入=====时将自动唤起，通过上下键或鼠标选择想要的节点格式，按==Enter==或**鼠标点击**自动生成指定格式的节点段落。"
+    },
+    {
+      "id": "0kyrrnB0pHntJOPCPhelE",
+      "component": "Block",
+      "data": {
+        "id": "-BmQHujuY849-k_kruIRS",
+        "component": "ImageBlock",
+        "data": {
+          "url": "\\0SDQSmG1N35tOZ11JLxUx\\1726194590505.gif"
+        },
+        "focus": false
+      }
+    },
+    {
+      "id": "vuUjsbrEfyUYHlO57Gf8Z",
+      "component": "EditNode",
+      "data": "目前支持的方式有："
+    },
+    {
+      "id": "E7OYixhMrVECz-q6n2luH",
+      "component": "Block",
+      "data": {
+        "id": "AWFpZkFHFUF7yGX1N9dVk",
+        "component": "ListItemBlock",
+        "data": {
+          "doc": "标题"
+        }
+      },
+      "props": {}
+    },
+    {
+      "id": "RX81yLCz21I1H0KujbY3f",
+      "component": "Block",
+      "data": {
+        "id": "R3DclDbIBYMQ6K6U5iRQV",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "表格"
+        },
+        "focus": true
+      },
+      "props": {}
+    },
+    {
+      "id": "3DHTAlQrD9ULs6NIw66wq",
+      "component": "Block",
+      "data": {
+        "id": "2MUZjAvU26vdpkDXzlO-K",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "列表"
+        },
+        "focus": true
+      },
+      "props": {}
+    },
+    {
+      "id": "jliS__uFXHAxUbaptAX-I",
+      "component": "Block",
+      "data": {
+        "id": "TqtmyQLw_NCjRuCNEUadu",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "代码块"
+        },
+        "focus": true
+      },
+      "props": {}
+    },
+    {
+      "id": "IN4uJAtTyDFYkRqn-EdW1",
+      "component": "Block",
+      "data": {
+        "id": "g85PrhHUyxlWaV5-zlDFL",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "引用"
+        },
+        "focus": true
+      },
+      "props": {}
+    },
+    {
+      "id": "rG0hzqJSOICuzP4AKuBq9",
+      "component": "Block",
+      "data": {
+        "id": "d5Yd5WYEWrETtRe7HRXXa",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "书签"
+        },
+        "focus": true
+      },
+      "props": {}
+    }
+  ],
+  "setting": {
+    "lock": false,
+    "debug": false
+  }
+}

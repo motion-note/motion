@@ -1,0 +1,250 @@
+{
+  "title": "列表",
+  "blocks": [
+    {
+      "id": "MZMm39anq9A6a7_LogcCA",
+      "component": "Block",
+      "data": {
+        "id": "9KCeBvUL2blC5L2sre9eh",
+        "component": "HeaderBlock",
+        "data": {
+          "type": "h1",
+          "doc": "生成"
+        }
+      }
+    },
+    {
+      "id": "DzA1RnkTCMQnFFPynnkF0",
+      "component": "Block",
+      "data": {
+        "id": "2PMepAmgSOzcl483z2Yt0",
+        "component": "ListItemBlock",
+        "data": {
+          "doc": "使用 `-` + 空格快速生成"
+        }
+      },
+      "props": {}
+    },
+    {
+      "id": "58uKx76vlNVPSiWx-kkL3",
+      "component": "Block",
+      "data": {
+        "id": "y5kHtCS4r5r82pyV1u3zw",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "使用快捷指令快速生成"
+        },
+        "focus": true
+      },
+      "props": {}
+    },
+    {
+      "id": "SIFHdfnxAbLCb3DDPebxC",
+      "component": "Block",
+      "data": {
+        "id": "APQi2Pt0cSSQfCRQUB2A_",
+        "component": "ImageBlock",
+        "data": {
+          "url": "/cuqQnv4ZdyXqL78Jfg2ub/1725887592624.gif",
+          "width": 317.85888671875
+        },
+        "focus": false
+      },
+      "props": {}
+    },
+    {
+      "id": "o3b2d1sb6Zo9eqNJ3rWNB",
+      "component": "Block",
+      "data": {
+        "id": "7oGWETj83_3I8-vBwzmOE",
+        "component": "HeaderBlock",
+        "data": {
+          "type": "h1",
+          "doc": "细节功能列表"
+        }
+      }
+    },
+    {
+      "id": "WWq6bLMY2qsEegMJEyQfb",
+      "component": "Block",
+      "data": {
+        "id": "EFbB2wXivJ3JjXARyn1UI",
+        "component": "ListItemBlock",
+        "data": {
+          "doc": "生成列表"
+        }
+      },
+      "props": {}
+    },
+    {
+      "id": "DS7lPzmVU7-xi2Dgtx4sW",
+      "component": "Block",
+      "data": {
+        "id": "rW0nx9PcD8UQyyJ9LWqhT",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "在空文本节点，支持使用 `-`+ 空格快速生成列表 ✔"
+        },
+        "focus": true
+      },
+      "props": {
+        "tab": 1
+      }
+    },
+    {
+      "id": "esb4WjAcm4OGth9z_cocR",
+      "component": "Block",
+      "data": {
+        "id": "vNZlZgx8EK6-O2UuJLosR",
+        "component": "ListItemBlock",
+        "data": {
+          "doc": "使用快捷指令生成列表 ✔"
+        }
+      },
+      "props": {
+        "tab": 1
+      }
+    },
+    {
+      "id": "3Dffm4h-lhvhG8-gCoVUd",
+      "component": "Block",
+      "data": {
+        "id": "v-16SxWaZIrEp0-F7clCs",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "在列表节点，使用**enter**时，生成新的列表节点 ✔"
+        },
+        "focus": true
+      },
+      "props": {
+        "tab": 1
+      }
+    },
+    {
+      "id": "iPLCU37XxQypH4q38-sN6",
+      "component": "Block",
+      "data": {
+        "id": "bNYGydh1IG6WZiQ9DkGNB",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "使用**enter**生成列表节点时，支持文本换行分隔 ✔"
+        },
+        "focus": true
+      },
+      "props": {
+        "tab": 1
+      }
+    },
+    {
+      "id": "E-f7Wzn8hcADTwSto9_XC",
+      "component": "Block",
+      "data": {
+        "id": "OK1dYwaj-9GHEoaeEJ37k",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "格式"
+        },
+        "focus": true
+      }
+    },
+    {
+      "id": "Z8bnkS8SVEvjUrxY57CMq",
+      "component": "Block",
+      "data": {
+        "id": "Xlatsa-vK-FJ4rpLUlbnE",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "支持使用**tab** 控制缩进 ✔"
+        },
+        "focus": true
+      },
+      "props": {
+        "tab": 1
+      }
+    },
+    {
+      "id": "fvReDMHrbCmm_sxBF_Y4r",
+      "component": "Block",
+      "data": {
+        "id": "nnWktCrOPaTKDKpLt5MlP",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "支持使用 **shift + Tab** 快速回退缩进 ✔"
+        },
+        "focus": true
+      },
+      "props": {
+        "tab": 1
+      }
+    },
+    {
+      "id": "IMcEQxEZD8bhS_FGlLgEh",
+      "component": "Block",
+      "data": {
+        "id": "6Z-y7gas6G09l-iPITQA1",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "在有缩进的节点，换行时，新节点保留原节点的属性 ✔"
+        },
+        "focus": true
+      },
+      "props": {
+        "tab": 1
+      }
+    },
+    {
+      "id": "dkFMlIWJ4Yza8KoUwhJ7Y",
+      "component": "Block",
+      "data": {
+        "id": "KuKUkn4uCSJKjH5o8We_z",
+        "component": "ListItemBlock",
+        "data": {
+          "doc": "在有多级缩进节点时，在首位删除优先处理缩进 ✔"
+        }
+      },
+      "props": {
+        "tab": 1
+      }
+    },
+    {
+      "id": "ULU1w4nMnZzqmwu7nst6s",
+      "component": "Block",
+      "data": {
+        "id": "zwpUEWOWV32J0KwelYUX3",
+        "component": "ListItemBlock",
+        "data": {
+          "doc": "历史记录"
+        }
+      }
+    },
+    {
+      "id": "YCL237bqKjNwzxXUzLNvY",
+      "component": "Block",
+      "data": {
+        "id": "73zHVfWfq9H8txfQr7Bsj",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "生成时，更新记录 ✔"
+        },
+        "focus": true
+      },
+      "props": {
+        "tab": 1
+      }
+    }
+  ],
+  "setting": {
+    "lock": false,
+    "debug": false,
+    "historyPanel": false
+  }
+}

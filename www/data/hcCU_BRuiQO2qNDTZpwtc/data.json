@@ -1,0 +1,307 @@
+{
+  "title": "标题",
+  "blocks": [
+    {
+      "id": "2ZFkWh7_C4vLA-7755mtp",
+      "component": "Block",
+      "data": {
+        "id": "8DgE5Dmk5W5G44N9jF7Vn",
+        "component": "HeaderBlock",
+        "data": {
+          "type": "h1",
+          "doc": "创建"
+        }
+      }
+    },
+    {
+      "id": "25ngZyZ_fKMSFy5PeQU6c",
+      "component": "Block",
+      "data": {
+        "id": "w0n9TS4MWpHryGPHgPO7B",
+        "component": "ImageBlock",
+        "data": {
+          "url": "\\hcCU_BRuiQO2qNDTZpwtc\\1725939003111.apng"
+        },
+        "focus": false
+      },
+      "props": {}
+    },
+    {
+      "id": "-2K6XAB8b5FcYxTY7xsQU",
+      "component": "Block",
+      "data": {
+        "id": "TuXVfq_9QdDrVtbwi58nU",
+        "component": "ListItemBlock",
+        "data": {
+          "doc": "使用快捷方式 **=** 选择列表"
+        }
+      },
+      "props": {}
+    },
+    {
+      "id": "u6CraJXlOH8lV26-xRlrF",
+      "component": "Block",
+      "data": {
+        "id": "xYAu-rykZvRWcgfZA2rCA",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "在文本节点使用 `ctrl` + 数字1~6生成标题。"
+        },
+        "focus": true
+      },
+      "props": {}
+    },
+    {
+      "id": "B6yzBmB2bgfEHB9mTlGG7",
+      "component": "QuoteBlock",
+      "data": [
+        {
+          "id": "QCWdm0JOxTOcPKyZzzrJY",
+          "component": "EditNode",
+          "data": "**注意** 在Mac 上使用 command + 数字 1~6。"
+        },
+        {
+          "id": "Ae2gTFU0i3xko4F-t2OmJ",
+          "component": "EditNode",
+          "data": "==小技巧== 在标题下，可以使用 `ctrl + P` 快速将标题转换成文本。",
+          "props": {}
+        }
+      ],
+      "props": {}
+    },
+    {
+      "id": "odmWQ_6He1x0VEiNXJ7il",
+      "component": "Block",
+      "data": {
+        "id": "LV_nTyqzHv-x6dE96kCMX",
+        "component": "HeaderBlock",
+        "data": {
+          "type": "h1",
+          "doc": "详细功能清单"
+        }
+      }
+    },
+    {
+      "id": "K1xhpQYk7lDxfe84lupA0",
+      "component": "Block",
+      "data": {
+        "id": "3byPq4ICKoy-K77Ve3asq",
+        "component": "ListItemBlock",
+        "data": {
+          "doc": "生成"
+        }
+      },
+      "props": {}
+    },
+    {
+      "id": "hM5gMdJUtDtPXhw1216kj",
+      "component": "Block",
+      "data": {
+        "id": "UskiwC740pFDVWa_2sC7p",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "支持快捷指令生成 ✔"
+        },
+        "focus": true
+      },
+      "props": {
+        "tab": 1
+      }
+    },
+    {
+      "id": "egqGw5DbimQrNa4qxKkRX",
+      "component": "Block",
+      "data": {
+        "id": "59_5Oi0XzqNhG_YDsdVrL",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "支持`ctrl + 1~6` 快捷键生成 ✔"
+        },
+        "focus": true
+      },
+      "props": {
+        "tab": 1
+      }
+    },
+    {
+      "id": "-DGGwuPDrIJiMqrDrFN7k",
+      "component": "Block",
+      "data": {
+        "id": "FlmxuHFNkKCO5zNn3c8aI",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "支持`ctrl+p`转换成普通文本 ✔"
+        },
+        "focus": true
+      },
+      "props": {
+        "tab": 1
+      }
+    },
+    {
+      "id": "lbsRKLG_o4QtzY0KHk2sW",
+      "component": "Block",
+      "data": {
+        "id": "GN0MBZrXyxEvApSZOipt0",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "支持在不同标题间通过快捷键指令快速切换 ✔"
+        },
+        "focus": true
+      },
+      "props": {
+        "tab": 1
+      }
+    },
+    {
+      "id": "FgZvdwL7OCyYzKvhXzfY_",
+      "component": "Block",
+      "data": {
+        "id": "qajUixpjuQwHrbsHCeDfV",
+        "component": "ListItemBlock",
+        "data": {
+          "doc": "复制粘贴"
+        }
+      },
+      "props": {}
+    },
+    {
+      "id": "m3Tkh9VeTKcHTjSeuCdoD",
+      "component": "Block",
+      "data": {
+        "id": "pgdObzfFbVv6ldd654nnG",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "支持复制文本 ✔"
+        },
+        "focus": true
+      },
+      "props": {
+        "tab": 1
+      }
+    },
+    {
+      "id": "Q86wqPW6pk4z68isbYmBm",
+      "component": "Block",
+      "data": {
+        "id": "9BR0n6lxVDpQU7KLvt0gk",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "支持粘贴文本 ✔"
+        },
+        "focus": true
+      },
+      "props": {
+        "tab": 1
+      }
+    },
+    {
+      "id": "BqrTRCM3FLbGWhX1OS0zV",
+      "component": "Block",
+      "data": {
+        "id": "a4AWj_NTE2cg0Z5YeW03v",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "不支持图片粘贴 ✔"
+        },
+        "focus": true
+      },
+      "props": {
+        "tab": 1
+      }
+    },
+    {
+      "id": "7W7SdXMOf9ZXCaqpxofJi",
+      "component": "Block",
+      "data": {
+        "id": "8bcaqDzmiQtA4atpDqr9_",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "右键快捷键 0.17.0+"
+        },
+        "focus": true
+      },
+      "props": {
+        "tab": 0
+      }
+    },
+    {
+      "id": "ovIoYSS8kgFTxU8DUCr4G",
+      "component": "Block",
+      "data": {
+        "id": "FmqZNIcFZYz3uqbuPc9VM",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "支持文本内容的复制 ✔"
+        },
+        "focus": true
+      },
+      "props": {
+        "tab": 1
+      }
+    },
+    {
+      "id": "KvQs17j9szX_Rbzrmm2BJ",
+      "component": "Block",
+      "data": {
+        "id": "clHdLLaLyBuAWNNX6njf6",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "格式"
+        },
+        "focus": true
+      },
+      "props": {
+        "tab": 0
+      }
+    },
+    {
+      "id": "etQ3CrVQJko3w4MxP5y9m",
+      "component": "Block",
+      "data": {
+        "id": "IxHhrfQt0Artil5p2pshJ",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "支持纯文本内容 ✔"
+        },
+        "focus": true
+      },
+      "props": {
+        "tab": 1
+      }
+    },
+    {
+      "id": "lJJn7oKHeYtMKUF5UK28o",
+      "component": "Block",
+      "data": {
+        "id": "ghB5JpAMxwguhsMJnZiuv",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "支持链接地址 ✔"
+        },
+        "focus": true
+      },
+      "props": {
+        "tab": 1
+      }
+    }
+  ],
+  "setting": {
+    "lock": true,
+    "debug": false,
+    "historyPanel": false
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "title": "0.19.1",
+  "blocks": [
+    {
+      "id": "46-kujmv78wrEXZ0WMw7j",
+      "component": "Block",
+      "data": {
+        "id": "N2mXt350E7zppg_n7Oign",
+        "component": "ListItemBlock",
+        "data": {
+          "doc": "修复我的文档列表拖拽可能出现排序不正确的问题。"
+        }
+      }
+    },
+    {
+      "id": "xzCFmpVHB5WDiiOyHa7AN",
+      "component": "Block",
+      "data": {
+        "id": "NiDsB6ctPZweJHVFJ5mTh",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "修复图片偶尔加载报错，无法展示。"
+        },
+        "focus": true
+      }
+    },
+    {
+      "id": "V6pPlvi9nJ2pVvsuS9ePC",
+      "component": "Block",
+      "data": {
+        "id": "KAo_w3mOx-A0rq5oHmVVz",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "其它细节功能调整。"
+        },
+        "focus": true
+      }
+    },
+    {
+      "id": "s-CrKu65F9mrG0fcRTwFG",
+      "component": "EditNode",
+      "data": ""
+    }
+  ],
+  "setting": {
+    "lock": true,
+    "debug": false,
+    "historyPanel": false
+  }
+}

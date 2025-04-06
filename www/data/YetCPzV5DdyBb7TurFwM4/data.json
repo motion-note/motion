@@ -1,0 +1,74 @@
+{
+  "title": "下载与安装",
+  "blocks": [
+    {
+      "id": "VGvb2-AFt3jTezzrmTkCv",
+      "component": "Block",
+      "data": {
+        "id": "z4LCByF3L83n41zYoFMbJ",
+        "component": "HeaderBlock",
+        "data": {
+          "type": "h1",
+          "doc": "下载"
+        }
+      }
+    },
+    {
+      "id": "865P71q9fXqXdFs2x2tZj",
+      "component": "EditNode",
+      "data": "下载地址：https://github.com/motion-note/motion/releases"
+    },
+    {
+      "id": "A1K9rg12B_M7I_K1l9rA6",
+      "component": "Block",
+      "data": {
+        "id": "mLgmfE8qohIANxSz_psfu",
+        "component": "ImageBlock",
+        "data": {
+          "url": "/YetCPzV5DdyBb7TurFwM4/1726894266185.png"
+        },
+        "focus": false
+      }
+    },
+    {
+      "id": "pQCMKUJawyPIrFh9wTXWi",
+      "component": "Block",
+      "data": {
+        "id": "7AxlPVw6LtMVPcjc7z4jH",
+        "component": "HeaderBlock",
+        "data": {
+          "type": "h1",
+          "doc": "安装"
+        }
+      },
+      "props": {}
+    },
+    {
+      "id": "yESL08Cp7nOvMttXm-_L5",
+      "component": "EditNode",
+      "data": "下载后，解压就可以正常使用。",
+      "props": {}
+    },
+    {
+      "id": "WVLoBpM2Re0qMKloj_8rB",
+      "component": "EditNode",
+      "data": "",
+      "props": {}
+    },
+    {
+      "id": "TLPb4dSKs3c2hVlxXNH0Q",
+      "component": "EditNode",
+      "data": ""
+    },
+    {
+      "id": "w0fFqVP3KdYSk8mIdZREc",
+      "component": "EditNode",
+      "data": ""
+    }
+  ],
+  "setting": {
+    "lock": false,
+    "debug": false,
+    "historyPanel": false
+  }
+}

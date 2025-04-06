@@ -1,0 +1,268 @@
+{
+  "title": "0.10.0",
+  "blocks": [
+    {
+      "id": "Fj5dfAvUR6xUlYBUs5W--",
+      "component": "Block",
+      "data": {
+        "id": "KLenBWq5TsvCWdQAL_H0g",
+        "component": "HeaderBlock",
+        "props": {},
+        "data": {
+          "type": "h1",
+          "doc": "<span class=\"pudding-text is-active\" data-type=\"text\">功能</span>"
+        }
+      }
+    },
+    {
+      "id": "v8xTHF19q557XdBStX77j",
+      "component": "Block",
+      "data": {
+        "id": "M59woxRmYZA9ti5s_Er7L",
+        "component": "HeaderBlock",
+        "props": {},
+        "data": {
+          "type": "h2",
+          "doc": "<span class=\"pudding-text\" data-type=\"text\">快捷指令功能</span>"
+        }
+      }
+    },
+    {
+      "id": "R22jRGzZkDLwTdscYwyoP",
+      "component": "Block",
+      "data": {
+        "id": "u4ICIYxpcs1EyiVfA1CSY",
+        "component": "EditBlock",
+        "props": {},
+        "data": "<span class=\"pudding-text\" data-type=\"text\">在文本节点开始时，通过</span><mark class=\"pudding-mark\" data-type=\"mark\" \n><span data-markup=\"==\">==</span\n><label>/</label\n><span data-markup=\"==\">==</span\n></mark><span class=\"pudding-text is-active\" data-type=\"text\">可以快速唤起快捷指令，生成需要的节点模块。</span>"
+      }
+    },
+    {
+      "id": "M33cskfZtugCvclJvvXZ7",
+      "component": "Block",
+      "data": {
+        "id": "zpYyxVJHcY5j5QGSHYddX",
+        "component": "ImageBlock",
+        "props": {},
+        "data": {
+          "url": "/OaTyRG4hNYgRBveTW8eR8/1690294597816.gif",
+          "width": 355.555419921875,
+          "align": "center"
+        },
+        "focus": false
+      }
+    },
+    {
+      "id": "jdSu9bZMD8BwVYkvD3tTh",
+      "component": "Block",
+      "data": {
+        "id": "dixPZEGekJbhbg_9zJpFI",
+        "component": "HeaderBlock",
+        "props": {},
+        "data": {
+          "type": "h2",
+          "doc": "<span class=\"pudding-text\" data-type=\"text\">代码块</span>"
+        }
+      }
+    },
+    {
+      "id": "H-wgnwTJ43YS5V0xYIFS-",
+      "component": "Block",
+      "data": {
+        "id": "mWNPzXPiUcDFeVsKoBouX",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "<strong class=\"pudding-strong\" data-type=\"strong\"><span data-markup=\"**\">**</span><label>支持过滤查询</label><span data-markup=\"**\">**</span></strong><span class=\"pudding-text\" data-type=\"text\"> 点击</span><mark class=\"pudding-mark\" data-type=\"mark\"><span data-markup=\"==\">==</span><label>语言类型</label><span data-markup=\"==\">==</span></mark><span class=\"pudding-text\" data-type=\"text\">，可以筛选语言。</span>"
+        }
+      }
+    },
+    {
+      "id": "xKFnpquEzKWulKBrAJoqM",
+      "component": "Block",
+      "data": {
+        "id": "YH6a0_o0XpfFlE2EbVor6",
+        "component": "ListItemBlock",
+        "props": {},
+        "class": [],
+        "data": {
+          "doc": "<strong class=\"pudding-strong\" data-type=\"strong\"><span data-markup=\"**\">**</span><label>支持复制代码</label><span data-markup=\"**\">**</span></strong><span class=\"pudding-text\" data-type=\"text\">&nbsp;点击</span><mark class=\"pudding-mark\" data-type=\"mark\"><span data-markup=\"==\">==</span><label>copy</label><span data-markup=\"==\">==</span></mark><span class=\"pudding-text\" data-type=\"text\">可以快速复制代码块中的代码内容</span>"
+        }
+      }
+    },
+    {
+      "id": "61KRxk3GD883b_rJ5trjs",
+      "component": "Block",
+      "data": {
+        "id": "3hEPrEHURqy_BskJ-gXQM",
+        "component": "CodeBlock",
+        "props": {},
+        "data": {
+          "doc": "let a = 1",
+          "lang": "ts"
+        }
+      }
+    },
+    {
+      "id": "a8NjYqYdtrMAVY7It_qvi",
+      "component": "Block",
+      "data": {
+        "id": "z0qGbhvi6R71uVp1yyc6b",
+        "component": "EditBlock",
+        "props": {},
+        "data": "<span class=\"pudding-text\" data-type=\"text\">let a = 1</span>"
+      }
+    },
+    {
+      "id": "IZBpm_rW7fnKFfwCm9PW0",
+      "component": "Block",
+      "data": {
+        "id": "xEJ_Us6a0_mrGgY-ltLjr",
+        "component": "HeaderBlock",
+        "props": {},
+        "data": {
+          "type": "h2",
+          "doc": "<span class=\"pudding-text\" data-type=\"text\">菜单位置记忆</span>"
+        }
+      }
+    },
+    {
+      "id": "TRYNoD4BSGgD5HTajYvu3",
+      "component": "Block",
+      "data": {
+        "id": "LjzTmf7n-fgy5jpfvFbJb",
+        "component": "EditBlock",
+        "props": {},
+        "data": "<span class=\"pudding-text\" data-type=\"text\">菜单大小位置可以记忆用户之前的操作，不必每次都需要调整了。</span>",
+        "focus": false
+      }
+    },
+    {
+      "id": "uTHlsuuSTGpbzWNkAfFNN",
+      "component": "Block",
+      "data": {
+        "id": "vTp1nsfnm56xbdFwzAD4K",
+        "component": "HeaderBlock",
+        "props": {},
+        "data": {
+          "doc": "<span class=\"pudding-text is-active\" data-type=\"text\">优化</span>",
+          "type": "h1"
+        },
+        "focus": false
+      }
+    },
+    {
+      "id": "6dnqxwtAlWd4vGFSbfD-d",
+      "component": "Block",
+      "data": {
+        "id": "-OLE_fTpqrURG1D3DSQ6h",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "<span class=\"pudding-text is-active\" data-type=\"text\">历史记录功能改造</span>"
+        }
+      }
+    },
+    {
+      "id": "UALmq5GMvWZxe_0wXGXtC",
+      "component": "Block",
+      "data": {
+        "id": "zkW1_my7eh1HCcTwjyj_1",
+        "component": "ListItemBlock",
+        "props": {},
+        "class": [],
+        "data": {
+          "doc": "<span class=\"pudding-text is-active\" data-type=\"text\">查询标题功能支持清空操作</span>"
+        },
+        "focus": false
+      }
+    },
+    {
+      "id": "_CZq8-Yp75qOjbM0WyTYl",
+      "component": "Block",
+      "data": {
+        "id": "_VHHBv3ndzHiWbb9d5zyD",
+        "component": "ListItemBlock",
+        "props": {},
+        "class": [],
+        "data": {
+          "doc": "<span class=\"pudding-text\" data-type=\"text\">文档列表优化，支持空标题的提示</span>"
+        },
+        "focus": false
+      }
+    },
+    {
+      "id": "I04wiQEsWaVTVuehaKbPh",
+      "component": "Block",
+      "data": {
+        "id": "aGI9Q_5H4-l_xuWhnXUgK",
+        "component": "ListItemBlock",
+        "props": {},
+        "class": [],
+        "data": {
+          "doc": "<span class=\"pudding-text\" data-type=\"text\">图片预览功能优化了放大效果，不再只是弹起，现在会自适应窗口大小最大化缩放，让内容可视最大化。</span>"
+        },
+        "focus": false
+      }
+    },
+    {
+      "id": "TxQO88GGCJQi79C8-dEkh",
+      "component": "Block",
+      "data": {
+        "id": "vyhF7MZ_cJ_L_aWel6bG5",
+        "component": "ListItemBlock",
+        "props": {},
+        "class": [],
+        "data": {
+          "doc": "<span class=\"pudding-text\" data-type=\"text\">图片支持 svg 格式的内容粘贴，并对不支持的图片格式给出提示</span>"
+        },
+        "focus": false
+      }
+    },
+    {
+      "id": "ulHQO3q4CZ30ulE1IDJ98",
+      "component": "Block",
+      "data": {
+        "id": "49qenHTHrY9myTciDyOg9",
+        "component": "ListItemBlock",
+        "props": {},
+        "class": [],
+        "data": {
+          "doc": "<span class=\"pudding-text\" data-type=\"text\">标题与内容的转化时 优化了光标丢失的问题</span>"
+        },
+        "focus": false
+      }
+    },
+    {
+      "id": "lxlPgb4hLQhVEbW8nxUYZ",
+      "component": "Block",
+      "data": {
+        "id": "1AWsR2lm2_z2FKduy84w9",
+        "component": "ListItemBlock",
+        "props": {},
+        "class": [],
+        "data": {
+          "doc": "<span class=\"pudding-text\" data-type=\"text\">优化了</span><mark class=\"pudding-mark\" data-type=\"mark\"><span data-markup=\"==\">==</span><label>关于</label><span data-markup=\"==\">==</span></mark><span class=\"pudding-text\" data-type=\"text\">的信息</span>"
+        },
+        "focus": false
+      }
+    },
+    {
+      "id": "5-_NlGTdderjSkv3J2XjS",
+      "component": "Block",
+      "data": {
+        "id": "qHL56LvLzXHDgh_TFqdTT",
+        "component": "ImageBlock",
+        "props": {},
+        "data": {
+          "url": "/OaTyRG4hNYgRBveTW8eR8/1690983087488.svg"
+        },
+        "focus": false
+      }
+    }
+  ],
+  "setting": {
+    "lock": false,
+    "debug": false
+  }
+}

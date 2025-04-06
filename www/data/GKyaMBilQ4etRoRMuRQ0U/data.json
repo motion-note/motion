@@ -1,0 +1,286 @@
+{
+  "title": "0.13.0",
+  "blocks": [
+    {
+      "id": "AnIunIPa72UmgpbXdjjB8",
+      "component": "Block",
+      "data": {
+        "id": "L8iCmWgosuSAt0FdQnfyv",
+        "component": "HeaderBlock",
+        "props": {},
+        "data": {
+          "type": "h1",
+          "doc": "<span class=\"pudding-text\" data-type=\"text\">功能改进</span>"
+        },
+        "focus": false
+      }
+    },
+    {
+      "id": "QcOEDDrqr1qHaxeEIwDnO",
+      "component": "Block",
+      "data": {
+        "id": "yP0gT4n8PHR1bh5r5Q01l",
+        "component": "HeaderBlock",
+        "props": {},
+        "data": {
+          "type": "h2",
+          "doc": "<span class=\"pudding-text\" data-type=\"text\">侧边栏调整</span>"
+        },
+        "focus": false
+      }
+    },
+    {
+      "id": "YNQJBQQbTjsy6cytqJPIA",
+      "component": "Block",
+      "data": {
+        "id": "MK1vsm0sz5YiF4QIqMHIH",
+        "component": "EditBlock",
+        "props": {},
+        "data": "<span class=\"pudding-text\" data-type=\"text\">侧边栏调整，添加</span><strong class=\"pudding-strong\" data-type=\"strong\"><span data-markup=\"**\">**</span><label>最近修改</label><span data-markup=\"**\">**</span></strong><span class=\"pudding-text\" data-type=\"text\">功能，展示最近修改的文档信息，方便快速访问最近修改的内容。</span>",
+        "focus": true
+      }
+    },
+    {
+      "id": "XB2wS0A6ghc8LFKr7yUkT",
+      "component": "Block",
+      "data": {
+        "id": "_dzbFUTcJZIqtuFCMvdMN",
+        "component": "ImageBlock",
+        "props": {},
+        "data": {
+          "url": "/GKyaMBilQ4etRoRMuRQ0U/1696892363743.png",
+          "align": "center",
+          "width": 245.645263671875
+        },
+        "focus": false
+      }
+    },
+    {
+      "id": "XUYiSqd1GKTTgs0tSujvO",
+      "component": "Block",
+      "props": {},
+      "data": {
+        "id": "8ujTdQ7t_X3YnFGepz_T-",
+        "component": "HeaderBlock",
+        "props": {},
+        "data": {
+          "type": "h2",
+          "doc": "<span class=\"pudding-text\" data-type=\"text\">工作空间调整</span>"
+        },
+        "focus": false
+      }
+    },
+    {
+      "id": "XaQX7GVwGO6zPaSBQtHfj",
+      "component": "Block",
+      "data": {
+        "id": "ATDiGCZloDOjik6bbAMUk",
+        "component": "HeaderBlock",
+        "props": {},
+        "data": {
+          "type": "h3",
+          "doc": "<span class=\"pudding-text\" data-type=\"text\">工作空间列表</span>"
+        },
+        "focus": false
+      }
+    },
+    {
+      "id": "MgHPNhK8FBEg4yhRf9N4s",
+      "component": "Block",
+      "data": {
+        "id": "h7ZP5y-jZHqefeqf1_XHT",
+        "component": "EditBlock",
+        "props": {},
+        "data": "<span class=\"pudding-text\" data-type=\"text\">现在的工作空间列表可以对不要的内容进行删除及打开保存的位置。</span>",
+        "focus": false
+      }
+    },
+    {
+      "id": "8U5vp6L11XPeKVh0fODpi",
+      "component": "Block",
+      "data": {
+        "id": "oics1Fj77Kl8wpSMWbUMM",
+        "component": "ImageBlock",
+        "props": {},
+        "data": {
+          "url": "/GKyaMBilQ4etRoRMuRQ0U/1698101972708.png",
+          "width": 455.5972900390625,
+          "align": "center"
+        },
+        "focus": false
+      }
+    },
+    {
+      "id": "5p8IaNTg2N7xlrPA52ake",
+      "component": "Block",
+      "data": {
+        "id": "82ctMCbgoNie5FK3DhUXW",
+        "component": "HeaderBlock",
+        "props": {},
+        "data": {
+          "type": "h2",
+          "doc": "<span class=\"pudding-text\" data-type=\"text\">图片节点</span>"
+        },
+        "focus": false
+      }
+    },
+    {
+      "id": "694fNglQXeY5INjf4Bb8o",
+      "component": "Block",
+      "data": {
+        "id": "50RBfqX02nRTfmKIN82zj",
+        "component": "EditBlock",
+        "props": {},
+        "data": "<span class=\"pudding-text\" data-type=\"text\">图片节点添加对静态图片的复制能力，可以快速复制文档中的图片。</span>",
+        "focus": false
+      }
+    },
+    {
+      "id": "2qQHBHC5NkuJBVkf7WRX6",
+      "component": "Block",
+      "data": {
+        "id": "8BMuRJwL-8zumELzUTrm5",
+        "component": "ImageBlock",
+        "props": {},
+        "data": {
+          "url": "/GKyaMBilQ4etRoRMuRQ0U/1697721598245.png"
+        },
+        "focus": false
+      }
+    },
+    {
+      "id": "L0oVASBovlM7VjW2RkDmn",
+      "component": "Block",
+      "data": {
+        "id": "AeSb-5rjp6VlWGMzv0Pln",
+        "component": "HeaderBlock",
+        "props": {},
+        "data": {
+          "type": "h2",
+          "doc": "<span class=\"pudding-text\" data-type=\"text\">图片预览</span>"
+        },
+        "focus": false
+      }
+    },
+    {
+      "id": "TlJyWj2Xx5gBWBG9Aksw4",
+      "component": "Block",
+      "data": {
+        "id": "I2cGKZs18Qr4D6YjYGIzE",
+        "component": "EditBlock",
+        "props": {},
+        "data": "<span class=\"pudding-text\" data-type=\"text\">修复图片比例在差距过大时，预览没有图片显示，同时调整了图片在预览时，与窗口边缘的位置。</span>",
+        "focus": false
+      }
+    },
+    {
+      "id": "2yil8H14-5lLj9FKwjmzY",
+      "component": "Block",
+      "data": {
+        "id": "CwqF_ZQGBTWoVgry8y2Yb",
+        "component": "ImageBlock",
+        "props": {},
+        "data": {
+          "url": "/GKyaMBilQ4etRoRMuRQ0U/1697721862870.png"
+        },
+        "focus": false
+      }
+    },
+    {
+      "id": "ZsW0_lVJf9ISWCB1HL7mW",
+      "component": "Block",
+      "props": {},
+      "data": {
+        "id": "4AFTDtHRh8qr5ogt1dXx9",
+        "component": "HeaderBlock",
+        "props": {},
+        "data": {
+          "type": "h2",
+          "doc": "<span class=\"pudding-text\" data-type=\"text\">书签节点</span>"
+        },
+        "focus": false
+      }
+    },
+    {
+      "id": "vEth4TUQGjW-HJJVd7cqA",
+      "component": "Block",
+      "data": {
+        "id": "-kF9IYfYfEgeQexr7tfum",
+        "component": "EditBlock",
+        "props": {},
+        "data": "<span class=\"pudding-text\" data-type=\"text\">优化了书签内容在</span><mark class=\"pudding-mark\" data-type=\"mark\"><span data-markup=\"==\">==</span><label>favicon</label><span data-markup=\"==\">==</span></mark><span class=\"pudding-text\" data-type=\"text\">与预览图片加载失败时展示问题。</span>",
+        "focus": false
+      }
+    },
+    {
+      "id": "45bLohnd-38RgUlljTmsx",
+      "component": "Block",
+      "data": {
+        "id": "KypUJ87_OdVMnC_6y6Ykp",
+        "component": "HeaderBlock",
+        "props": {},
+        "data": {
+          "type": "h2",
+          "doc": "<span class=\"pudding-text\" data-type=\"text\">文档</span>"
+        },
+        "focus": false
+      }
+    },
+    {
+      "id": "c3qRitN9Mj9gM6Va-wFP1",
+      "component": "Block",
+      "data": {
+        "id": "zu6M9zNj2x0r_l0qrZPF1",
+        "component": "EditBlock",
+        "props": {},
+        "data": "<span class=\"pudding-text\" data-type=\"text\">修复文档在锁定状态下，链接点击会跳转页面。</span>",
+        "focus": false
+      }
+    },
+    {
+      "id": "iwIsHn0hFUby_xpZ-6juL",
+      "component": "Block",
+      "data": {
+        "id": "_7G_IsfxdTjclPQeyJnmy",
+        "component": "HeaderBlock",
+        "props": {},
+        "data": {
+          "type": "h1",
+          "doc": "<span class=\"pudding-text\" data-type=\"text\">优化</span>"
+        },
+        "focus": false
+      }
+    },
+    {
+      "id": "m2akupSZiJQVl6_fbl_oC",
+      "component": "Block",
+      "data": {
+        "id": "banngxm9Mt9bEMdnrYLGM",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "<span class=\"pudding-text\" data-type=\"text\">欢迎页面调整，统一样式风格</span>"
+        },
+        "focus": false
+      }
+    },
+    {
+      "id": "tX8bEK9xo3beTQPIKNTYA",
+      "component": "Block",
+      "data": {
+        "id": "gO9Fa3wUpbyb83pHwx_45",
+        "component": "ListItemBlock",
+        "props": {},
+        "class": [],
+        "data": {
+          "doc": "<span class=\"pudding-text\" data-type=\"text\">优化打包app发布</span>"
+        },
+        "focus": false
+      }
+    }
+  ],
+  "setting": {
+    "lock": false,
+    "debug": false
+  }
+}

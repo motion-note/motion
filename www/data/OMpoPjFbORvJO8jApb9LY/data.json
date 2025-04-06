@@ -1,0 +1,33 @@
+{
+  "title": "Next",
+  "blocks": [
+    {
+      "id": "o2_XuwyVkD39KW5bzclI4",
+      "component": "Block",
+      "data": {
+        "id": "EHxbcSZPALjSseLimyBku",
+        "component": "HeaderBlock",
+        "data": {
+          "type": "h1",
+          "doc": "节点快捷键移动"
+        }
+      }
+    },
+    {
+      "id": "U7arRwV-RHnjzxIQVXAKF",
+      "component": "EditNode",
+      "data": "通过按住 ",
+      "props": {}
+    },
+    {
+      "id": "p7D2si8Zuc4hMsN9s4QrH",
+      "component": "EditNode",
+      "data": ""
+    }
+  ],
+  "setting": {
+    "lock": false,
+    "debug": false,
+    "historyPanel": false
+  }
+}

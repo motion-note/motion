@@ -1,0 +1,76 @@
+{
+  "title": "用户反馈",
+  "blocks": [
+    {
+      "id": "RO_sPLL6q_IAQYhn33Icb",
+      "component": "Block",
+      "data": {
+        "id": "AdFVErcXJEU-tE2wuTDra",
+        "component": "HeaderBlock",
+        "data": {
+          "type": "h1",
+          "doc": " 反馈B站"
+        }
+      }
+    },
+    {
+      "id": "DtvuBi0L0esZFOSG0AF9a",
+      "component": "EditNode",
+      "data": "1，鼠标移开界面它会变成半透明。notepad艹中查找替换的那个小窗口好有这个功能。",
+      "props": {}
+    },
+    {
+      "id": "dR4QynXLufvQbmgoxHqnm",
+      "component": "EditNode",
+      "data": "2，所有的都可以快捷键进行操作以及定义快捷键。标题大小粗体加入图片插入表格插入数学公式。。。"
+    },
+    {
+      "id": "mpqKBgCvLk-A-ar3DHMVP",
+      "component": "EditNode",
+      "data": "3，最重要是可以通过快捷键将这一行（或这几行）移动到上一行或下一行去。"
+    },
+    {
+      "id": "mdgmOCU3eEhVQabSnhxlg",
+      "component": "EditNode",
+      "data": "4，支持设置默认使用相对路径。且图片可以存在正在编辑的文件的目录下的某个文件下。 "
+    },
+    {
+      "id": "RjfgByBDKF8ofgws4vsrn",
+      "component": "QuoteBlock",
+      "data": [
+        {
+          "id": "Cs6cQBreB95f0jTcSG867",
+          "component": "EditNode",
+          "data": "目前图片统一在文档目录下"
+        }
+      ],
+      "props": {}
+    },
+    {
+      "id": "f1rHhcLq8MEqX3cu-YQBf",
+      "component": "EditNode",
+      "data": "5，可以支持typora的皮肤就更好了。"
+    },
+    {
+      "id": "bjDEifi1wIrTh1IYyusJ2",
+      "component": "EditNode",
+      "data": "6，page置可以导出和导入。✔"
+    },
+    {
+      "id": "oOBnWRNFM7XzBVIQtahKP",
+      "component": "Block",
+      "data": {
+        "id": "Ah9b9Db16ipCw5tR2yXtj",
+        "component": "ListItemBlock",
+        "data": {
+          "doc": "webdav数据同步"
+        }
+      }
+    }
+  ],
+  "setting": {
+    "lock": false,
+    "debug": false,
+    "historyPanel": false
+  }
+}

@@ -1,0 +1,195 @@
+{
+  "title": "0.20.0",
+  "blocks": [
+    {
+      "id": "umYSJiROc8yDrJVnlAs0z",
+      "component": "Block",
+      "data": {
+        "id": "UPP_vxvk-rN8_11lv2YaP",
+        "component": "HeaderBlock",
+        "data": {
+          "type": "h1",
+          "doc": "静态页面导出"
+        }
+      }
+    },
+    {
+      "id": "8zo8Jzehfvn6asJK3xEPw",
+      "component": "EditNode",
+      "data": "添加导出文档为静态页面，用于部署在 nginx 等服务器上，分享笔记相关内容。",
+      "props": {}
+    },
+    {
+      "id": "tmFu_hOtEvomcFZ9TMMlJ",
+      "component": "Block",
+      "data": {
+        "id": "HJsZ_Ge0Je3J1dIYmgSYO",
+        "component": "ListItemBlock",
+        "data": {
+          "doc": "导出页面功能 ✔️"
+        }
+      },
+      "props": {}
+    },
+    {
+      "id": "2A6i2GDgMgOxgxu1XGhI_",
+      "component": "Block",
+      "data": {
+        "id": "RwXO5Ous-rgqLrYjL7H1E",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "链接支持跳转 ✔️"
+        },
+        "focus": true
+      },
+      "props": {}
+    },
+    {
+      "id": "MAWDW-3XAdv33hsYH221w",
+      "component": "Block",
+      "data": {
+        "id": "VNBQJ7-qbnUk4K3LwTn6G",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "图片可以预览 ✔️"
+        },
+        "focus": true
+      },
+      "props": {}
+    },
+    {
+      "id": "cDlGUdVxIdjyorhWuim6f",
+      "component": "Block",
+      "data": {
+        "id": "B1_EVwIzI92eSrfyeeE6l",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "不支持编辑 ✔️"
+        },
+        "focus": true
+      },
+      "props": {}
+    },
+    {
+      "id": "-TlGWypwonJXMi7Y-dYSg",
+      "component": "Block",
+      "data": {
+        "id": "eDpVu9F_5t8USj-lhj17l",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "目录可以搜索 ✔️"
+        },
+        "focus": true
+      },
+      "props": {}
+    },
+    {
+      "id": "uR4ZwItG3bFb_RqGOYza8",
+      "component": "EditNode",
+      "data": "具体内容，你可以访问[导出](local:/pmhibKrdyWuEaRIM1KlyD)来查看。",
+      "props": {}
+    },
+    {
+      "id": "20JmOqOtORtpAs-NskECA",
+      "component": "Block",
+      "data": {
+        "id": "WgYbtf6R1UQ5eiHz_cHSj",
+        "component": "HeaderBlock",
+        "data": {
+          "type": "h1",
+          "doc": "侧边菜单"
+        }
+      },
+      "props": {}
+    },
+    {
+      "id": "WWxl2pvDMJasqK17IlrUJ",
+      "component": "Block",
+      "data": {
+        "id": "ATsFCS-k-KzEjeAKnkQyN",
+        "component": "ListItemBlock",
+        "data": {
+          "doc": "修复拖拽时，排序可能错误 ✔️"
+        }
+      },
+      "props": {}
+    },
+    {
+      "id": "bkjK4ZFqZb-9JNhftuHp1",
+      "component": "Block",
+      "data": {
+        "id": "4EOoq54foj0qVyfw5U1rA",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "修复链接跳转路由不更新的问题 ✔️"
+        },
+        "focus": true
+      },
+      "props": {}
+    },
+    {
+      "id": "TE5NDkXbBQ5-D66ctlgvK",
+      "component": "Block",
+      "data": {
+        "id": "U6s0j_PIJ8pgFc9oS9tPv",
+        "component": "ListItemBlock",
+        "data": {
+          "doc": "最近文档功能调整 调整最近文档内容以数据库内容为主，不在使用本地缓存数据 ✔️"
+        }
+      },
+      "props": {}
+    },
+    {
+      "id": "X2PKeqjoOMvbdCMFo1U4M",
+      "component": "EditNode",
+      "data": "",
+      "props": {}
+    },
+    {
+      "id": "HnGFGYLuH6rptYE6epgQn",
+      "component": "Block",
+      "data": {
+        "id": "ATe17oZhIBBwpgncMNiKt",
+        "component": "HeaderBlock",
+        "data": {
+          "type": "h1",
+          "doc": "文档"
+        }
+      },
+      "props": {}
+    },
+    {
+      "id": "UL33Y31Dyru3ijU5T6eCb",
+      "component": "Block",
+      "data": {
+        "id": "C-WICeAQGjAw5zbe1WTB3",
+        "component": "ListItemBlock",
+        "data": {
+          "doc": "`修复` 修复文档链接跳转问题 ✔️"
+        }
+      },
+      "props": {}
+    },
+    {
+      "id": "eX85A9yF4Ruax7IQbJ3Nb",
+      "component": "EditNode",
+      "data": "",
+      "props": {}
+    },
+    {
+      "id": "HoHKnVMg4D8XND2DTZIwQ",
+      "component": "EditNode",
+      "data": ""
+    }
+  ],
+  "setting": {
+    "lock": false,
+    "debug": false,
+    "historyPanel": false
+  }
+}

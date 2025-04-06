@@ -1,0 +1,172 @@
+{
+  "title": "0.14.0",
+  "blocks": [
+    {
+      "id": "6trjyRfV2fYeivaMSLbMk",
+      "component": "Block",
+      "data": {
+        "id": "GxPcCmHIhrnfT4itl1Sds",
+        "component": "HeaderBlock",
+        "props": {},
+        "data": {
+          "type": "h1",
+          "doc": "[新]打开新窗口功能"
+        },
+        "focus": false
+      }
+    },
+    {
+      "id": "5HFtn3drqsL9lQYe0xrWF",
+      "component": "EditNode",
+      "data": ""
+    },
+    {
+      "id": "X9gG9e5KErY6v8f1uWcY8",
+      "component": "EditNode",
+      "data": "右键功能优化"
+    },
+    {
+      "id": "owf3ggmWXTgXm_ZrgsD0J",
+      "component": "Block",
+      "data": {
+        "id": "PbB4nkcZznXfuh6AxOmW5",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "表格右键功能优化"
+        },
+        "focus": false
+      }
+    },
+    {
+      "id": "PXGrGJWRlaTGGY3FikFsO",
+      "component": "EditNode",
+      "data": "",
+      "props": {
+        "tab": 1
+      }
+    },
+    {
+      "id": "Kr3OyhSN5EeuA1QFWruFU",
+      "component": "Block",
+      "data": {
+        "id": "bGswLMJx0jqeL98PZ2-Oz",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "文本右键功能"
+        },
+        "focus": false
+      }
+    },
+    {
+      "id": "YLMStSF0wtZZiMVmtx6Lt",
+      "component": "Block",
+      "data": {
+        "id": "-_gFvM2RlqH89rTJXklf6",
+        "component": "HeaderBlock",
+        "props": {},
+        "class": [],
+        "data": {
+          "type": "h1",
+          "doc": "表格优化"
+        },
+        "focus": false
+      },
+      "props": {}
+    },
+    {
+      "id": "LEMLdRuhuxmWfGxH4URls",
+      "component": "Block",
+      "data": {
+        "id": "N_Z9gqzWUAaNEjfVH4q-f",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "优化合并单元格文本位置错误"
+        },
+        "focus": false
+      }
+    },
+    {
+      "id": "R3B7HkILkpMBipGKh2Rb4",
+      "component": "Block",
+      "data": {
+        "id": "nwWe_VBEfaUTD4sEkSHyh",
+        "component": "ListItemBlock",
+        "props": {},
+        "class": [],
+        "data": {
+          "doc": "优化焦点框只在表格模块化失焦问题"
+        },
+        "focus": false
+      }
+    },
+    {
+      "id": "_nJ9KEj2YwNI5blWlbR_Y",
+      "component": "Block",
+      "data": {
+        "id": "Kuc18-grzU0TM5i1858xn",
+        "component": "ListItemBlock",
+        "props": {},
+        "class": [],
+        "data": {
+          "doc": "添加右键支持复制单元格内容功能"
+        },
+        "focus": false
+      }
+    },
+    {
+      "id": "cKl8VjMSAg5s8W9takP8e",
+      "component": "EditNode",
+      "data": ""
+    },
+    {
+      "id": "fXqTBdx7Wj5wuYv2GQmm-",
+      "component": "Block",
+      "data": {
+        "id": "d-67Irgm9rUEoGkQgnHiL",
+        "component": "HeaderBlock",
+        "props": {},
+        "data": {
+          "type": "h1",
+          "doc": "分栏功能优化"
+        },
+        "focus": false
+      }
+    },
+    {
+      "id": "PXgdl1qP31psWBdxmitVM",
+      "component": "EditNode",
+      "data": "优化分栏调整窗口大小后，当窗口变化时，有空白内容。"
+    },
+    {
+      "id": "y4-WPEToTeB1clJvJ5_sA",
+      "component": "EditNode",
+      "data": ""
+    },
+    {
+      "id": "AM2d5tUWrJmJO2ldjDPY7",
+      "component": "Block",
+      "data": {
+        "id": "fBluB74SymlCIEkgJSxyt",
+        "component": "HeaderBlock",
+        "props": {},
+        "data": {
+          "type": "h1",
+          "doc": "图片预览"
+        },
+        "focus": false
+      }
+    },
+    {
+      "id": "j-XTihU-bKq6ZajKxVqiw",
+      "component": "EditNode",
+      "data": "优化图片预览，支持以鼠标为中心点缩放"
+    }
+  ],
+  "setting": {
+    "lock": false,
+    "debug": false
+  }
+}

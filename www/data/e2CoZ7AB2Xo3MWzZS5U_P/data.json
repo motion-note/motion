@@ -1,0 +1,259 @@
+{
+  "title": "0.12.0",
+  "blocks": [
+    {
+      "id": "_MzlLD8PMKcSR3FFkslzD",
+      "component": "Block",
+      "data": {
+        "id": "TARx27NWb5viuSjn9OsqP",
+        "component": "HeaderBlock",
+        "props": {},
+        "data": {
+          "type": "h1",
+          "doc": "功能"
+        }
+      }
+    },
+    {
+      "id": "IpbRcVwmoHMxVmh1mKU1e",
+      "component": "Block",
+      "data": {
+        "id": "eqp822rT_RTD8T2ciNmSy",
+        "component": "HeaderBlock",
+        "props": {},
+        "data": {
+          "type": "h2",
+          "doc": "PDF 导出"
+        }
+      }
+    },
+    {
+      "id": "Z4yLKufyzaIRXtPP0ODOV",
+      "component": "EditNode",
+      "data": "新加导出文件为 PDF 的功能。通过【菜单】》【文件】》【导出 PDF】可以将当前聚焦的文档导出为 PDF。"
+    },
+    {
+      "id": "tM3cWClRX7u5KaqQVmBq5",
+      "component": "EditNode",
+      "data": ""
+    },
+    {
+      "id": "hSZ2tSsgSMbpMaQ0IT-05",
+      "component": "Block",
+      "data": {
+        "id": "ZhxbY1Kb6Z2SikoJ1j5Tu",
+        "component": "HeaderBlock",
+        "props": {},
+        "data": {
+          "type": "h2",
+          "doc": "书签功能"
+        }
+      }
+    },
+    {
+      "id": "dY6_hBdQg_JdjqJGRPymd",
+      "component": "EditNode",
+      "data": "新加快捷指令==/bookmark==或==/sq==用于生成书签模块。输入网址后，自动解析标题与简介信息。"
+    },
+    {
+      "id": "MhpDFf0SoWPfoK2ZfHV1J",
+      "component": "EditNode",
+      "data": "书签同时也支持自定义想要的内容与地址。"
+    },
+    {
+      "id": "Waxus0E_teFdroeeGkNVu",
+      "component": "EditNode",
+      "data": ""
+    },
+    {
+      "id": "zKrEagiWq0kJUgRMMXfBB",
+      "component": "Block",
+      "data": {
+        "id": "9xxhL2RrcPP9ejuRFDQCw",
+        "component": "HeaderBlock",
+        "props": {},
+        "data": {
+          "type": "h1",
+          "doc": "优化"
+        }
+      }
+    },
+    {
+      "id": "Xk8GMlreVX3aLeAuh6zDb",
+      "component": "Block",
+      "data": {
+        "id": "WSe1aleAHUwkZ1iyLy-GA",
+        "component": "HeaderBlock",
+        "props": {},
+        "data": {
+          "type": "h2",
+          "doc": "分栏模块"
+        }
+      }
+    },
+    {
+      "id": "NwJ4Ujv4SGfB5tpq8n9yz",
+      "component": "EditNode",
+      "data": "优化分栏的拖动功能，防止内容超出导致页面错乱。"
+    },
+    {
+      "id": "QYUZGp8uzCUNegacEvlw4",
+      "component": "Block",
+      "data": {
+        "id": "QAUjYv2WPyyekbatDrldm",
+        "component": "HeaderBlock",
+        "props": {},
+        "data": {
+          "type": "h2",
+          "doc": "列表与缩进"
+        }
+      }
+    },
+    {
+      "id": "b-LjypeltkI222GB98Vjy",
+      "component": "EditNode",
+      "data": "优化列表缩进与回退问题。"
+    },
+    {
+      "id": "lTsAbS0JS2c-0Lqz6I0ss",
+      "component": "EditNode",
+      "data": "同时添加了空节点的缩进能力，使用==Tab==键可以增加缩进效果，使用==Shift+Tab==可以回退缩进。",
+      "props": {
+        "tab": 0
+      }
+    },
+    {
+      "id": "SZ1EYNyZ8Zgh8c6hIMcd-",
+      "component": "EditNode",
+      "data": "此外，在文本节点首位时，使用==Back（删除键）==时优先处理缩进，然后才是文本的合并。"
+    },
+    {
+      "id": "jHFAs1M4OMtnNI4TWi85U",
+      "component": "Block",
+      "data": {
+        "id": "hZ78ErVxfn4A-s--6Ta-L",
+        "component": "HeaderBlock",
+        "props": {},
+        "data": {
+          "type": "h2",
+          "doc": "其它细节调整"
+        }
+      }
+    },
+    {
+      "id": "WFOe37Lo4OEryuBpQx1p1",
+      "component": "Block",
+      "data": {
+        "id": "c9eiawJjDkQFfPKsJwYYi",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "调整文档创建，将之前在文件菜单末尾移动到与笔记本切换一起，方便操作。"
+        },
+        "focus": false
+      }
+    },
+    {
+      "id": "xeU0f2w1Cjw1R-wlrI2kD",
+      "component": "Block",
+      "data": {
+        "id": "NWO7tnmIiQB1tTK56NAHK",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "修复列表在使用复制内容时无效问题"
+        },
+        "focus": false
+      },
+      "props": {
+        "tab": 0
+      }
+    },
+    {
+      "id": "9vFdeSWT9oho-uAIgrIXI",
+      "component": "ColumnListBlock",
+      "data": [
+        {
+          "id": "85yrh4zfSKmA6tSBjhowq",
+          "component": "ColumnBlock",
+          "props": {
+            "width": 0.5
+          },
+          "data": [
+            {
+              "id": "EY5CSz4w0suLEC20Jyga4",
+              "component": "EditNode",
+              "data": "修复前",
+              "props": {}
+            },
+            {
+              "id": "d-0RPLkSv8ui0ny3gAzpP",
+              "component": "Block",
+              "data": {
+                "id": "fpK0QOlUCD22Hmz-H67ft",
+                "component": "ImageBlock",
+                "props": {},
+                "data": {
+                  "url": "/e2CoZ7AB2Xo3MWzZS5U_P/1694698001968.gif"
+                },
+                "focus": false
+              }
+            }
+          ]
+        },
+        {
+          "id": "OmIuzlqWWafahb0BNxE0c",
+          "component": "ColumnBlock",
+          "props": {
+            "width": 0.5
+          },
+          "data": [
+            {
+              "id": "CxdkR3jwseegl1jArWjpQ",
+              "component": "EditNode",
+              "data": "修复后",
+              "props": {}
+            },
+            {
+              "id": "zsjDWLEt1i3gscnhj3RaZ",
+              "component": "Block",
+              "data": {
+                "id": "Ly6enrjOdO_g4pXfU2Fwz",
+                "component": "ImageBlock",
+                "props": {},
+                "data": {
+                  "url": "/e2CoZ7AB2Xo3MWzZS5U_P/1694697988921.gif"
+                },
+                "focus": false
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ew0dwMmNPyc6nPLe6pWmz",
+      "component": "Block",
+      "data": {
+        "id": "yEMKH7KxAI0_pKWHxm19k",
+        "component": "ListItemBlock",
+        "props": {},
+        "class": [],
+        "data": {
+          "doc": "链接菜单添加复制"
+        },
+        "focus": false
+      }
+    },
+    {
+      "id": "xwwf7aDRs6cuxobDGI_Rp",
+      "component": "EditNode",
+      "data": "",
+      "props": {}
+    }
+  ],
+  "setting": {
+    "lock": false,
+    "debug": false
+  }
+}

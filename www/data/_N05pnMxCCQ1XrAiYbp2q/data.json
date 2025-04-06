@@ -1,0 +1,499 @@
+{
+  "title": "0.19.0",
+  "blocks": [
+    {
+      "id": "kls9WuiDtjR371lSb4__5",
+      "component": "Block",
+      "data": {
+        "id": "GC6v56-4vEaSOjGkJQjvH",
+        "component": "HeaderBlock",
+        "data": {
+          "type": "h1",
+          "doc": "webview 功能改造"
+        }
+      }
+    },
+    {
+      "id": "dzC71Wj8dAr1a5wtOrCWq",
+      "component": "Block",
+      "data": {
+        "id": "HIA7dXy6aa_VF5-I0Wuq9",
+        "component": "ListItemBlock",
+        "data": {
+          "doc": "使用页面路由方式加载页面 ✔️"
+        }
+      },
+      "props": {}
+    },
+    {
+      "id": "E3D2HlCM5J4TtV4Id5-Bm",
+      "component": "Block",
+      "data": {
+        "id": "2ykN4Kced23xy1_poCy6G",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "支持标题失焦保存文档 ✔️"
+        },
+        "focus": true
+      },
+      "props": {}
+    },
+    {
+      "id": "X6l9zhe3aQXShFBh6yyu8",
+      "component": "Block",
+      "data": {
+        "id": "n_1tIg-GALkGmpaC_6Mp9",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "支持动态标题更新 ✔️"
+        },
+        "focus": true
+      },
+      "props": {
+        "tab": 1
+      }
+    },
+    {
+      "id": "E5MLB_YG4dLvNiyQ6eNGn",
+      "component": "Block",
+      "data": {
+        "id": "MyzaFLZ544U1pbTu20mbh",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "支持手动保存文档 ✔️"
+        },
+        "focus": true
+      },
+      "props": {}
+    },
+    {
+      "id": "7n0S0hE3JUXTBH3FDzdU5",
+      "component": "Block",
+      "data": {
+        "id": "78SS9N-w-s8IofFpQF8ef",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "页面搜索功能 ✔️"
+        },
+        "focus": true
+      },
+      "props": {}
+    },
+    {
+      "id": "fliefRYT-2fHcOIzc1r8v",
+      "component": "EditNode",
+      "data": "搜索页面中的字段内容并高亮显示 ✔️",
+      "props": {
+        "tab": 2
+      }
+    },
+    {
+      "id": "aHXe4EjfKvVA8Z8h6Eoy1",
+      "component": "Block",
+      "data": {
+        "id": "DY7A3trsf9mtXeSeBliXe",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "PDF 导出功能 ✔️"
+        },
+        "focus": true
+      },
+      "props": {}
+    },
+    {
+      "id": "j02OT2BAprRzPvg1c8Vqo",
+      "component": "Block",
+      "data": {
+        "id": "XYcxw3to0et9q90Rn8Erp",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "大岗功能兼容  ✔️"
+        },
+        "focus": true
+      },
+      "props": {}
+    },
+    {
+      "id": "5O-0Jo19mEZfuM1gtPK7H",
+      "component": "EditNode",
+      "data": "",
+      "props": {}
+    },
+    {
+      "id": "rpFLrKdtuCTMdwTdc1BuM",
+      "component": "Block",
+      "data": {
+        "id": "6HJTRWctRsfoOeN6t7m1O",
+        "component": "HeaderBlock",
+        "data": {
+          "type": "h1",
+          "doc": "侧边菜单"
+        }
+      },
+      "props": {}
+    },
+    {
+      "id": "i9eN54BsH-ahdXBHci5EI",
+      "component": "Block",
+      "data": {
+        "id": "_UsL4Bg-CqUqvUlOc7GBe",
+        "component": "ListItemBlock",
+        "data": {
+          "doc": "数据库功能升级 弃用多表联动方案 ✔️"
+        }
+      },
+      "props": {}
+    },
+    {
+      "id": "El1JNjJTS42bHtLhQeJtx",
+      "component": "Block",
+      "data": {
+        "id": "B2GlD9Dk92F3Le-agsk45",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "列表查询功能 ✔️"
+        },
+        "focus": true
+      },
+      "props": {
+        "tab": 1
+      }
+    },
+    {
+      "id": "l4AduyiMpnP3sXugUVfaP",
+      "component": "Block",
+      "data": {
+        "id": "ZuBcq5rO6MG6LTK-BRFop",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "更新标题功能 ✔️"
+        },
+        "focus": true
+      },
+      "props": {
+        "tab": 1
+      }
+    },
+    {
+      "id": "4qJdv_iyfvDyj4BBVV75E",
+      "component": "Block",
+      "data": {
+        "id": "pav3600V7U16yIIGxrMZR",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "排序功能优化 ✔️"
+        },
+        "focus": true
+      },
+      "props": {
+        "tab": 1
+      }
+    },
+    {
+      "id": "wu2kEXHNmR5hhrHflKuun",
+      "component": "Block",
+      "data": {
+        "id": "IHlAXB_qhs-LrJwW3MuGH",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "创建文档功能优化 ✔️"
+        },
+        "focus": true
+      },
+      "props": {
+        "tab": 1
+      }
+    },
+    {
+      "id": "qkHtJo7mOZhmTpX8BYv8j",
+      "component": "Block",
+      "data": {
+        "id": "Aqksydd4W6JvNgXJ_Ok6W",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "导出功能优化 ✔️"
+        },
+        "focus": true
+      },
+      "props": {
+        "tab": 1
+      }
+    },
+    {
+      "id": "uSX7RE5BxFu0dV82B50va",
+      "component": "Block",
+      "data": {
+        "id": "CR7W_2x9fLjnBB1qGP14V",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "导入功能优化 ✔️"
+        },
+        "focus": true
+      },
+      "props": {
+        "tab": 1
+      }
+    },
+    {
+      "id": "zutnbjDyEZkteXCoKNZRT",
+      "component": "Block",
+      "data": {
+        "id": "Vc18IITzEsLuXTjOvTCT1",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "拖拽功能优化 修复只能使用部分区域拖拽问题 ✔️"
+        },
+        "focus": true
+      },
+      "props": {
+        "tab": 1
+      }
+    },
+    {
+      "id": "GGmHqBjk5M1uWDhE47WVZ",
+      "component": "Block",
+      "data": {
+        "id": "npSKhBTo6J-mmmo9xRKB1",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "menu.json 转数据库升级功能 ✔️"
+        },
+        "focus": true
+      },
+      "props": {
+        "tab": 1
+      }
+    },
+    {
+      "id": "Gy2XMe-MwHcar7pICGs6J",
+      "component": "Block",
+      "data": {
+        "id": "eF_Tt5-zZ0ycInxww6L0g",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "删除功能优化 ✔️"
+        },
+        "focus": true
+      },
+      "props": {
+        "tab": 1
+      }
+    },
+    {
+      "id": "tFrceRdyDa5sxZKSRIj1Q",
+      "component": "Block",
+      "data": {
+        "id": "01qS1Z5m_AX7QMZQVuN3v",
+        "component": "ListItemBlock",
+        "data": {
+          "doc": "添加空笔记时，创建笔记引导 ✔️"
+        }
+      },
+      "props": {
+        "tab": 1
+      }
+    },
+    {
+      "id": "C5NFFZ99xX8Nx4fYg5gla",
+      "component": "EditNode",
+      "data": "",
+      "props": {}
+    },
+    {
+      "id": "8YfNqvSqEAMqTBD8W4Bw0",
+      "component": "Block",
+      "data": {
+        "id": "-xgECQxkBuayRt73aJjMU",
+        "component": "HeaderBlock",
+        "data": {
+          "type": "h1",
+          "doc": "引用节点"
+        }
+      },
+      "props": {}
+    },
+    {
+      "id": "T2dbJjfaQ1Fq1E49Q97rZ",
+      "component": "Block",
+      "data": {
+        "id": "HfWus7BgP8417ftEbcalE",
+        "component": "ListItemBlock",
+        "data": {
+          "doc": "`修` 修复文本节点右键菜单功能丢失问题。"
+        }
+      },
+      "props": {}
+    },
+    {
+      "id": "ZSqVNaGPDHSuDE83twACA",
+      "component": "EditNode",
+      "data": "",
+      "props": {}
+    },
+    {
+      "id": "6AaOoeWw2UJ4WzzrF2jph",
+      "component": "Block",
+      "data": {
+        "id": "dgDtfVsupjjB6n6mFahKR",
+        "component": "HeaderBlock",
+        "data": {
+          "type": "h1",
+          "doc": "文本节点"
+        }
+      },
+      "props": {}
+    },
+    {
+      "id": "hVbI7hVmiy0gnmqnfIZdU",
+      "component": "Block",
+      "data": {
+        "id": "yxLcfrVDeCaQ_jcI1_9LB",
+        "component": "ListItemBlock",
+        "data": {
+          "doc": "`新` 添加锁定状态下，点击链接自动打开地址。"
+        }
+      },
+      "props": {}
+    },
+    {
+      "id": "i_I2Oql1qbjm7O4dKSJA4",
+      "component": "EditNode",
+      "data": ""
+    },
+    {
+      "id": "-rLOlt70NBsreMdie16xk",
+      "component": "Block",
+      "data": {
+        "id": "JfdyH5hs08YxsCRaOE2ua",
+        "component": "HeaderBlock",
+        "data": {
+          "type": "h1",
+          "doc": "书签"
+        }
+      },
+      "props": {}
+    },
+    {
+      "id": "Qd9Lteh4DZx6NXixBAB-o",
+      "component": "Block",
+      "data": {
+        "id": "xXS-v37DSvDqFYfZOxwJ2",
+        "component": "ListItemBlock",
+        "data": {
+          "doc": "`优` 优化在锁定状态下，禁用设置功能。"
+        }
+      },
+      "props": {}
+    },
+    {
+      "id": "yYgD1d1LSrTcdiEZ92p2G",
+      "component": "Block",
+      "data": {
+        "id": "vpLPqp2SgpTreRjGCkrGz",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "`优` 优化高度展示 固定高度，优化显示。"
+        },
+        "focus": true
+      },
+      "props": {}
+    },
+    {
+      "id": "BRZSvUS7KsPyPUmopE-SF",
+      "component": "Block",
+      "data": {
+        "id": "MecTOMz0VmFlrgT_Fi8pH",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "todo 书签支持上下键快捷聚集"
+        },
+        "focus": true
+      },
+      "props": {}
+    },
+    {
+      "id": "jDDirhFQGQlL1d2WSQHuv",
+      "component": "EditNode",
+      "data": "",
+      "props": {}
+    },
+    {
+      "id": "FfJAN4U9BKXhbt4ZIexOj",
+      "component": "Block",
+      "data": {
+        "id": "Wt3dldN0oU1KTyhMyOpSB",
+        "component": "HeaderBlock",
+        "data": {
+          "type": "h1",
+          "doc": "代码块"
+        }
+      },
+      "props": {}
+    },
+    {
+      "id": "5X4LUAXLTqC9brZaBGT6V",
+      "component": "Block",
+      "data": {
+        "id": "_W72sP3v9ssN1ptF2SYZi",
+        "component": "ListItemBlock",
+        "data": {
+          "doc": "`优` 优化在锁定状态下禁用语言切换功能。"
+        }
+      },
+      "props": {}
+    },
+    {
+      "id": "MKjTgcd0jxwzx4-z41_7v",
+      "component": "EditNode",
+      "data": "",
+      "props": {}
+    },
+    {
+      "id": "cjnVRj_nDfPF6TnDu_UaH",
+      "component": "Block",
+      "data": {
+        "id": "3YuwrVApWooWGRSOYPqBX",
+        "component": "HeaderBlock",
+        "data": {
+          "type": "h1",
+          "doc": "分栏"
+        }
+      },
+      "props": {}
+    },
+    {
+      "id": "efqnQJ-jhP7QaKU7mfTbG",
+      "component": "Block",
+      "data": {
+        "id": "gSV3GVMdl7Ki6qNaSfrDg",
+        "component": "ListItemBlock",
+        "data": {
+          "doc": "`优` 优化锁定状态下，侧边边距样式。"
+        }
+      },
+      "props": {}
+    }
+  ],
+  "setting": {
+    "lock": false,
+    "debug": false,
+    "historyPanel": false
+  }
+}

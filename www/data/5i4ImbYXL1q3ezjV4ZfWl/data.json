@@ -1,0 +1,299 @@
+{
+  "title": "欢迎",
+  "blocks": [
+    {
+      "id": "N7b3dYEZ-oY4KVXo-A6X_",
+      "component": "Block",
+      "data": {
+        "id": "Z_wd2PRgJdzd_iK9wXGER",
+        "component": "HeaderBlock",
+        "props": {},
+        "data": {
+          "type": "h1",
+          "doc": "Motion Note - 本地化块级笔记应用"
+        },
+        "focus": false
+      }
+    },
+    {
+      "id": "wZhkFwCWYtcF1bLoabQRP",
+      "component": "Block",
+      "data": {
+        "id": "_ab45PIiH3m_XrZLEJQLM",
+        "component": "ImageBlock",
+        "data": {
+          "url": "\\5i4ImbYXL1q3ezjV4ZfWl\\1727222834684.png",
+          "width": 217.33334350585938,
+          "align": "center"
+        },
+        "focus": false
+      }
+    },
+    {
+      "id": "J7Qik3-_PNzNeHJm8qYno",
+      "component": "Block",
+      "data": {
+        "id": "QmGL3ijEPujeeYqH3zbqO",
+        "component": "HeaderBlock",
+        "data": {
+          "type": "h1",
+          "doc": "📝 产品简介"
+        }
+      }
+    },
+    {
+      "id": "cArC0D-z7heZpgxSAKaw2",
+      "component": "EditNode",
+      "data": "Motion Note 是一款安全、轻量的本地化笔记应用，基于 Web 技术开发，支持 Markdown语法 与 块级编辑（Block-Based Notes），兼顾灵活性与结构化。"
+    },
+    {
+      "id": "B6BvvPntVRKvu9k7AsvxL",
+      "component": "EditNode",
+      "data": "✅ **块级编辑**：自由拖拽、组合内容块（文字、代码、表格等），像搭建积木一样整理思路。",
+      "props": {}
+    },
+    {
+      "id": "OAnPf_S2BPCvvuwbKE5Ug",
+      "component": "EditNode",
+      "data": "✅ **数据本地存储**：无需担心隐私泄露风险。"
+    },
+    {
+      "id": "V-EPo0LJGYByKsO8UNFYr",
+      "component": "EditNode",
+      "data": "✅ **灵活编辑**：融合 Markdown 的简洁与 Web 的易扩展性。"
+    },
+    {
+      "id": "veTWhhcSWXw12EQzLZsmu",
+      "component": "QuoteBlock",
+      "data": [
+        {
+          "id": "d5E-PydtBIUZUZGFxhbc7",
+          "component": "EditNode",
+          "data": "当前处于开发测试阶段，期待您的反馈与共同成长！"
+        }
+      ],
+      "props": {}
+    },
+    {
+      "id": "_s1Uh-ep-t06ES-qgFwJ8",
+      "component": "EditNode",
+      "data": ""
+    },
+    {
+      "id": "AgQvnzr8uMVLByYdxHYbu",
+      "component": "Block",
+      "data": {
+        "id": "qiESrqc-dioL6aXj60NG1",
+        "component": "HeaderBlock",
+        "data": {
+          "type": "h1",
+          "doc": "💡 核心功能"
+        }
+      }
+    },
+    {
+      "id": "_tjV_v4DDgPVs-dl-mEYS",
+      "component": "Block",
+      "data": {
+        "id": "_D0MGsd5tQeKC3rg0Xwjo",
+        "component": "HeaderBlock",
+        "data": {
+          "type": "h2",
+          "doc": "块级笔记（Block-Based Notes）"
+        }
+      },
+      "props": {}
+    },
+    {
+      "id": "xwSksy_GOupD6eSOhMkCr",
+      "component": "Block",
+      "data": {
+        "id": "7lvgv2kqCnMq8e2Zh-d_p",
+        "component": "ListItemBlock",
+        "data": {
+          "doc": "**模块化编辑**：将笔记拆分为独立内容块（段落、列表、图片等），支持自由拖拽排序。"
+        }
+      }
+    },
+    {
+      "id": "k0Lne5mLNn1aFfRsPayIq",
+      "component": "Block",
+      "data": {
+        "id": "m17qI2kP3X35EnGcBdlcK",
+        "component": "ListItemBlock",
+        "data": {
+          "doc": "**快速聚焦**：点击/快捷键选中单个块，精准编辑内容。"
+        }
+      }
+    },
+    {
+      "id": "1adt6gsCsc2e5dp19Ebzu",
+      "component": "Block",
+      "data": {
+        "id": "u-Ce2EcJfqJ_XCF7bBYkM",
+        "component": "ListItemBlock",
+        "data": {
+          "doc": "**混合布局**：在同一页面中混合Markdown、表格、代码块等，打破线性限制。"
+        }
+      }
+    },
+    {
+      "id": "hH9x4kcyQSGTC-w4jtZly",
+      "component": "Block",
+      "data": {
+        "id": "KPx2dGluw_bbwiAloV1zY",
+        "component": "HeaderBlock",
+        "data": {
+          "type": "h2",
+          "doc": "Markdown支持"
+        }
+      }
+    },
+    {
+      "id": "IZsIk8KY0DhXxfQoxE-BD",
+      "component": "Block",
+      "data": {
+        "id": "ANWCcfNG3L1Tp_SSbn1Ps",
+        "component": "ListItemBlock",
+        "data": {
+          "doc": "基础语法高亮（标题、列表、链接等）。"
+        }
+      }
+    },
+    {
+      "id": "qgPz4IH7k_tw4Smm0CAe4",
+      "component": "Block",
+      "data": {
+        "id": "Uh-mAgHbc-BRcdpo5RcLJ",
+        "component": "ListItemBlock",
+        "data": {
+          "doc": "代码块、表格等高级功能兼容。"
+        }
+      }
+    },
+    {
+      "id": "FyBZ_0UvvXLxtu5vEnJVW",
+      "component": "Block",
+      "data": {
+        "id": "fM1TPqlxVXJKQ8kAWS6ae",
+        "component": "HeaderBlock",
+        "data": {
+          "type": "h2",
+          "doc": "本地化与安全"
+        }
+      }
+    },
+    {
+      "id": "D_szkFPhzXPt5EmNzgycP",
+      "component": "Block",
+      "data": {
+        "id": "6I2zdjhNCZULlVZSME8YF",
+        "component": "ListItemBlock",
+        "data": {
+          "doc": "所有数据存储于本地设备，支持导出为通用格式（如.md、.pdf）。"
+        }
+      }
+    },
+    {
+      "id": "sPZzH94Cu28pDyjuETdGl",
+      "component": "EditNode",
+      "data": ""
+    },
+    {
+      "id": "FfUkhYhbOaBhtAsXFs9Ab",
+      "component": "Block",
+      "data": {
+        "id": "vrTEirvZapypS8zjn0fDU",
+        "component": "HeaderBlock",
+        "props": {},
+        "data": {
+          "type": "h1",
+          "doc": "📮 反馈与支持"
+        },
+        "focus": false
+      }
+    },
+    {
+      "id": "e2rofWNRLKz7rDshuXW5B",
+      "component": "EditNode",
+      "data": "我们重视您的意见！遇到问题或有建议？欢迎通过以下方式联系我们："
+    },
+    {
+      "id": "0SyiYqJb2LGcEz5cm4mMK",
+      "component": "Block",
+      "data": {
+        "id": "Oj9Q1Qq1C2AMhvzxEnXla",
+        "component": "ListItemBlock",
+        "data": {
+          "doc": "**GitHub:** [Motion Note](https://github.com/motion-note/motion)"
+        }
+      },
+      "props": {}
+    },
+    {
+      "id": "7rVDwLvm3SDqXUovNdBZv",
+      "component": "Block",
+      "data": {
+        "id": "3G0DAcR_i9JLwRsfNeRUS",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "**邮箱:** **ektx1989@icloud.com**"
+        },
+        "focus": false
+      }
+    },
+    {
+      "id": "PDqiXNuTUdCnBjvVZ5NrD",
+      "component": "Block",
+      "data": {
+        "id": "Ljt1zKGpLSiaYriIcEEBh",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "**B站:** [📺 宅笼猫 - B站](https://space.bilibili.com/300245951)"
+        },
+        "focus": true
+      }
+    },
+    {
+      "id": "p_VtklaLG0hUwqfxemWq1",
+      "component": "EditNode",
+      "data": ""
+    },
+    {
+      "id": "6Ez3-OTYaAWopo5y9KxPe",
+      "component": "Block",
+      "data": {
+        "id": "rpp3V-QH6BYqus0w6lMwP",
+        "component": "HeaderBlock",
+        "data": {
+          "type": "h1",
+          "doc": "⬇️ 下载体验"
+        }
+      },
+      "props": {}
+    },
+    {
+      "id": "82wjTy9vlGxW2_g8nvYNh",
+      "component": "EditNode",
+      "data": "更多版本下载，[点击跳转下载页面](https://github.com/motion-note/motion/releases)",
+      "props": {}
+    },
+    {
+      "id": "kUFmzaIeRIzgILveqfMPN",
+      "component": "EditNode",
+      "data": ""
+    },
+    {
+      "id": "WPeDdJM9hxMJWOWmxtfnq",
+      "component": "EditNode",
+      "data": "",
+      "props": {}
+    }
+  ],
+  "setting": {
+    "lock": false,
+    "debug": false
+  }
+}

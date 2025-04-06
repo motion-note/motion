@@ -1,0 +1,251 @@
+{
+  "title": "0.15.0",
+  "blocks": [
+    {
+      "id": "bBWs2HMP0YKwhTVjnnwPv",
+      "component": "Block",
+      "data": {
+        "id": "CB3VmCkOkbTcgGof0awOT",
+        "component": "HeaderBlock",
+        "props": {},
+        "data": {
+          "type": "h1",
+          "doc": "优化历史记录"
+        }
+      }
+    },
+    {
+      "id": "BxNpoZTnxl6IuBnVTu9wk",
+      "component": "EditNode",
+      "data": "优化历史操作记录，对于开发添加历史记录面板，方便跟踪历史记录信息。优化后的历史记录，将占用更少的内存，更好的使用体验，目前更新的模块有"
+    },
+    {
+      "id": "4M_PwD2fI0yWHBvl41n8o",
+      "component": "Block",
+      "data": {
+        "id": "alsbK0tTrt0CEvDZJNkMe",
+        "component": "ListItemBlock",
+        "props": {},
+        "class": [],
+        "data": {
+          "doc": "文本节点转换"
+        },
+        "focus": false
+      }
+    },
+    {
+      "id": "GiMn9q7EUFxDL_ANktpWn",
+      "component": "Block",
+      "data": {
+        "id": "U5P-yX4aT5QmHigtwabb-",
+        "component": "ListItemBlock",
+        "props": {},
+        "class": [],
+        "data": {
+          "doc": "快捷指令的转换"
+        },
+        "focus": false
+      }
+    },
+    {
+      "id": "_FCamrXCjpQQ_yoEI5S3h",
+      "component": "Block",
+      "data": {
+        "id": "NGEZ54O1EiAWLVttatiJS",
+        "component": "HeaderBlock",
+        "props": {},
+        "data": {
+          "type": "h1",
+          "doc": "优化查询"
+        },
+        "focus": false
+      }
+    },
+    {
+      "id": "obftd69qLmgIK6PUYHlmC",
+      "component": "EditNode",
+      "data": "添加文件列表，筛选高亮文字。"
+    },
+    {
+      "id": "zhQvloHrxrJwetwJ47Unu",
+      "component": "Block",
+      "data": {
+        "id": "JgFF35FkxIgXc_eJWddRT",
+        "component": "ImageBlock",
+        "props": {},
+        "data": {
+          "url": "/teiYZUW0VwhXlIbU4ZTMS/1719716356612.gif",
+          "width": 139.8271484375,
+          "align": "center"
+        },
+        "focus": false
+      }
+    },
+    {
+      "id": "rcFeIfbXR5sP_WAR4PbMP",
+      "component": "Block",
+      "data": {
+        "id": "hxax57YsUGHoSTWhZVsDQ",
+        "component": "HeaderBlock",
+        "props": {},
+        "data": {
+          "type": "h1",
+          "doc": "图片优化"
+        },
+        "focus": false
+      }
+    },
+    {
+      "id": "YUu0VDYMIzRQVAf7zHBVn",
+      "component": "EditNode",
+      "data": "优化加载失败时图片的展示，提示出错的图片信息。"
+    },
+    {
+      "id": "z-VXEduWGjvreSJQ8hpBw",
+      "component": "ColumnListBlock",
+      "data": [
+        {
+          "id": "A6fo3gm90geAgcUbLL2TI",
+          "component": "ColumnBlock",
+          "props": {
+            "width": 0.5
+          },
+          "data": [
+            {
+              "id": "auLmnVWsugJhal9HOpDV3",
+              "component": "Block",
+              "data": {
+                "id": "Bjqsy4YEHNGXJ5EHY4CTz",
+                "component": "ImageBlock",
+                "props": {},
+                "data": {
+                  "url": "\\teiYZUW0VwhXlIbU4ZTMS\\1719802957357.png"
+                },
+                "focus": false
+              }
+            }
+          ]
+        },
+        {
+          "id": "ROLwxI8xV8zA2Nz7wwhH6",
+          "component": "ColumnBlock",
+          "props": {
+            "width": 0.5
+          },
+          "data": [
+            {
+              "id": "RQWITYw6EO3OZWkar_7w1",
+              "component": "Block",
+              "props": {},
+              "data": {
+                "id": "fJR2ISxYluotLKRFmCSMX",
+                "component": "ImageBlock",
+                "props": {},
+                "data": {
+                  "url": "\\teiYZUW0VwhXlIbU4ZTMS\\1719802992712.png"
+                },
+                "focus": false
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "KAmo6HaX4URV3F_3jEefp",
+      "component": "EditNode",
+      "props": {},
+      "data": "优化图片的删除，对于加载出错的图片，支持删除"
+    },
+    {
+      "id": "0wo1XXWqo91PB-NHjLxoj",
+      "component": "Block",
+      "data": {
+        "id": "1GB8MwHudnXmTtStSbllR",
+        "component": "ImageBlock",
+        "props": {},
+        "data": {
+          "url": "\\teiYZUW0VwhXlIbU4ZTMS\\1719803564219.gif"
+        },
+        "focus": false
+      }
+    },
+    {
+      "id": "DPPTZ_RntfSu_MeH1Dq4n",
+      "component": "EditNode",
+      "data": "添加快捷键删除，在选中时，可以使用**删除键**快速删除图片节点"
+    },
+    {
+      "id": "7b7pQ5BS8_KepEoNe2uTE",
+      "component": "EditNode",
+      "data": "优化图片选中效果，调整预览操作为**双击预览**，减少误点击时，图片自动预览问题。",
+      "props": {}
+    },
+    {
+      "id": "cSQNWY-Ofa6oBT5wL-b33",
+      "component": "EditNode",
+      "data": "其它更多功能，参考功能介绍图片"
+    },
+    {
+      "id": "kaH8PXVtrV9T-gpd_Cn6g",
+      "component": "Block",
+      "data": {
+        "id": "7XDP_tIEBUz0qWJFGGVWg",
+        "component": "HeaderBlock",
+        "props": {},
+        "data": {
+          "type": "h1",
+          "doc": "表格"
+        },
+        "focus": false
+      }
+    },
+    {
+      "id": "gcVHgpA1JdbodmBRi7YDw",
+      "component": "EditNode",
+      "data": "优化表格的添加行列功能，修复列数过多时，表格宽度不正常的问题。"
+    },
+    {
+      "id": "hpRwent-wIl0XxKxhTp8F",
+      "component": "EditNode",
+      "data": "现在添加列时，合并单元格也会一起移动。"
+    },
+    {
+      "id": "3dP6BXjtZ3Z_6eW2h20_O",
+      "component": "EditNode",
+      "data": "（这里添加一个动态图）"
+    },
+    {
+      "id": "Va5l1agvmbfKp1dSQXsK5",
+      "component": "Block",
+      "data": {
+        "id": "cqXjB686u5iCxn7ouDHC8",
+        "component": "HeaderBlock",
+        "props": {},
+        "data": {
+          "type": "h1",
+          "doc": "其它细节优化"
+        },
+        "focus": false
+      }
+    },
+    {
+      "id": "K_zDtjkUlbJs693Uih88s",
+      "component": "Block",
+      "data": {
+        "id": "Xe9NTZsMZzhIw1fRTxyj4",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "侧边菜单样式优化"
+        },
+        "focus": false
+      }
+    }
+  ],
+  "setting": {
+    "lock": false,
+    "debug": false,
+    "historyPanel": false
+  }
+}

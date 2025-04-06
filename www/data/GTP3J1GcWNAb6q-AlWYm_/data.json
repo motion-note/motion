@@ -1,0 +1,59 @@
+{
+  "title": "标题栏",
+  "blocks": [
+    {
+      "id": "v4YbSUEd5N3-M66TZCEGk",
+      "component": "Block",
+      "data": {
+        "id": "2EHHhVmTwzvkA0pvo3OB4",
+        "component": "HeaderBlock",
+        "data": {
+          "type": "h1",
+          "doc": "简介"
+        }
+      }
+    },
+    {
+      "id": "kfVBhkBgr3YU234ROAUTg",
+      "component": "EditNode",
+      "data": "用于展示当前文档标题及文档切换操作。",
+      "props": {}
+    },
+    {
+      "id": "XLDZMI9Zb6EVIEIMcA5AG",
+      "component": "Block",
+      "data": {
+        "id": "v5RMCtrvrqA17gurQSFI7",
+        "component": "HeaderBlock",
+        "data": {
+          "type": "h1",
+          "doc": "快速定位文档"
+        }
+      }
+    },
+    {
+      "id": "GyM6Q9eyUHEMrnFS79zTb",
+      "component": "EditNode",
+      "data": "点击标题栏上的空白区域或文字，可以在侧边文档列表快速定位文档的位置。",
+      "props": {}
+    },
+    {
+      "id": "OwVJPPUPP-SBdfna_UseX",
+      "component": "Block",
+      "data": {
+        "id": "HLQgvy-NOLd_b_L4e9MBr",
+        "component": "ImageBlock",
+        "data": {
+          "url": "\\GTP3J1GcWNAb6q-AlWYm_\\1736303121173.gif"
+        },
+        "focus": false
+      },
+      "props": {}
+    }
+  ],
+  "setting": {
+    "lock": false,
+    "debug": false,
+    "historyPanel": false
+  }
+}
