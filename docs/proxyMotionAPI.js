@@ -37,7 +37,7 @@ if (!window.motionAPI) {
           case 'getUsrMenuList': {
             return workspace =>
               new Promise((resolve, reject) => {
-                fetch('/menu.json')
+                fetch('./menu.json')
                   .then(res => res.json())
                   .then(data => {
                     resolve({ code: 0, data })
@@ -51,7 +51,7 @@ if (!window.motionAPI) {
           case 'getArticle': {
             return ({ dir, cb }) => {
               // 通过请求来加载文档的数据
-              fetch(`/data/${dir}/data.json`)
+              fetch(`./data/${dir}/data.json`)
                 .then(res => res.json())
                 .then(res => {
                   // 返回加载内容
