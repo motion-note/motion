@@ -58,7 +58,8 @@
           "title": "Vue Mastery",
           "description": "Vue Mastery is the ultimate learning resource for Vue.js developers. We release weekly video tutorials and articles as well as the proud producers of the official Vue.js News. You can consume it in newsletter and podcast format at news.vuejs.org.",
           "icon": "https://www.vuemastery.com/favicon.ico",
-          "image": "https://www.vuemastery.com/images/facebook_social_image.png"
+          "image": "https://www.vuemastery.com/images/facebook_social_image.png",
+          "useCustom": false
         }
       }
     },
@@ -628,7 +629,7 @@
     }
   ],
   "setting": {
-    "lock": true,
+    "lock": false,
     "debug": false,
     "historyPanel": false
   }

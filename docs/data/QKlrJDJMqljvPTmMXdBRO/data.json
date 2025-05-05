@@ -1,0 +1,152 @@
+{
+  "title": "0.21.0",
+  "blocks": [
+    {
+      "id": "oHwJa5-AGisa5RXmCKTsu",
+      "component": "Block",
+      "data": {
+        "id": "eVbZM8pLpHdaPok_oCPHX",
+        "component": "HeaderBlock",
+        "data": {
+          "type": "h1",
+          "doc": "深色主题"
+        }
+      }
+    },
+    {
+      "id": "g0kRczhINYs5LL8CbIel9",
+      "component": "EditNode",
+      "data": "添加笔记对系统深色与浅色的支持。用户可以通过`【帮助】》【设置】`中的外观来自由切换。",
+      "props": {}
+    },
+    {
+      "id": "6OBwy6IuMpb2gsuzy5zAH",
+      "component": "Block",
+      "data": {
+        "id": "SzART7dsintGCEYYFXuFK",
+        "component": "ImageBlock",
+        "data": {
+          "url": "QKlrJDJMqljvPTmMXdBRO/1746402534181.png"
+        },
+        "focus": false
+      }
+    },
+    {
+      "id": "zrQVRCrUPRUPwOgV57hQr",
+      "component": "Block",
+      "data": {
+        "id": "SeoF_fTIZ1gi2T653DEL0",
+        "component": "HeaderBlock",
+        "data": {
+          "type": "h1",
+          "doc": "系统关于优化"
+        }
+      },
+      "props": {}
+    },
+    {
+      "id": "BYvv8Kb1XYUGFOoc_1AqS",
+      "component": "EditNode",
+      "data": "优化关于信息的展示，添加更多展示数据。",
+      "props": {}
+    },
+    {
+      "id": "L0NTtpMg_iBKf67hoZpSP",
+      "component": "Block",
+      "data": {
+        "id": "01XCiqbV5ba_i8H_-F7NG",
+        "component": "ImageBlock",
+        "data": {
+          "url": "QKlrJDJMqljvPTmMXdBRO/1746402495729.png"
+        },
+        "focus": false
+      }
+    },
+    {
+      "id": "x5Wh1Y3ynfcHxGkgOQ--q",
+      "component": "Block",
+      "data": {
+        "id": "7j6RqX9sFgTYT5-a8NO0t",
+        "component": "HeaderBlock",
+        "data": {
+          "type": "h1",
+          "doc": "其它优化"
+        }
+      },
+      "props": {}
+    },
+    {
+      "id": "wIDwazp1SfGj4ZpdQUF0d",
+      "component": "Block",
+      "data": {
+        "id": "ZWYMZ5xLmWVJ507Kdb5MV",
+        "component": "ListItemBlock",
+        "data": {
+          "doc": "标题栏后退报错优化 修复切换笔记后，记录回退问题。"
+        }
+      },
+      "props": {}
+    },
+    {
+      "id": "RynTibbS9Sa01tvA2NNSW",
+      "component": "Block",
+      "data": {
+        "id": "L7DwuZSBGHzZqoDDnernM",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "优化文档在修改时，文档未保存状态不提示问题。"
+        },
+        "focus": true
+      },
+      "props": {}
+    },
+    {
+      "id": "vmEvESNm5pblO8kQIwMin",
+      "component": "Block",
+      "data": {
+        "id": "CizIk1TYD_CAfZoyQ2YGK",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "标题在编辑时，偶尔出现光标位置错误问题修复；同时修复标题在编辑时，文档未保存状态不提示。"
+        },
+        "focus": true
+      },
+      "props": {}
+    },
+    {
+      "id": "asMR-Zl0VDKzt7lJL7mVO",
+      "component": "Block",
+      "data": {
+        "id": "YZv1XGGiEnXGTdj2u54fY",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "自定义滚动条性能优化 优化在拖动时的卡顿问题。"
+        },
+        "focus": true
+      },
+      "props": {}
+    },
+    {
+      "id": "049uciaKUhEZ20QQlIKMc",
+      "component": "Block",
+      "data": {
+        "id": "_1jsdyDcecirD8CBGLtqN",
+        "component": "ListItemBlock",
+        "props": {},
+        "data": {
+          "doc": "修复分栏拖拽布局错误问题。"
+        },
+        "focus": true
+      },
+      "props": {}
+    }
+  ],
+  "setting": {
+    "lock": false,
+    "debug": false,
+    "historyPanel": false
+  }
+}
