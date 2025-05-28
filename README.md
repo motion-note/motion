@@ -6,7 +6,7 @@
     </a>
 </p>
 
-<h3 align=center>您好！欢迎使用 Motion！</h3>
+<h3 align=center>本地化笔记应用</h3>
 
 ## 💡 什么是Motion Note？
 
