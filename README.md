@@ -1,10 +1,10 @@
-# motion
+<h1 align="center">Motion Note</h1>
 
-<img src="./public/logo.png" style="width: 300px;">
+<img src="./public/logo.png" style="display: block; width: 300px; margin: 0 auto;">
 
-您好！欢迎使用 Motion！
+<h3 align=center>您好！欢迎使用 Motion！</h3>
 
-## 什么是Motion Note？
+## 💡 什么是Motion Note？
 
 motion note 是一款本地化笔记应用，本地存储的数据，不用担心泄露的风险。
 
@@ -14,16 +14,19 @@ motion note 是一个基于 Web 技术开发笔记功能，它具有 markdown �
 
 如果 motion note 有帮忙到您，欢迎您向其他朋友推荐！
 
-## 界面截图
+## 💄 界面截图
 
-TODO
+![windows screenshot](./public/win.png)
+windows screenshot
 
-## 联系我们
+
+## 💌 联系我们
+
 如果有什么想法与建议，可以通过以下方式联系我们：
 
-- [motion - github](https://github.com/motion-note/motion)
-- **ektx1989@icloud.com**
+- [🐱 motion - github](https://github.com/motion-note/motion)
 - [📺 宅笼猫 - B站](https://space.bilibili.com/300245951)
+- [📺 motion - YouTube](https://www.youtube.com/@motion9707)
 
 ## 下载
 
