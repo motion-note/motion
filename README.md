@@ -1,6 +1,10 @@
 <h1 align="center">Motion Note</h1>
 
-<img src="./public/logo.png" style="display: block; width: 300px; margin: 0 auto;">
+<p align="center">
+    <a href="https://motion-note.github.io/motion/">
+    <img src="./public/logo.png" width="200">
+    </a>
+</p>
 
 <h3 align=center>您好！欢迎使用 Motion！</h3>
 
